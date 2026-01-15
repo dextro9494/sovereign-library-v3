@@ -6,7 +6,7 @@ tags: ["life-layer","navigation"]
 
 This surface points to what is lived, trained, and embodied.
 
-- [Third Layer](/third-layer/)
-- [Relationships](/relationships/)
-- [Field Tests](/library/field-tests/)
+- [Third Layer](../third-layer/)
+- [Relationships](../relationships/)
+- [Field Tests](../library/field-tests/)
 
