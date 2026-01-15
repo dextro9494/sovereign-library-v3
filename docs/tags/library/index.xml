@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Library on The Sovereign Library</title>
+    <link>https://dextro9494.github.io/sovereign-library-v3/tags/library/</link>
+    <description>Recent content in Library on The Sovereign Library</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/library/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Library</title>
+      <link>https://dextro9494.github.io/sovereign-library-v3/library/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dextro9494.github.io/sovereign-library-v3/library/</guid>
+      <description>&lt;p&gt;The Library holds the operational knowledge of the sovereign system.&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-sections&#34;&gt;Core Sections&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/library/patterns/&#34;&gt;Patterns&lt;/a&gt;&#xA; — Behavioral and structural patterns observed in the field&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/library/protocols/&#34;&gt;Protocols&lt;/a&gt;&#xA; — Operational procedures and systematic approaches&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/library/philosophy/&#34;&gt;Philosophy&lt;/a&gt;&#xA; — Foundational principles and conceptual frameworks&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/library/field-tests/&#34;&gt;Field Tests&lt;/a&gt;&#xA; — Real-world applications and validation logs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;system-infrastructure&#34;&gt;System Infrastructure&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/&#34;&gt;History&lt;/a&gt;&#xA; — Timeline, events, and system evolution&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/relationships/&#34;&gt;Relationships&lt;/a&gt;&#xA; — Social architecture and connections&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/system/&#34;&gt;System&lt;/a&gt;&#xA; — Metadata, analysis, and technical infrastructure&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/council/&#34;&gt;Council&lt;/a&gt;&#xA; — AI Council rules and engagement protocols&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>v8: Three-Layer Architecture</title>
+      <link>https://dextro9494.github.io/sovereign-library-v3/library/philosophy/v8-three-layer-architecture/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://dextro9494.github.io/sovereign-library-v3/library/philosophy/v8-three-layer-architecture/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; v8 separates the system into three distinct layers so the system stays usable: the Library holds, the Mirror operates, the Third Layer is lived.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-library-this-site&#34;&gt;The Library (this site)&lt;/h2&gt;&#xA;&lt;p&gt;Holds everything you know: principles, patterns, protocols, history. It does not try to &lt;em&gt;run&lt;/em&gt; your day. It holds weight outside your head.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-mirror&#34;&gt;The Mirror&lt;/h2&gt;&#xA;&lt;p&gt;The operational layer: what’s active now, what matters now, what is true now. Lean, current, portable. This is what gets pasted into sessions. It’s intentionally small.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
