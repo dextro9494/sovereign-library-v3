@@ -1,6 +1,7 @@
 baseURL = "https://dextro9494.github.io/sovereign-library-v3/"
 languageCode = "en"
 title = "The Sovereign Library"
+theme = "PaperMod"
 
 [params]
   description = "A system for holding what I know, so I don't have to carry it."
