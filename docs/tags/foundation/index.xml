@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Foundation on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/foundation/</link>
     <description>Recent content in Foundation on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/foundation/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,13 @@
       <link>https://dextro9494.github.io/sovereign-library-v3/history/origin-story/</link>
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/history/origin-story/</guid>
-      <description>&lt;h2 id=&#34;not-ambition-necessity&#34;&gt;Not Ambition. Necessity.&lt;/h2&gt;&#xA;&lt;p&gt;The Sovereign Library is not aspirational documentation. It is operational infrastructure built from absence.&lt;/p&gt;&#xA;&lt;p&gt;This is the origin: not when things went right, but when the absence of foundational infrastructure became undeniable, and the decision to build it became non-negotiable.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-31-year-deficit&#34;&gt;The 31-Year Deficit&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Deficit&lt;/strong&gt; does not mean &amp;ldquo;behind schedule.&amp;rdquo; It means &lt;strong&gt;infrastructure that should have been provided, wasn&amp;rsquo;t.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-was-missing&#34;&gt;What Was Missing&lt;/h3&gt;&#xA;&lt;p&gt;From ages 0-31, the following baseline conditions were absent or catastrophically inadequate:&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;not-ambition-necessity&#34;&gt;Not Ambition. Necessity.&lt;/h2&gt;
+&lt;p&gt;The Sovereign Library is not aspirational documentation. It is operational infrastructure built from absence.&lt;/p&gt;
+&lt;p&gt;This is the origin: not when things went right, but when the absence of foundational infrastructure became undeniable, and the decision to build it became non-negotiable.&lt;/p&gt;
+&lt;h2 id=&#34;the-31-year-deficit&#34;&gt;The 31-Year Deficit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Deficit&lt;/strong&gt; does not mean &amp;ldquo;behind schedule.&amp;rdquo; It means &lt;strong&gt;infrastructure that should have been provided, wasn&amp;rsquo;t.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;what-was-missing&#34;&gt;What Was Missing&lt;/h3&gt;
+&lt;p&gt;From ages 0-31, the following baseline conditions were absent or catastrophically inadequate:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

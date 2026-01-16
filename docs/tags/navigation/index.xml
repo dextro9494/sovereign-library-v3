@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Navigation on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/navigation/</link>
     <description>Recent content in Navigation on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Library</title>
-      <link>https://dextro9494.github.io/sovereign-library-v3/library/</link>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://dextro9494.github.io/sovereign-library-v3/library/</guid>
-      <description>&lt;p&gt;The Library holds the operational knowledge of the sovereign system.&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-sections&#34;&gt;Core Sections&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../library/patterns/&#34;&gt;Patterns&lt;/a&gt;&#xA; — Behavioral and structural patterns observed in the field&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../library/protocols/&#34;&gt;Protocols&lt;/a&gt;&#xA; — Operational procedures and systematic approaches&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../library/philosophy/&#34;&gt;Philosophy&lt;/a&gt;&#xA; — Foundational principles and conceptual frameworks&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../library/field-tests/&#34;&gt;Field Tests&lt;/a&gt;&#xA; — Real-world applications and validation logs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;system-infrastructure&#34;&gt;System Infrastructure&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../history/&#34;&gt;History&lt;/a&gt;&#xA; — Timeline, events, and system evolution&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../relationships/&#34;&gt;Relationships&lt;/a&gt;&#xA; — Social architecture and connections&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../system/&#34;&gt;System&lt;/a&gt;&#xA; — Metadata, analysis, and technical infrastructure&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../council/&#34;&gt;Council&lt;/a&gt;&#xA; — AI Council rules and engagement protocols&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Life Layer</title>
-      <link>https://dextro9494.github.io/sovereign-library-v3/life-layer/</link>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://dextro9494.github.io/sovereign-library-v3/life-layer/</guid>
-      <description>&lt;p&gt;This surface points to what is lived, trained, and embodied.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../third-layer/&#34;&gt;Third Layer&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../relationships/&#34;&gt;Relationships&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../library/field-tests/&#34;&gt;Field Tests&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
   </channel>
 </rss>

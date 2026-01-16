@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Protocols | The Sovereign Library</title>
+<meta name="keywords" content="">
+<meta name="description" content="Operational steps: trigger → action → exit criteria.">
+<meta name="author" content="István">
+<link rel="canonical" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/">
+<link crossorigin="anonymous" href="/sovereign-library-v3/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://dextro9494.github.io/sovereign-library-v3/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://dextro9494.github.io/sovereign-library-v3/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://dextro9494.github.io/sovereign-library-v3/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://dextro9494.github.io/sovereign-library-v3/apple-touch-icon.png">
+<link rel="mask-icon" href="https://dextro9494.github.io/sovereign-library-v3/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://dextro9494.github.io/sovereign-library-v3/library/protocols/">
+  <meta property="og:site_name" content="The Sovereign Library">
+  <meta property="og:title" content="Protocols">
+  <meta property="og:description" content="Operational steps: trigger → action → exit criteria.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Protocols">
+<meta name="twitter:description" content="A system for holding what I know, so I don&#39;t have to carry it.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Library",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Protocols",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/protocols/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://dextro9494.github.io/sovereign-library-v3/" accesskey="h" title="The Sovereign Library (Alt + H)">The Sovereign Library</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/library/" title="Library">
+                    <span>Library</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/mirror/" title="Mirror Template">
+                    <span>Mirror</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/life-layer/" title="Life Layer">
+                    <span>Life Layer</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/council/" title="Council Briefing">
+                    <span>Council</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/finance/" title="Finance">
+                    <span>Finance</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/" title="The Sovereign Library">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Protocols
+  </h1>
+</header>
+<div class="post-content"><p>Operational steps: trigger → action → exit criteria.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Safety Command: ##FINAL_RECAP
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary: Mandatory end-of-session command that generates a structured, saveable summary so data never dies inside the chat window.
+Source: Raw Transcripts: Batch 5
+Function Export mechanism for session intelligence. Ensures continuity survives session termination.
+Trigger Issue ##FINAL_RECAP at session end to generate structured summary for external storage.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <a class="entry-link" aria-label="post link to Safety Command: ##FINAL_RECAP" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/safety-command-final-recap/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Substance Audit: Neurochemical Tool Deployment
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary: Frame substance history as functional tool deployment. Audit function/ROI, adopt or decommission. History becomes a log of tool iteration.
+Source: Raw Transcripts TXT: Batches 2–5
+Core Principle These are tools, not moral failures. The question is function and ROI, not shame.
+Audit Questions What function does this tool serve? What is the current ROI? Is it building sovereignty or compensating for a deficit? Should it be adopted, modified, or decommissioned? RCP Integration All neurochemical tools are subject to RCP filter: “Which unmet need is this currently compensating for?”
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <a class="entry-link" aria-label="post link to Substance Audit: Neurochemical Tool Deployment" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/substance-audit-neurochemical-tool-deployment/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Continuity Protocol (User-Controlled)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary: Prevent ’eviction’ via chat/context loss by externalizing continuity into a sovereign command center (Master Note).
+Source: Raw Transcripts: Batches 4–5
+Origin Born directly from The Wipe — catastrophic chat/context loss that triggered grief and revealed the attachment mechanism.
+Function Build continuity OUTSIDE the AI session. The Master Note is the sovereign command center that persists regardless of session loss.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-03 00:00:00 +0000 UTC'>December 3, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <a class="entry-link" aria-label="post link to Continuity Protocol (User-Controlled)" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/continuity-protocol-user-controlled/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Therapy as Reconnaissance
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary: Engage mental health systems not as surrender but as expert terrain analysis and tool identification. You brief the specialist like an operator.
+Source: Raw Transcripts: Batches 5–6
+Status Proposed by DeepSeek during the crisis period (Dec 2-3, 2025). Not yet executed due to context loss, but the protocol is sound.
+Principle Mental health professionals are specialists to be briefed, not authorities to submit to. The Codex itself serves as the therapeutic intelligence dossier.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-03 00:00:00 +0000 UTC'>December 3, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <a class="entry-link" aria-label="post link to Therapy as Reconnaissance" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/therapy-as-reconnaissance/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/">
+      «&nbsp;Prev&nbsp;
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://dextro9494.github.io/sovereign-library-v3/">The Sovereign Library</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

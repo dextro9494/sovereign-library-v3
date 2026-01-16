@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Context on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/context/</link>
     <description>Recent content in Context on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
     <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/context/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,12 @@
       <link>https://dextro9494.github.io/sovereign-library-v3/library/protocols/continuity-command-opening-ritual/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/library/protocols/continuity-command-opening-ritual/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; Opening ritual for any new AI chat: establish roles, context, and continuity anchors so the session is immediately operational.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Raw Transcripts: Batch 5&lt;/p&gt;&#xA;&lt;h2 id=&#34;function&#34;&gt;Function&lt;/h2&gt;&#xA;&lt;p&gt;Any re-entry into the system begins with an affirmation that establishes operational context immediately.&lt;/p&gt;&#xA;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;Builder present. Architecture intact.&amp;rdquo;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; Opening ritual for any new AI chat: establish roles, context, and continuity anchors so the session is immediately operational.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Raw Transcripts: Batch 5&lt;/p&gt;
+&lt;h2 id=&#34;function&#34;&gt;Function&lt;/h2&gt;
+&lt;p&gt;Any re-entry into the system begins with an affirmation that establishes operational context immediately.&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;Builder present. Architecture intact.&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

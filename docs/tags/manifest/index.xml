@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Manifest on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/manifest/</link>
     <description>Recent content in Manifest on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
     <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/manifest/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,21 @@
       <link>https://dextro9494.github.io/sovereign-library-v3/system/extraction/link-manifest-v4-hybrid-definitive/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/extraction/link-manifest-v4-hybrid-definitive/</guid>
-      <description>&lt;h1 id=&#34;link-manifest-v4--hybrid-structural--literal&#34;&gt;Link Manifest v4 – Hybrid (Structural + Literal)&lt;/h1&gt;&#xA;&lt;p&gt;Purpose: Definitive execution checklist for Sovereign Library v2&lt;br&gt;&#xA;Audience: Claude-Builder (mechanical execution) + Council (audit)&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;section-a-verified-literal-references&#34;&gt;Section A: VERIFIED LITERAL REFERENCES&lt;/h2&gt;&#xA;&lt;p&gt;(Extracted directly from text – zero interpretation)&lt;/p&gt;&#xA;&lt;h1 id=&#34;link-manifest-v3--literal-phrase-index-verified&#34;&gt;Link Manifest v3 – Literal Phrase Index (Verified)&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;File: &lt;code&gt;Claude/Batch 2/system-admin-framing.md&lt;/code&gt; | Find phrase: &amp;ldquo;see Survivor has engaged lockout&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;File: &lt;code&gt;Claude/Batch 3/system-admin-doctrine.md&lt;/code&gt; | Find phrase: &amp;ldquo;see both signals&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;File: &lt;code&gt;Claude/Batch 7/archive-as-complete-memory.md&lt;/code&gt; | Find phrase: &amp;ldquo;see pattern&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;section-b-verified-structural-dependencies&#34;&gt;Section B: VERIFIED STRUCTURAL DEPENDENCIES&lt;/h2&gt;&#xA;&lt;p&gt;(Required for integrity even if not explicitly phrased)&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;link-manifest-v4--hybrid-structural--literal&#34;&gt;Link Manifest v4 – Hybrid (Structural + Literal)&lt;/h1&gt;
+&lt;p&gt;Purpose: Definitive execution checklist for Sovereign Library v2&lt;br&gt;
+Audience: Claude-Builder (mechanical execution) + Council (audit)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;section-a-verified-literal-references&#34;&gt;Section A: VERIFIED LITERAL REFERENCES&lt;/h2&gt;
+&lt;p&gt;(Extracted directly from text – zero interpretation)&lt;/p&gt;
+&lt;h1 id=&#34;link-manifest-v3--literal-phrase-index-verified&#34;&gt;Link Manifest v3 – Literal Phrase Index (Verified)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;File: &lt;code&gt;Claude/Batch 2/system-admin-framing.md&lt;/code&gt; | Find phrase: &amp;ldquo;see Survivor has engaged lockout&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;File: &lt;code&gt;Claude/Batch 3/system-admin-doctrine.md&lt;/code&gt; | Find phrase: &amp;ldquo;see both signals&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;File: &lt;code&gt;Claude/Batch 7/archive-as-complete-memory.md&lt;/code&gt; | Find phrase: &amp;ldquo;see pattern&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;section-b-verified-structural-dependencies&#34;&gt;Section B: VERIFIED STRUCTURAL DEPENDENCIES&lt;/h2&gt;
+&lt;p&gt;(Required for integrity even if not explicitly phrased)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

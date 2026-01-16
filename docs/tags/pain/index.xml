@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pain on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/pain/</link>
     <description>Recent content in Pain on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/pain/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,16 @@
       <link>https://dextro9494.github.io/sovereign-library-v3/history/physical-sovereignty-crisis-back-pain-flare-and-response/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/history/physical-sovereignty-crisis-back-pain-flare-and-response/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; Acute back pain flare: care-provider recon showed systemic delays. Decision: book future specialist slot, deploy immediate countermeasures, pivot to root cause via mattress procurement.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Raw Transcripts: Batch 2&lt;/p&gt;&#xA;&lt;h2 id=&#34;response-layers&#34;&gt;Response Layers&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Immediate:&lt;/strong&gt; Diclofenac gel + heating patches (holding actions)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Near-term:&lt;/strong&gt; Booked specialist slot (Jan 21)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Root cause:&lt;/strong&gt; Mattress selected (Dibapur RH5 — pending budget after car)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;&#xA;&lt;p&gt;Mattress researched and selected with Council help, but not ordered yet. Everything comes after the new car next month.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; Acute back pain flare: care-provider recon showed systemic delays. Decision: book future specialist slot, deploy immediate countermeasures, pivot to root cause via mattress procurement.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Raw Transcripts: Batch 2&lt;/p&gt;
+&lt;h2 id=&#34;response-layers&#34;&gt;Response Layers&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Immediate:&lt;/strong&gt; Diclofenac gel + heating patches (holding actions)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Near-term:&lt;/strong&gt; Booked specialist slot (Jan 21)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Root cause:&lt;/strong&gt; Mattress selected (Dibapur RH5 — pending budget after car)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;Mattress researched and selected with Council help, but not ordered yet. Everything comes after the new car next month.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

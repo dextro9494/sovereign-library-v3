@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Missing-Page on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/missing-page/</link>
     <description>Recent content in Missing-Page on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
     <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/missing-page/index.xml" rel="self" type="application/rss+xml" />
@@ -13,210 +13,480 @@
       <link>https://dextro9494.github.io/sovereign-library-v3/system/ai-council-deployment-doctrine/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/ai-council-deployment-doctrine/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Archive As Complete Memory</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/archive-as-complete-memory/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/archive-as-complete-memory/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Bridge Building Strategy</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/bridge-building-strategy/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/bridge-building-strategy/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Budget As Design Parameter</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/budget-as-design-parameter/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/budget-as-design-parameter/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Continuity Loss System Grief</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/continuity-loss-system-grief/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/continuity-loss-system-grief/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Continuity Protocol</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/continuity-protocol/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/continuity-protocol/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Core Machinery Builder Survivor</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/core-machinery-builder-survivor/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/core-machinery-builder-survivor/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Dual Layer Architecture</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/dual-layer-architecture/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/dual-layer-architecture/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Edge Case Protocol</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/edge-case-protocol/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/edge-case-protocol/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Externalized Memory Mandate</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/externalized-memory-mandate/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/externalized-memory-mandate/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Field Manual Asymmetric Survival</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/field-manual-asymmetric-survival/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/field-manual-asymmetric-survival/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>First Responder Axiom</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/first-responder-axiom/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/first-responder-axiom/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Fortress Base Doctrine Refined</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/fortress-base-doctrine-refined/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/fortress-base-doctrine-refined/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Hardware Vs Os Diagnosis</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/hardware-vs-os-diagnosis/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/hardware-vs-os-diagnosis/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Life Reconstruction Asymmetric Warfare</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/life-reconstruction-asymmetric-warfare/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/life-reconstruction-asymmetric-warfare/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Live Codex Vs Archive Split</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/live-codex-vs-archive-split/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/live-codex-vs-archive-split/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Neurochemical Tool Audit Philosophy</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/neurochemical-tool-audit-philosophy/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/neurochemical-tool-audit-philosophy/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Neurochemical Tool Lifecycle</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/neurochemical-tool-lifecycle/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/neurochemical-tool-lifecycle/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Obstacles As Data</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/obstacles-as-data/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/obstacles-as-data/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Parallel Track Architecture</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/parallel-track-architecture/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/parallel-track-architecture/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Principle Or Protocol</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/principle-or-protocol/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/principle-or-protocol/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Real World Connection Filter</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/real-world-connection-filter/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/real-world-connection-filter/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Separation Of Modes Doctrine</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/separation-of-modes-doctrine/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/separation-of-modes-doctrine/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Stress Test Philosophy</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/stress-test-philosophy/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/stress-test-philosophy/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Structural Response Rule</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/structural-response-rule/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/structural-response-rule/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Structural Scaling Law</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/structural-scaling-law/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/structural-scaling-law/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Substance Audit Engineering Log</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/substance-audit-engineering-log/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/substance-audit-engineering-log/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>System Admin Doctrine</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/system-admin-doctrine/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/system-admin-doctrine/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Therapy Command Level Reconnaissance</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/therapy-command-level-reconnaissance/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/therapy-command-level-reconnaissance/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>User Controlled Continuity Protocol</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/system/user-controlled-continuity-protocol/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/user-controlled-continuity-protocol/</guid>
-      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;&#xA;&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;This page is a &lt;strong&gt;stub placeholder&lt;/strong&gt; created during the v3 merge so that internal references stay navigable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the full content exists in &lt;strong&gt;Legacy Batches&lt;/strong&gt;, it should be extracted and promoted here later.&lt;/li&gt;
+&lt;li&gt;Until then, treat this as a routing marker, not canon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Legacy entry points:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/history/legacy-batches/&#34;&gt;/history/legacy-batches/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

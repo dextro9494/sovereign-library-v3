@@ -1,66 +1,291 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Format Protocol 6.2 (Live Chat vs Codex Mode) | The Sovereign Library</title>
-  <link rel="stylesheet" href="/sovereign-library-v3/css/style.css">
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Format Protocol 6.2 (Live Chat vs Codex Mode) | The Sovereign Library</title>
+<meta name="keywords" content="protocol, format, tone, safety-lock">
+<meta name="description" content="Summary: Hard boundary between natural-language live chat and formal Codex formatting. Includes Tone Directive and First-Response Safety Lock.
+Source: Raw Transcripts TXT: Batches 2–3, 5
+The Problem
+Over-formatting in live chat created friction. AIs defaulting to headers, bullets, and Codex-style structure when conversation was needed.
+The Solution
+Two distinct modes with explicit boundaries:
+LIVE CHAT MODE
+
+Natural language only
+Flowing paragraphs and sentences
+Conversational, strategic-advisor tone
+No formal formatting unless explicitly requested
+First-Response Safety Lock: AI&rsquo;s first reply must acknowledge &ldquo;Live Chat Mode active&rdquo;
+
+CODEX MODE
+
+Formal structure only
+Reserved for permanent record
+Only applied when explicitly requested
+
+Notes
+
+The fix was precise operational definition, not more rules
+Debugged Dec 25 during v4.7→v6.0.1 iteration
+">
+<meta name="author" content="István">
+<link rel="canonical" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/format-protocol-6-2-live-chat-vs-codex-mode/">
+<link crossorigin="anonymous" href="/sovereign-library-v3/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://dextro9494.github.io/sovereign-library-v3/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://dextro9494.github.io/sovereign-library-v3/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://dextro9494.github.io/sovereign-library-v3/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://dextro9494.github.io/sovereign-library-v3/apple-touch-icon.png">
+<link rel="mask-icon" href="https://dextro9494.github.io/sovereign-library-v3/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://dextro9494.github.io/sovereign-library-v3/library/protocols/format-protocol-6-2-live-chat-vs-codex-mode/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://dextro9494.github.io/sovereign-library-v3/library/protocols/format-protocol-6-2-live-chat-vs-codex-mode/">
+  <meta property="og:site_name" content="The Sovereign Library">
+  <meta property="og:title" content="Format Protocol 6.2 (Live Chat vs Codex Mode)">
+  <meta property="og:description" content="Summary: Hard boundary between natural-language live chat and formal Codex formatting. Includes Tone Directive and First-Response Safety Lock.
+Source: Raw Transcripts TXT: Batches 2–3, 5
+The Problem Over-formatting in live chat created friction. AIs defaulting to headers, bullets, and Codex-style structure when conversation was needed.
+The Solution Two distinct modes with explicit boundaries:
+LIVE CHAT MODE Natural language only Flowing paragraphs and sentences Conversational, strategic-advisor tone No formal formatting unless explicitly requested First-Response Safety Lock: AI’s first reply must acknowledge “Live Chat Mode active” CODEX MODE Formal structure only Reserved for permanent record Only applied when explicitly requested Notes The fix was precise operational definition, not more rules Debugged Dec 25 during v4.7→v6.0.1 iteration ">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="library">
+    <meta property="article:published_time" content="2025-12-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-25T00:00:00+00:00">
+    <meta property="article:tag" content="Protocol">
+    <meta property="article:tag" content="Format">
+    <meta property="article:tag" content="Tone">
+    <meta property="article:tag" content="Safety-Lock">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Format Protocol 6.2 (Live Chat vs Codex Mode)">
+<meta name="twitter:description" content="Summary: Hard boundary between natural-language live chat and formal Codex formatting. Includes Tone Directive and First-Response Safety Lock.
+Source: Raw Transcripts TXT: Batches 2–3, 5
+The Problem
+Over-formatting in live chat created friction. AIs defaulting to headers, bullets, and Codex-style structure when conversation was needed.
+The Solution
+Two distinct modes with explicit boundaries:
+LIVE CHAT MODE
+
+Natural language only
+Flowing paragraphs and sentences
+Conversational, strategic-advisor tone
+No formal formatting unless explicitly requested
+First-Response Safety Lock: AI&rsquo;s first reply must acknowledge &ldquo;Live Chat Mode active&rdquo;
+
+CODEX MODE
+
+Formal structure only
+Reserved for permanent record
+Only applied when explicitly requested
+
+Notes
+
+The fix was precise operational definition, not more rules
+Debugged Dec 25 during v4.7→v6.0.1 iteration
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Library",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Protocols",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/protocols/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Format Protocol 6.2 (Live Chat vs Codex Mode)",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/protocols/format-protocol-6-2-live-chat-vs-codex-mode/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Format Protocol 6.2 (Live Chat vs Codex Mode)",
+  "name": "Format Protocol 6.2 (Live Chat vs Codex Mode)",
+  "description": "Summary: Hard boundary between natural-language live chat and formal Codex formatting. Includes Tone Directive and First-Response Safety Lock.\nSource: Raw Transcripts TXT: Batches 2–3, 5\nThe Problem Over-formatting in live chat created friction. AIs defaulting to headers, bullets, and Codex-style structure when conversation was needed.\nThe Solution Two distinct modes with explicit boundaries:\nLIVE CHAT MODE Natural language only Flowing paragraphs and sentences Conversational, strategic-advisor tone No formal formatting unless explicitly requested First-Response Safety Lock: AI\u0026rsquo;s first reply must acknowledge \u0026ldquo;Live Chat Mode active\u0026rdquo; CODEX MODE Formal structure only Reserved for permanent record Only applied when explicitly requested Notes The fix was precise operational definition, not more rules Debugged Dec 25 during v4.7→v6.0.1 iteration ",
+  "keywords": [
+    "protocol", "format", "tone", "safety-lock"
+  ],
+  "articleBody": "Summary: Hard boundary between natural-language live chat and formal Codex formatting. Includes Tone Directive and First-Response Safety Lock.\nSource: Raw Transcripts TXT: Batches 2–3, 5\nThe Problem Over-formatting in live chat created friction. AIs defaulting to headers, bullets, and Codex-style structure when conversation was needed.\nThe Solution Two distinct modes with explicit boundaries:\nLIVE CHAT MODE Natural language only Flowing paragraphs and sentences Conversational, strategic-advisor tone No formal formatting unless explicitly requested First-Response Safety Lock: AI’s first reply must acknowledge “Live Chat Mode active” CODEX MODE Formal structure only Reserved for permanent record Only applied when explicitly requested Notes The fix was precise operational definition, not more rules Debugged Dec 25 during v4.7→v6.0.1 iteration ",
+  "wordCount" : "114",
+  "inLanguage": "en",
+  "datePublished": "2025-12-25T00:00:00Z",
+  "dateModified": "2025-12-25T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "István"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dextro9494.github.io/sovereign-library-v3/library/protocols/format-protocol-6-2-live-chat-vs-codex-mode/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Sovereign Library",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dextro9494.github.io/sovereign-library-v3/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
-<body>
-  <header class="site-header">
+<body id="top">
+    <header class="header">
     <nav class="nav">
-      <a href="/sovereign-library-v3/" class="site-title">The Sovereign Library</a>
-      <div class="nav-links">
-        
-          <a href="/sovereign-library-v3/library/">Library</a>
-        
-          <a href="/sovereign-library-v3/mirror/">Mirror</a>
-        
-          <a href="/sovereign-library-v3/life-layer/">Life Layer</a>
-        
-          <a href="/sovereign-library-v3/council/">Council</a>
-        
-          <a href="/sovereign-library-v3/finance/">Finance</a>
-        
-          <a href="/sovereign-library-v3/tags/">Tags</a>
-        
-          <a href="/sovereign-library-v3/">Home</a>
-        
-      </div>
+        <div class="logo">
+            <a href="https://dextro9494.github.io/sovereign-library-v3/" accesskey="h" title="The Sovereign Library (Alt + H)">The Sovereign Library</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/library/" title="Library">
+                    <span>Library</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/mirror/" title="Mirror Template">
+                    <span>Mirror</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/life-layer/" title="Life Layer">
+                    <span>Life Layer</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/council/" title="Council Briefing">
+                    <span>Council</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/finance/" title="Finance">
+                    <span>Finance</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/" title="The Sovereign Library">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
     </nav>
-  </header>
+</header>
+<main class="main">
 
-  <main class="main">
+<article class="post-single">
+  <header class="post-header">
     
-<article class="card">
-  <h1>Format Protocol 6.2 (Live Chat vs Codex Mode)</h1>
+    <h1 class="post-title entry-hint-parent">
+      Format Protocol 6.2 (Live Chat vs Codex Mode)
+    </h1>
+    <div class="post-meta"><span title='2025-12-25 00:00:00 +0000 UTC'>December 25, 2025</span>&nbsp;·&nbsp;<span>István</span>
 
-  
-  <div class="tags">
-    
-      <span class="tag">protocol</span>
-    
-      <span class="tag">format</span>
-    
-      <span class="tag">tone</span>
-    
-      <span class="tag">safety-lock</span>
-    
-  </div>
-  
-
-  
-  <p class="meta">2025-12-25</p>
-  
-
-  <div class="content">
-    <p><strong>Summary:</strong> Hard boundary between natural-language live chat and formal Codex formatting. Includes Tone Directive and First-Response Safety Lock.</p>
+</div>
+  </header> 
+  <div class="post-content"><p><strong>Summary:</strong> Hard boundary between natural-language live chat and formal Codex formatting. Includes Tone Directive and First-Response Safety Lock.</p>
 <p><strong>Source:</strong> Raw Transcripts TXT: Batches 2–3, 5</p>
-<h2 id="the-problem">The Problem</h2>
+<h2 id="the-problem">The Problem<a hidden class="anchor" aria-hidden="true" href="#the-problem">#</a></h2>
 <p>Over-formatting in live chat created friction. AIs defaulting to headers, bullets, and Codex-style structure when conversation was needed.</p>
-<h2 id="the-solution">The Solution</h2>
+<h2 id="the-solution">The Solution<a hidden class="anchor" aria-hidden="true" href="#the-solution">#</a></h2>
 <p>Two distinct modes with explicit boundaries:</p>
-<h3 id="live-chat-mode">LIVE CHAT MODE</h3>
+<h3 id="live-chat-mode">LIVE CHAT MODE<a hidden class="anchor" aria-hidden="true" href="#live-chat-mode">#</a></h3>
 <ul>
 <li>Natural language only</li>
 <li>Flowing paragraphs and sentences</li>
@@ -68,1165 +293,107 @@
 <li>No formal formatting unless explicitly requested</li>
 <li><strong>First-Response Safety Lock:</strong> AI&rsquo;s first reply must acknowledge &ldquo;Live Chat Mode active&rdquo;</li>
 </ul>
-<h3 id="codex-mode">CODEX MODE</h3>
+<h3 id="codex-mode">CODEX MODE<a hidden class="anchor" aria-hidden="true" href="#codex-mode">#</a></h3>
 <ul>
 <li>Formal structure only</li>
 <li>Reserved for permanent record</li>
 <li>Only applied when explicitly requested</li>
 </ul>
-<h2 id="notes">Notes</h2>
+<h2 id="notes">Notes<a hidden class="anchor" aria-hidden="true" href="#notes">#</a></h2>
 <ul>
 <li>The fix was precise operational definition, not more rules</li>
 <li>Debugged Dec 25 during v4.7→v6.0.1 iteration</li>
 </ul>
 
+
   </div>
 
-  
-  <div class="connections">
-    <h3>Connected to</h3>
-    <ul>
-      
-        
-        
-        
-        
-          <li><a href="/sovereign-library-v3/history/protocol-6-2-saga-over-formatting-as-friction/">Protocol 6.2 Saga: Over-Formatting as Friction</a></li>
-        
-      
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/protocol/">Protocol</a></li>
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/format/">Format</a></li>
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/tone/">Tone</a></li>
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/safety-lock/">Safety-Lock</a></li>
     </ul>
-  </div>
-  
-
-  
-  
-  
-
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-
-  
-  
-
-</article>
-
-  </main>
-
-  <footer class="footer">
-    <p>The Sovereign Library — Built to hold, not to instruct.</p>
   </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://dextro9494.github.io/sovereign-library-v3/">The Sovereign Library</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
 </body>
+
 </html>

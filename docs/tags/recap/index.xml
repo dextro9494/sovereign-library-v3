@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Recap on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/recap/</link>
     <description>Recent content in Recap on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
     <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/recap/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,12 @@
       <link>https://dextro9494.github.io/sovereign-library-v3/library/protocols/safety-command-final-recap/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/library/protocols/safety-command-final-recap/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; Mandatory end-of-session command that generates a structured, saveable summary so data never dies inside the chat window.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Raw Transcripts: Batch 5&lt;/p&gt;&#xA;&lt;h2 id=&#34;function&#34;&gt;Function&lt;/h2&gt;&#xA;&lt;p&gt;Export mechanism for session intelligence. Ensures continuity survives session termination.&lt;/p&gt;&#xA;&lt;h2 id=&#34;trigger&#34;&gt;Trigger&lt;/h2&gt;&#xA;&lt;p&gt;Issue ##FINAL_RECAP at session end to generate structured summary for external storage.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; Mandatory end-of-session command that generates a structured, saveable summary so data never dies inside the chat window.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Raw Transcripts: Batch 5&lt;/p&gt;
+&lt;h2 id=&#34;function&#34;&gt;Function&lt;/h2&gt;
+&lt;p&gt;Export mechanism for session intelligence. Ensures continuity survives session termination.&lt;/p&gt;
+&lt;h2 id=&#34;trigger&#34;&gt;Trigger&lt;/h2&gt;
+&lt;p&gt;Issue ##FINAL_RECAP at session end to generate structured summary for external storage.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

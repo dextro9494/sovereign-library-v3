@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Validation on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/validation/</link>
     <description>Recent content in Validation on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/validation/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,30 @@
       <link>https://dextro9494.github.io/sovereign-library-v3/library/field-tests/field-test-archive/</link>
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/library/field-tests/field-test-archive/</guid>
-      <description>&lt;h2 id=&#34;purpose-and-definition&#34;&gt;Purpose and Definition&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-is-a-field-test&#34;&gt;What Is a Field Test?&lt;/h3&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Field Test&lt;/strong&gt; is a structured validation operation conducted under real-world constraints to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Test hypotheses about system capacity, protocol effectiveness, or strategic viability&lt;/li&gt;&#xA;&lt;li&gt;Generate telemetry data for system refinement&lt;/li&gt;&#xA;&lt;li&gt;Validate or invalidate assumptions before scaling investment&lt;/li&gt;&#xA;&lt;li&gt;Extract lessons that become canonical knowledge&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;&amp;ldquo;Validated&amp;rdquo; means:&lt;/strong&gt; Evidence collected under operational conditions supports or refutes the hypothesis. Validation confidence is rated (Low / Medium / High) based on sample size, replicability, and control for confounding variables.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;purpose-and-definition&#34;&gt;Purpose and Definition&lt;/h2&gt;
+&lt;h3 id=&#34;what-is-a-field-test&#34;&gt;What Is a Field Test?&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;Field Test&lt;/strong&gt; is a structured validation operation conducted under real-world constraints to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Test hypotheses about system capacity, protocol effectiveness, or strategic viability&lt;/li&gt;
+&lt;li&gt;Generate telemetry data for system refinement&lt;/li&gt;
+&lt;li&gt;Validate or invalidate assumptions before scaling investment&lt;/li&gt;
+&lt;li&gt;Extract lessons that become canonical knowledge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Validated&amp;rdquo; means:&lt;/strong&gt; Evidence collected under operational conditions supports or refutes the hypothesis. Validation confidence is rated (Low / Medium / High) based on sample size, replicability, and control for confounding variables.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resume v2.0 Bridge Narrative Test</title>
       <link>https://dextro9494.github.io/sovereign-library-v3/library/field-tests/resume-v2-0-bridge-narrative-test/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/library/field-tests/resume-v2-0-bridge-narrative-test/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; Validated that fragmented history can be restructured into a coherent professional bridge narrative. Result produced pride and forward momentum.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Raw Transcripts: Batch 6&lt;/p&gt;&#xA;&lt;h2 id=&#34;hypothesis&#34;&gt;Hypothesis&lt;/h2&gt;&#xA;&lt;p&gt;Fragmented work history (SAP coordination, logistics agency roles) can be reframed as a coherent narrative.&lt;/p&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;p&gt;Successfully restructured as &amp;ldquo;Operations &amp;amp; Systems Specialist&amp;rdquo; bridge narrative. The scattered pieces tell a coherent story.&lt;/p&gt;&#xA;&lt;h2 id=&#34;emotional-data&#34;&gt;Emotional Data&lt;/h2&gt;&#xA;&lt;p&gt;Pride and forward momentum.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; Validated that fragmented history can be restructured into a coherent professional bridge narrative. Result produced pride and forward momentum.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Raw Transcripts: Batch 6&lt;/p&gt;
+&lt;h2 id=&#34;hypothesis&#34;&gt;Hypothesis&lt;/h2&gt;
+&lt;p&gt;Fragmented work history (SAP coordination, logistics agency roles) can be reframed as a coherent narrative.&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;Successfully restructured as &amp;ldquo;Operations &amp;amp; Systems Specialist&amp;rdquo; bridge narrative. The scattered pieces tell a coherent story.&lt;/p&gt;
+&lt;h2 id=&#34;emotional-data&#34;&gt;Emotional Data&lt;/h2&gt;
+&lt;p&gt;Pride and forward momentum.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

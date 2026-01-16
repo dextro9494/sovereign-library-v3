@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Constructionsites on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/constructionsites/</link>
     <description>Recent content in Constructionsites on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/constructionsites/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,18 @@
       <link>https://dextro9494.github.io/sovereign-library-v3/system/construction-sites/</link>
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/system/construction-sites/</guid>
-      <description>&lt;h2 id=&#34;purpose-why-construction-sites-exist&#34;&gt;Purpose: Why Construction Sites Exist&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Construction Sites are the portfolio control structure for sovereignty-building operations.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Under &lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/system/field-manual-asymmetric-survival/&#34;&gt;asymmetric conditions&lt;/a&gt;&#xA;, resource scarcity (time, money, attention) demands strategic allocation. Without named build domains, effort disperses into reactive firefighting or compensatory activities.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Construction Sites provide:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Named targets&lt;/strong&gt; for resource allocation decisions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Diagnostic anchors&lt;/strong&gt; for symptom-to-deficit mapping&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Progress surfaces&lt;/strong&gt; for strategic continuity&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Intervention routing&lt;/strong&gt; from audits to actionable construction work&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;This is infrastructure, not motivation.&lt;/strong&gt; Sites are architectural units, not aspirational categories.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;purpose-why-construction-sites-exist&#34;&gt;Purpose: Why Construction Sites Exist&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Construction Sites are the portfolio control structure for sovereignty-building operations.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Under &lt;a href=&#34;https://dextro9494.github.io/sovereign-library-v3/system/field-manual-asymmetric-survival/&#34;&gt;asymmetric conditions&lt;/a&gt;
+, resource scarcity (time, money, attention) demands strategic allocation. Without named build domains, effort disperses into reactive firefighting or compensatory activities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Construction Sites provide:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Named targets&lt;/strong&gt; for resource allocation decisions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diagnostic anchors&lt;/strong&gt; for symptom-to-deficit mapping&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Progress surfaces&lt;/strong&gt; for strategic continuity&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intervention routing&lt;/strong&gt; from audits to actionable construction work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;This is infrastructure, not motivation.&lt;/strong&gt; Sites are architectural units, not aspirational categories.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Project on The Sovereign Library</title>
     <link>https://dextro9494.github.io/sovereign-library-v3/tags/project/</link>
     <description>Recent content in Project on The Sovereign Library</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
     <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dextro9494.github.io/sovereign-library-v3/tags/project/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,13 @@
       <link>https://dextro9494.github.io/sovereign-library-v3/relationships/project-greenhouse-co-conspirator-status/</link>
       <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://dextro9494.github.io/sovereign-library-v3/relationships/project-greenhouse-co-conspirator-status/</guid>
-      <description>&lt;p&gt;Summary: Fiancée listed as engaged co-conspirator in Project Greenhouse. Signals trust and practical collaboration.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;&#xA;&lt;p&gt;Home cultivation prototype (weed) for supply sovereignty.&lt;/p&gt;&#xA;&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;&#xA;&lt;p&gt;Pending budget.&lt;/p&gt;&#xA;&lt;h2 id=&#34;significance&#34;&gt;Significance&lt;/h2&gt;&#xA;&lt;p&gt;She’s explicitly listed as co-conspirator — signals trust, practical collaboration, shared autonomy.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Summary: Fiancée listed as engaged co-conspirator in Project Greenhouse. Signals trust and practical collaboration.&lt;/p&gt;
+&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
+&lt;p&gt;Home cultivation prototype (weed) for supply sovereignty.&lt;/p&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;Pending budget.&lt;/p&gt;
+&lt;h2 id=&#34;significance&#34;&gt;Significance&lt;/h2&gt;
+&lt;p&gt;She’s explicitly listed as co-conspirator — signals trust, practical collaboration, shared autonomy.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

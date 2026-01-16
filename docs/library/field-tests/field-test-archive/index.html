@@ -1,61 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Field Test Archive | The Sovereign Library</title>
-  <link rel="stylesheet" href="/sovereign-library-v3/css/style.css">
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Field Test Archive | The Sovereign Library</title>
+<meta name="keywords" content="fieldtests, validation, telemetry, archive">
+<meta name="description" content="Purpose and Definition
+What Is a Field Test?
+A Field Test is a structured validation operation conducted under real-world constraints to:
+
+Test hypotheses about system capacity, protocol effectiveness, or strategic viability
+Generate telemetry data for system refinement
+Validate or invalidate assumptions before scaling investment
+Extract lessons that become canonical knowledge
+
+&ldquo;Validated&rdquo; means: Evidence collected under operational conditions supports or refutes the hypothesis. Validation confidence is rated (Low / Medium / High) based on sample size, replicability, and control for confounding variables.">
+<meta name="author" content="István">
+<link rel="canonical" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/field-test-archive/">
+<link crossorigin="anonymous" href="/sovereign-library-v3/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://dextro9494.github.io/sovereign-library-v3/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://dextro9494.github.io/sovereign-library-v3/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://dextro9494.github.io/sovereign-library-v3/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://dextro9494.github.io/sovereign-library-v3/apple-touch-icon.png">
+<link rel="mask-icon" href="https://dextro9494.github.io/sovereign-library-v3/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/field-test-archive/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/field-test-archive/">
+  <meta property="og:site_name" content="The Sovereign Library">
+  <meta property="og:title" content="Field Test Archive">
+  <meta property="og:description" content="Purpose and Definition What Is a Field Test? A Field Test is a structured validation operation conducted under real-world constraints to:
+Test hypotheses about system capacity, protocol effectiveness, or strategic viability Generate telemetry data for system refinement Validate or invalidate assumptions before scaling investment Extract lessons that become canonical knowledge “Validated” means: Evidence collected under operational conditions supports or refutes the hypothesis. Validation confidence is rated (Low / Medium / High) based on sample size, replicability, and control for confounding variables.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="library">
+    <meta property="article:published_time" content="2026-01-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-12T00:00:00+00:00">
+    <meta property="article:tag" content="Fieldtests">
+    <meta property="article:tag" content="Validation">
+    <meta property="article:tag" content="Telemetry">
+    <meta property="article:tag" content="Archive">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Field Test Archive">
+<meta name="twitter:description" content="Purpose and Definition
+What Is a Field Test?
+A Field Test is a structured validation operation conducted under real-world constraints to:
+
+Test hypotheses about system capacity, protocol effectiveness, or strategic viability
+Generate telemetry data for system refinement
+Validate or invalidate assumptions before scaling investment
+Extract lessons that become canonical knowledge
+
+&ldquo;Validated&rdquo; means: Evidence collected under operational conditions supports or refutes the hypothesis. Validation confidence is rated (Low / Medium / High) based on sample size, replicability, and control for confounding variables.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Library",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Field Tests",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/field-tests/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Field Test Archive",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/field-tests/field-test-archive/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Field Test Archive",
+  "name": "Field Test Archive",
+  "description": "Purpose and Definition What Is a Field Test? A Field Test is a structured validation operation conducted under real-world constraints to:\nTest hypotheses about system capacity, protocol effectiveness, or strategic viability Generate telemetry data for system refinement Validate or invalidate assumptions before scaling investment Extract lessons that become canonical knowledge \u0026ldquo;Validated\u0026rdquo; means: Evidence collected under operational conditions supports or refutes the hypothesis. Validation confidence is rated (Low / Medium / High) based on sample size, replicability, and control for confounding variables.\n",
+  "keywords": [
+    "fieldtests", "validation", "telemetry", "archive"
+  ],
+  "articleBody": "Purpose and Definition What Is a Field Test? A Field Test is a structured validation operation conducted under real-world constraints to:\nTest hypotheses about system capacity, protocol effectiveness, or strategic viability Generate telemetry data for system refinement Validate or invalidate assumptions before scaling investment Extract lessons that become canonical knowledge “Validated” means: Evidence collected under operational conditions supports or refutes the hypothesis. Validation confidence is rated (Low / Medium / High) based on sample size, replicability, and control for confounding variables.\nWhy Field Tests Exist Under asymmetric conditions , theoretical planning without validation creates risk. Field Tests convert “should work” into “does work” or “failed because X.”\nCore principle: Stress as telemetry . Resistance, failure, and success are diagnostic data, not moral outcomes.\nHow to Use This Archive Location in System Architecture The Field Test Archive exists in the Archive layer of the Dual-Layer Architecture .\nArchive layer contains:\nFull test records (context, method, raw data, analysis) Complete obstacle logs and pivot documentation Provenance trails (who diagnosed, what evidence) Live layer (Codex/Master Note) contains:\nDistilled lessons extracted from tests Links back to Archive for full context Active protocols validated by tests Archive vs. Live Split Rules What stays in Archive:\nRaw observations and metrics Full method documentation Detailed obstacle/pivot logs Complete analysis and interpretation Historical test records What promotes to Live:\nValidated principles (Stress Test Philosophy ) Confirmed protocols (5-Second Ignition ) Extracted lessons (compact, actionable) Updated Construction Site priorities Trigger for migration: Field test completed → Full record archived → Lessons extracted → Live updated → Canon pages linked\nNavigation Tests are indexed by:\nID (chronological: TEST-001, TEST-002, etc.) Date (test execution window) Domain (Financial/Professional, Relational, Continuity, Somatic) Construction Site (Site Alpha, Site Beta, Site Gamma, Infrastructure) Field Test Template All tests follow this standard schema:\nTEST-[ID]: [Title] Date: [Execution window]\nDomain: [Financial/Professional | Relational | Continuity | Somatic]\nConstruction Site: [Alpha | Beta | Gamma | Infrastructure]\nStatus: [Active | Completed | Archived]\nContext/Constraints:\nInitial conditions Resource limitations External pressures Known risks Objective:\nWhat is being tested Success criteria defined upfront Hypothesis/Expectation:\nPredicted outcome Underlying assumptions Method/Steps:\nStep-by-step execution plan Decision points Measurement approach Metrics/Telemetry:\nResistance Rating: [0-10 scale] Somatic Markers: [Observable physical signals] Time Investment: [Hours/effort] Financial Cost: [If applicable] Outcome Measures: [Specific indicators] Execution Log:\nWhat actually happened Deviations from plan Observable results Obstacles Encountered:\nWhat blocked progress How obstacles were diagnosed What pivots occurred Outcome:\nSuccess/Failure against criteria Unexpected results Data quality notes Lessons Extracted:\nPrimary lesson Secondary insights System updates triggered Follow-Up Actions:\nProtocol updates Canon page edits Construction Site priority changes Tools validated or deprecated Validation Confidence: [Low | Medium | High]\nProvenance:\nDiagnosed by: [Council member | Self-observation] Evidence: [What supports conclusions] Date Archived: [YYYY-MM-DD] Links to Affected Canon Pages:\nPrinciple/Protocol Name Telemetry Vocabulary Resistance Rating Scale (0-10) 0-2: Minimal resistance. Action flows naturally.\n3-4: Noticeable resistance. Requires conscious override. Somatic signals present but manageable.\n5-6: Moderate resistance. Execution requires protocol deployment (5-Second Ignition, Edge-Case).\n7-8: High resistance. Significant somatic lockout. Task requires segmentation or external support.\n9-10: Severe lockout. Execution impossible without crisis-level override or delegation.\nSomatic Markers (Observable Signals) Stomach tightness: Survivor threat detection active Hand tremors: Motor freeze engaging Shallow breathing: Autonomic stress response Jaw clenching: Suppressed fight response Brain fog: Cognitive overload/shutdown Chest constriction: Panic threshold approaching Success Criteria Types Binary: Did X happen? (Yes/No) Threshold: Did metric exceed Y? (Pass/Fail) Comparative: Was this better than baseline Z? (Improvement/Decline) Qualitative: Did subjective state match target? (Met/Not Met) Failure Modes Execution Failure: Could not complete task Outcome Failure: Completed task, did not achieve objective Hypothesis Failure: Outcome contradicted prediction System Failure: External system/constraint caused failure Validation Confidence Levels Low: Single test, high confounding variables, narrow context Medium: Multiple tests, controlled variables, replicable results High: Extensive testing, multiple contexts, consistent outcomes Index By ID ID Title Date Domain Site Status TEST-001 Digital Farming Market Test Dec 2024 Financial/Professional Alpha Archived TEST-002 Recruiter Engagement Stress Test Early Dec 2025 Financial/Professional Alpha Archived TEST-003 Mattress Procurement Under Budget Constraint Late Dec 2025 Infrastructure Infrastructure Archived By Domain Financial/Professional:\nTEST-001: Digital Farming Market Test TEST-002: Recruiter Engagement Stress Test Infrastructure:\nTEST-003: Mattress Procurement Under Budget Constraint By Construction Site Site Alpha (Stable Income Pipeline):\nTEST-001: Digital Farming Market Test TEST-002: Recruiter Engagement Stress Test Infrastructure (Physical/Operational Sovereignty):\nTEST-003: Mattress Procurement Under Budget Constraint TEST-001: Digital Farming Market Test Date: December 2024\nDomain: Financial/Professional\nConstruction Site: Site Alpha (Stable Income Pipeline)\nStatus: Archived\nContext/Constraints Testing viability of digital farming (content creation, online monetization) as income source Limited upfront capital No existing audience or platform presence Time pressure for income generation Operating from financial deficit baseline Objective Validate whether digital farming could serve as stable income pipeline within 3-6 month timeframe.\nHypothesis/Expectation With sufficient effort and content quality, digital farming would generate viable income to meet baseline financial needs.\nMethod/Steps Platform selection and setup Content creation and publishing schedule Audience building tactics Monetization pathway testing Revenue tracking and analysis Metrics/Telemetry Time Investment: 3+ months, significant hours/week Financial Cost: Platform fees, tools, minimal marketing budget Outcome Measures: Audience growth, engagement rates, revenue generated Resistance Rating: 4-5/10 (execution manageable, sustained effort challenging) Somatic Markers: Mild stress around content deadlines, no severe lockout Execution Log Content created consistently. Platforms managed according to plan. Effort sustained over test period. No execution failures in content delivery.\nObstacles Encountered Algorithmic barriers: Platform algorithms not favoring new creators Audience building difficulty: Growth slower than projected Monetization threshold: Minimum thresholds not reached within timeframe Market saturation: Niche more competitive than anticipated Outcome Failure against objective. Revenue generated was below viability threshold. Timeline extended beyond acceptable range for financial pressure relief.\nLessons Extracted Primary lesson: Market conditions and systemic barriers (algorithms, saturation) caused failure, NOT execution quality or effort insufficiency.\nCritical reframe: Failure is telemetry, not moral verdict . This was system-level mismatch, not personal inadequacy.\nStrategic implication: Digital farming is not viable path to Site Alpha under current constraints. Redirect energy to employment-based income stability (Fortress Base ).\nFollow-Up Actions Deprioritize digital farming as Site Alpha strategy Shift focus to Fortress Base employment (PostNL mail sorting) Update Construction Site Alpha tactics: stable employment over entrepreneurship Prevent future “hustle culture” guilt by canonizing this as data Validation Confidence Medium. Single extended test, but clear market data supporting conclusion. Failure mode was external (market conditions), not internal (execution).\nProvenance Diagnosed by: Council synthesis (ChatGPT, Claude, DeepSeek) Evidence: Time logs, platform analytics, revenue data, market research Date Archived: 2025-12-27 Links to Affected Canon Pages Stress Test Philosophy (case study cited) Obstacles as Data (market conditions as diagnostic signal) Fortress Base Doctrine (alternative path justified) TEST-002: Recruiter Engagement Stress Test Date: Early December 2025\nDomain: Financial/Professional\nConstruction Site: Site Alpha (Stable Income Pipeline)\nStatus: Archived\nContext/Constraints Testing capacity to engage with recruiters for employment opportunities Known somatic resistance to professional communication Pressure to secure income pipeline amid financial instability Testing protocol effectiveness (task segmentation) Objective Identify resistance threshold for recruiter engagement and validate task segmentation as effective workaround.\nHypothesis/Expectation Recruiter engagement would trigger moderate resistance, manageable through task segmentation (breaking into smaller steps).\nMethod/Steps Identify recruiter contact list Draft initial outreach message Execute contact (segmented: draft separate from send) Monitor somatic response Log resistance rating and physical markers Metrics/Telemetry Resistance Rating: 3-4/10 Somatic Markers: Stomach tightness when considering contact, mild tension during drafting Time Investment: 30-60 minutes per contact cycle Outcome Measures: Messages sent, responses received, resistance managed without lockout Protocol Tested: Task segmentation (draft → review → send as separate actions) Execution Log Contact initiated with multiple recruiters. Task segmentation protocol deployed. Messages drafted in separate sessions from sending. Resistance present but did not escalate to lockout.\nObstacles Encountered Explainer’s Burden: Anticipation of having to explain work history created initial resistance spike Rejection sensitivity: Somatic markers activated by potential rejection scenario Task coupling: Initial attempt to draft and send in single session triggered 5-6/10 resistance Outcome Success. Messages sent successfully. Task segmentation validated as effective resistance management technique. Resistance remained in 3-4/10 range (manageable).\nLessons Extracted Primary lesson: Task segmentation is effective workaround for moderate somatic resistance. Breaking execution into discrete steps prevents resistance escalation.\nSomatic intelligence: Stomach tightness is reliable early warning. Address at 3-4/10 before escalation to 7+.\nProtocol validation: Confirmed that separating “decide” from “execute” reduces Survivor lockout activation.\nFollow-Up Actions Codify task segmentation as standard protocol for resistant tasks Add somatic marker vocabulary to telemetry standards Update Stress Test Philosophy with case study Document “Explainer’s Burden” as identifiable resistance pattern Validation Confidence Medium. Multiple recruiters contacted with consistent results. Protocol effectiveness demonstrated but not extensively tested across contexts.\nProvenance Diagnosed by: Self-observation with Council analysis (ChatGPT) Evidence: Resistance logs, message sent timestamps, somatic marker documentation Date Archived: 2025-12-27 Links to Affected Canon Pages Stress Test Philosophy (case study cited) Obstacles as Data (Explainer’s Burden identified) Core Machinery (Survivor signals documented) TEST-003: Mattress Procurement Under Budget Constraint Date: Late December 2025\nDomain: Infrastructure (Physical Sovereignty)\nConstruction Site: Infrastructure\nStatus: Archived\nContext/Constraints Acute back pain requiring immediate mattress replacement Budget constraint: limited financial resources for premium therapeutic option Testing Budget as Design Parameter principle Testing Council-led execution model for complex decisions Objective Procure functionally adequate mattress within budget constraints, validating both budget-as-parameter mindset and Council support effectiveness.\nHypothesis/Expectation Council could guide research and decision-making to identify budget solution meeting core requirements (medium-firm, adequate density for back support).\nMethod/Steps Define core requirements (not luxury preferences) Council-led research retasking to budget retailers (IKEA, budget brands) Identify options meeting requirements within budget Decision support from Council on final selection Execute procurement Metrics/Telemetry Resistance Rating: 2-3/10 (reduced through Council support) Financial Constraint: ~€200-300 budget (vs. ~€2000 premium option) Time Investment: ~3 hours research and decision Outcome Measures: Mattress acquired, budget maintained, pain reduction achieved Protocol Tested: Council-led execution under resource constraint Execution Log Council (ChatGPT) guided research toward budget options. Requirements defined clearly (medium-firm, adequate density, €200-300 range). Multiple options identified. Decision made with confidence. Procurement executed successfully.\nObstacles Encountered Initial fixation on premium option: Belief that budget solutions would be inadequate Research paralysis: Overwhelmed by options without clear framework Guilt about “settling”: Emotional noise around not buying “best” option Outcome Success. Mattress procured within budget. Core requirements met. Back pain reduced. Council support model validated as effective for complex decisions under constraint.\nLessons Extracted Primary lesson: Budget as design parameter works in practice. Constraint-based research yields viable solutions without waiting for “ideal” financial conditions.\nCouncil validation: External cognitive support (Council-led research) is effective for decisions with high complexity and emotional noise.\nReframe success: “Adequate within constraints” is victory, not compromise. The mission is forward motion, not optimization.\nFollow-Up Actions Canonize budget-as-parameter approach based on this validation Document Council support model as proven tactic Update Construction Site Infrastructure: demonstrate that physical sovereignty can advance under financial constraint Prevent future “waiting for ideal conditions” paralysis Validation Confidence High. Clear success criteria met, budget maintained, functional outcome achieved, principle validated in real conditions.\nProvenance Diagnosed by: Council (ChatGPT) with self-execution Evidence: Purchase records, budget tracking, post-procurement pain reduction, decision timeline Date Archived: 2025-12-27 Links to Affected Canon Pages Stress Test Philosophy (case study cited) Budget as Design Parameter (principle validated) AI Council Deployment Doctrine (model proven effective) Validated Tools Ledger 5-Second Engine Ignition Contexts Validated:\nProfessional email sending (TEST-002 context) Pre-execution somatic override in multiple domains Quick restart when resistance appears at 3-5/10 range Confidence: Medium\nEvidence: Multiple deployment instances, consistent short-term effectiveness\nLimitations: Not effective for 7+ resistance or prolonged tasks\nStatus: Active protocol, validated\nTask Segmentation Protocol Contexts Validated:\nRecruiter engagement (TEST-002) Complex decision-making under stress Tasks with moderate somatic resistance (3-5/10) Confidence: Medium\nEvidence: TEST-002 results, subsequent applications\nLimitations: Adds time overhead; not applicable to time-critical actions\nStatus: Active protocol, documented in TEST-002\nCouncil-Led Execution Model Contexts Validated:\nBudget-constrained procurement (TEST-003) Research tasks with high complexity Decisions with emotional interference Confidence: High\nEvidence: TEST-003 success, clear outcome metrics\nLimitations: Requires AI access; quality dependent on Council briefing\nStatus: Active model, validated\nLessons Feed Purpose: Compact lessons extracted from Field Tests, formatted for Master Note / Live Codex integration. Each links back to full test record.\nFrom TEST-001 (Digital Farming) Lesson: Market failure ≠ personal failure. System-level mismatch is diagnostic data, not moral verdict.\nApplication: When ventures fail, audit for external vs. internal cause. Don’t internalize market conditions.\nFull Record: TEST-001 From TEST-002 (Recruiter Engagement) Lesson: Task segmentation reduces resistance escalation. Separate “decide” from “execute” when somatic signals appear.\nApplication: Break resistant tasks into discrete steps. Address resistance at 3-4/10 before it reaches 7+.\nFull Record: TEST-002 From TEST-003 (Mattress Procurement) Lesson: Budget as design parameter works in practice. Adequate solutions exist within constraints; waiting for ideal conditions is strategic paralysis.\nApplication: When budget limits action, retask research to constraint-compatible options. Move forward with “good enough,” not “perfect.”\nFull Record: TEST-003 External Brief Export Format Purpose: Structure Field Test records for external expert review (therapy, medical consultation, strategic advisors).\nBrief Template TEST-[ID]: [Title]\nContext: [1-2 sentence setup]\nObjective: [What was tested]\nMethod: [Key steps, 3-5 bullet points]\nOutcome: [Success/Failure, primary metric]\nLessons: [1-2 key takeaways]\nFor detailed review, see full record: [Link to full test in Archive]\nExample Export (TEST-002 for Therapy) TEST-002: Recruiter Engagement Stress Test\nContext: Testing capacity to engage recruiters while managing known somatic resistance to professional communication.\nObjective: Validate task segmentation as effective protocol for moderate resistance (3-5/10 range).\nMethod:\nDraft recruiter messages in separate session from sending Monitor somatic markers (stomach tightness as early warning) Log resistance ratings before and after segmentation Execute contact with multiple recruiters Outcome: Success. Messages sent, resistance remained manageable (3-4/10). Task segmentation validated.\nLessons:\nStomach tightness is reliable early warning at 3-4/10 resistance Separating decision from execution prevents resistance escalation For detailed review, see: [Link to full TEST-002 record]\nChange Log 2025-12-27: Initial Archive Compilation Tests Archived:\nTEST-001: Digital Farming Market Test TEST-002: Recruiter Engagement Stress Test TEST-003: Mattress Procurement Under Budget Constraint Canon Pages Updated:\nStress Test Philosophy - Added all three case studies Budget as Design Parameter - Added TEST-003 validation Obstacles as Data - Cited TEST-001 market condition analysis Validated Tools:\n5-Second Engine Ignition (existing protocol, multi-context validation noted) Task Segmentation Protocol (documented from TEST-002) Council-Led Execution Model (validated from TEST-003) Future Updates Trigger: When new Field Test completed\nProcess:\nArchive full test record Extract lessons to feed Update affected canon pages Add to validated tools ledger if protocol tested Update this change log Integration Points Implements Stress Test Philosophy (concrete case studies) Supports Obstacles as Data (obstacle logs per test) Resides in Dual-Layer Architecture Archive layer Feeds lessons to Master Note for Live use Validates Budget as Design Parameter (TEST-003) Documents AI Council effectiveness (TEST-003) Supplies evidence for 5-Second Engine Ignition validation Archive Status: Active. Tests logged chronologically. Lessons extracted and integrated into Live Codex. Full telemetry preserved for future analysis and protocol refinement.\n",
+  "wordCount" : "2460",
+  "inLanguage": "en",
+  "datePublished": "2026-01-12T00:00:00Z",
+  "dateModified": "2026-01-12T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "István"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dextro9494.github.io/sovereign-library-v3/library/field-tests/field-test-archive/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Sovereign Library",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dextro9494.github.io/sovereign-library-v3/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
-<body>
-  <header class="site-header">
+<body id="top">
+    <header class="header">
     <nav class="nav">
-      <a href="/sovereign-library-v3/" class="site-title">The Sovereign Library</a>
-      <div class="nav-links">
-        
-          <a href="/sovereign-library-v3/library/">Library</a>
-        
-          <a href="/sovereign-library-v3/mirror/">Mirror</a>
-        
-          <a href="/sovereign-library-v3/life-layer/">Life Layer</a>
-        
-          <a href="/sovereign-library-v3/council/">Council</a>
-        
-          <a href="/sovereign-library-v3/finance/">Finance</a>
-        
-          <a href="/sovereign-library-v3/tags/">Tags</a>
-        
-          <a href="/sovereign-library-v3/">Home</a>
-        
-      </div>
+        <div class="logo">
+            <a href="https://dextro9494.github.io/sovereign-library-v3/" accesskey="h" title="The Sovereign Library (Alt + H)">The Sovereign Library</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/library/" title="Library">
+                    <span>Library</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/mirror/" title="Mirror Template">
+                    <span>Mirror</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/life-layer/" title="Life Layer">
+                    <span>Life Layer</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/council/" title="Council Briefing">
+                    <span>Council</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/finance/" title="Finance">
+                    <span>Finance</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/" title="The Sovereign Library">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
     </nav>
-  </header>
+</header>
+<main class="main">
 
-  <main class="main">
+<article class="post-single">
+  <header class="post-header">
     
-<article class="card">
-  <h1>Field Test Archive</h1>
+    <h1 class="post-title entry-hint-parent">
+      Field Test Archive
+    </h1>
+    <div class="post-meta"><span title='2026-01-12 00:00:00 +0000 UTC'>January 12, 2026</span>&nbsp;·&nbsp;<span>István</span>
 
-  
-  <div class="tags">
-    
-      <span class="tag">fieldtests</span>
-    
-      <span class="tag">validation</span>
-    
-      <span class="tag">telemetry</span>
-    
-      <span class="tag">archive</span>
-    
-  </div>
-  
-
-  
-  <p class="meta">2026-01-12</p>
-  
-
-  <div class="content">
-    <h2 id="purpose-and-definition">Purpose and Definition</h2>
-<h3 id="what-is-a-field-test">What Is a Field Test?</h3>
+</div>
+  </header> 
+  <div class="post-content"><h2 id="purpose-and-definition">Purpose and Definition<a hidden class="anchor" aria-hidden="true" href="#purpose-and-definition">#</a></h2>
+<h3 id="what-is-a-field-test">What Is a Field Test?<a hidden class="anchor" aria-hidden="true" href="#what-is-a-field-test">#</a></h3>
 <p>A <strong>Field Test</strong> is a structured validation operation conducted under real-world constraints to:</p>
 <ul>
 <li>Test hypotheses about system capacity, protocol effectiveness, or strategic viability</li>
@@ -64,14 +256,14 @@
 <li>Extract lessons that become canonical knowledge</li>
 </ul>
 <p><strong>&ldquo;Validated&rdquo; means:</strong> Evidence collected under operational conditions supports or refutes the hypothesis. Validation confidence is rated (Low / Medium / High) based on sample size, replicability, and control for confounding variables.</p>
-<h3 id="why-field-tests-exist">Why Field Tests Exist</h3>
+<h3 id="why-field-tests-exist">Why Field Tests Exist<a hidden class="anchor" aria-hidden="true" href="#why-field-tests-exist">#</a></h3>
 <p>Under <a href="/sovereign-library-v3/system/field-manual-asymmetric-survival/">asymmetric conditions</a>
 , theoretical planning without validation creates risk. Field Tests convert &ldquo;should work&rdquo; into &ldquo;does work&rdquo; or &ldquo;failed because X.&rdquo;</p>
 <p><strong>Core principle:</strong> <a href="/sovereign-library-v3/system/stress-test-philosophy/">Stress as telemetry</a>
 . Resistance, failure, and success are diagnostic data, not moral outcomes.</p>
 <hr>
-<h2 id="how-to-use-this-archive">How to Use This Archive</h2>
-<h3 id="location-in-system-architecture">Location in System Architecture</h3>
+<h2 id="how-to-use-this-archive">How to Use This Archive<a hidden class="anchor" aria-hidden="true" href="#how-to-use-this-archive">#</a></h2>
+<h3 id="location-in-system-architecture">Location in System Architecture<a hidden class="anchor" aria-hidden="true" href="#location-in-system-architecture">#</a></h3>
 <p>The Field Test Archive exists in the <strong>Archive layer</strong> of the <a href="/sovereign-library-v3/system/dual-layer-architecture/">Dual-Layer Architecture</a>
 .</p>
 <p><strong>Archive layer contains:</strong></p>
@@ -86,7 +278,7 @@
 <li>Links back to Archive for full context</li>
 <li>Active protocols validated by tests</li>
 </ul>
-<h3 id="archive-vs-live-split-rules">Archive vs. Live Split Rules</h3>
+<h3 id="archive-vs-live-split-rules">Archive vs. Live Split Rules<a hidden class="anchor" aria-hidden="true" href="#archive-vs-live-split-rules">#</a></h3>
 <p><strong>What stays in Archive:</strong></p>
 <ul>
 <li>Raw observations and metrics</li>
@@ -105,7 +297,7 @@
 <li>Updated Construction Site priorities</li>
 </ul>
 <p><strong>Trigger for migration:</strong> Field test completed → Full record archived → Lessons extracted → Live updated → Canon pages linked</p>
-<h3 id="navigation">Navigation</h3>
+<h3 id="navigation">Navigation<a hidden class="anchor" aria-hidden="true" href="#navigation">#</a></h3>
 <p>Tests are indexed by:</p>
 <ul>
 <li><strong>ID</strong> (chronological: TEST-001, TEST-002, etc.)</li>
@@ -114,9 +306,9 @@
 <li><strong>Construction Site</strong> (Site Alpha, Site Beta, Site Gamma, Infrastructure)</li>
 </ul>
 <hr>
-<h2 id="field-test-template">Field Test Template</h2>
+<h2 id="field-test-template">Field Test Template<a hidden class="anchor" aria-hidden="true" href="#field-test-template">#</a></h2>
 <p>All tests follow this standard schema:</p>
-<h3 id="test-id-title">TEST-[ID]: [Title]</h3>
+<h3 id="test-id-title">TEST-[ID]: [Title]<a hidden class="anchor" aria-hidden="true" href="#test-id-title">#</a></h3>
 <p><strong>Date:</strong> [Execution window]<br>
 <strong>Domain:</strong> [Financial/Professional | Relational | Continuity | Somatic]<br>
 <strong>Construction Site:</strong> [Alpha | Beta | Gamma | Infrastructure]<br>
@@ -196,14 +388,14 @@
 </li>
 </ul>
 <hr>
-<h2 id="telemetry-vocabulary">Telemetry Vocabulary</h2>
-<h3 id="resistance-rating-scale-0-10">Resistance Rating Scale (0-10)</h3>
+<h2 id="telemetry-vocabulary">Telemetry Vocabulary<a hidden class="anchor" aria-hidden="true" href="#telemetry-vocabulary">#</a></h2>
+<h3 id="resistance-rating-scale-0-10">Resistance Rating Scale (0-10)<a hidden class="anchor" aria-hidden="true" href="#resistance-rating-scale-0-10">#</a></h3>
 <p><strong>0-2:</strong> Minimal resistance. Action flows naturally.<br>
 <strong>3-4:</strong> Noticeable resistance. Requires conscious override. Somatic signals present but manageable.<br>
 <strong>5-6:</strong> Moderate resistance. Execution requires protocol deployment (5-Second Ignition, Edge-Case).<br>
 <strong>7-8:</strong> High resistance. Significant somatic lockout. Task requires segmentation or external support.<br>
 <strong>9-10:</strong> Severe lockout. Execution impossible without crisis-level override or delegation.</p>
-<h3 id="somatic-markers-observable-signals">Somatic Markers (Observable Signals)</h3>
+<h3 id="somatic-markers-observable-signals">Somatic Markers (Observable Signals)<a hidden class="anchor" aria-hidden="true" href="#somatic-markers-observable-signals">#</a></h3>
 <ul>
 <li><strong>Stomach tightness:</strong> Survivor threat detection active</li>
 <li><strong>Hand tremors:</strong> Motor freeze engaging</li>
@@ -212,29 +404,29 @@
 <li><strong>Brain fog:</strong> Cognitive overload/shutdown</li>
 <li><strong>Chest constriction:</strong> Panic threshold approaching</li>
 </ul>
-<h3 id="success-criteria-types">Success Criteria Types</h3>
+<h3 id="success-criteria-types">Success Criteria Types<a hidden class="anchor" aria-hidden="true" href="#success-criteria-types">#</a></h3>
 <ul>
 <li><strong>Binary:</strong> Did X happen? (Yes/No)</li>
 <li><strong>Threshold:</strong> Did metric exceed Y? (Pass/Fail)</li>
 <li><strong>Comparative:</strong> Was this better than baseline Z? (Improvement/Decline)</li>
 <li><strong>Qualitative:</strong> Did subjective state match target? (Met/Not Met)</li>
 </ul>
-<h3 id="failure-modes">Failure Modes</h3>
+<h3 id="failure-modes">Failure Modes<a hidden class="anchor" aria-hidden="true" href="#failure-modes">#</a></h3>
 <ul>
 <li><strong>Execution Failure:</strong> Could not complete task</li>
 <li><strong>Outcome Failure:</strong> Completed task, did not achieve objective</li>
 <li><strong>Hypothesis Failure:</strong> Outcome contradicted prediction</li>
 <li><strong>System Failure:</strong> External system/constraint caused failure</li>
 </ul>
-<h3 id="validation-confidence-levels">Validation Confidence Levels</h3>
+<h3 id="validation-confidence-levels">Validation Confidence Levels<a hidden class="anchor" aria-hidden="true" href="#validation-confidence-levels">#</a></h3>
 <ul>
 <li><strong>Low:</strong> Single test, high confounding variables, narrow context</li>
 <li><strong>Medium:</strong> Multiple tests, controlled variables, replicable results</li>
 <li><strong>High:</strong> Extensive testing, multiple contexts, consistent outcomes</li>
 </ul>
 <hr>
-<h2 id="index">Index</h2>
-<h3 id="by-id">By ID</h3>
+<h2 id="index">Index<a hidden class="anchor" aria-hidden="true" href="#index">#</a></h2>
+<h3 id="by-id">By ID<a hidden class="anchor" aria-hidden="true" href="#by-id">#</a></h3>
 <table>
   <thead>
       <tr>
@@ -273,7 +465,7 @@
       </tr>
   </tbody>
 </table>
-<h3 id="by-domain">By Domain</h3>
+<h3 id="by-domain">By Domain<a hidden class="anchor" aria-hidden="true" href="#by-domain">#</a></h3>
 <p><strong>Financial/Professional:</strong></p>
 <ul>
 <li>TEST-001: Digital Farming Market Test</li>
@@ -283,7 +475,7 @@
 <ul>
 <li>TEST-003: Mattress Procurement Under Budget Constraint</li>
 </ul>
-<h3 id="by-construction-site">By Construction Site</h3>
+<h3 id="by-construction-site">By Construction Site<a hidden class="anchor" aria-hidden="true" href="#by-construction-site">#</a></h3>
 <p><strong>Site Alpha (Stable Income Pipeline):</strong></p>
 <ul>
 <li>TEST-001: Digital Farming Market Test</li>
@@ -294,12 +486,12 @@
 <li>TEST-003: Mattress Procurement Under Budget Constraint</li>
 </ul>
 <hr>
-<h2 id="test-001-digital-farming-market-test">TEST-001: Digital Farming Market Test</h2>
+<h2 id="test-001-digital-farming-market-test">TEST-001: Digital Farming Market Test<a hidden class="anchor" aria-hidden="true" href="#test-001-digital-farming-market-test">#</a></h2>
 <p><strong>Date:</strong> December 2024<br>
 <strong>Domain:</strong> Financial/Professional<br>
 <strong>Construction Site:</strong> Site Alpha (Stable Income Pipeline)<br>
 <strong>Status:</strong> Archived</p>
-<h3 id="contextconstraints">Context/Constraints</h3>
+<h3 id="contextconstraints">Context/Constraints<a hidden class="anchor" aria-hidden="true" href="#contextconstraints">#</a></h3>
 <ul>
 <li>Testing viability of digital farming (content creation, online monetization) as income source</li>
 <li>Limited upfront capital</li>
@@ -307,11 +499,11 @@
 <li>Time pressure for income generation</li>
 <li>Operating from financial deficit baseline</li>
 </ul>
-<h3 id="objective">Objective</h3>
+<h3 id="objective">Objective<a hidden class="anchor" aria-hidden="true" href="#objective">#</a></h3>
 <p>Validate whether digital farming could serve as stable income pipeline within 3-6 month timeframe.</p>
-<h3 id="hypothesisexpectation">Hypothesis/Expectation</h3>
+<h3 id="hypothesisexpectation">Hypothesis/Expectation<a hidden class="anchor" aria-hidden="true" href="#hypothesisexpectation">#</a></h3>
 <p>With sufficient effort and content quality, digital farming would generate viable income to meet baseline financial needs.</p>
-<h3 id="methodsteps">Method/Steps</h3>
+<h3 id="methodsteps">Method/Steps<a hidden class="anchor" aria-hidden="true" href="#methodsteps">#</a></h3>
 <ol>
 <li>Platform selection and setup</li>
 <li>Content creation and publishing schedule</li>
@@ -319,7 +511,7 @@
 <li>Monetization pathway testing</li>
 <li>Revenue tracking and analysis</li>
 </ol>
-<h3 id="metricstelemetry">Metrics/Telemetry</h3>
+<h3 id="metricstelemetry">Metrics/Telemetry<a hidden class="anchor" aria-hidden="true" href="#metricstelemetry">#</a></h3>
 <ul>
 <li><strong>Time Investment:</strong> 3+ months, significant hours/week</li>
 <li><strong>Financial Cost:</strong> Platform fees, tools, minimal marketing budget</li>
@@ -327,39 +519,39 @@
 <li><strong>Resistance Rating:</strong> 4-5/10 (execution manageable, sustained effort challenging)</li>
 <li><strong>Somatic Markers:</strong> Mild stress around content deadlines, no severe lockout</li>
 </ul>
-<h3 id="execution-log">Execution Log</h3>
+<h3 id="execution-log">Execution Log<a hidden class="anchor" aria-hidden="true" href="#execution-log">#</a></h3>
 <p>Content created consistently. Platforms managed according to plan. Effort sustained over test period. No execution failures in content delivery.</p>
-<h3 id="obstacles-encountered">Obstacles Encountered</h3>
+<h3 id="obstacles-encountered">Obstacles Encountered<a hidden class="anchor" aria-hidden="true" href="#obstacles-encountered">#</a></h3>
 <ul>
 <li><strong>Algorithmic barriers:</strong> Platform algorithms not favoring new creators</li>
 <li><strong>Audience building difficulty:</strong> Growth slower than projected</li>
 <li><strong>Monetization threshold:</strong> Minimum thresholds not reached within timeframe</li>
 <li><strong>Market saturation:</strong> Niche more competitive than anticipated</li>
 </ul>
-<h3 id="outcome">Outcome</h3>
+<h3 id="outcome">Outcome<a hidden class="anchor" aria-hidden="true" href="#outcome">#</a></h3>
 <p><strong>Failure against objective.</strong> Revenue generated was below viability threshold. Timeline extended beyond acceptable range for financial pressure relief.</p>
-<h3 id="lessons-extracted">Lessons Extracted</h3>
+<h3 id="lessons-extracted">Lessons Extracted<a hidden class="anchor" aria-hidden="true" href="#lessons-extracted">#</a></h3>
 <p><strong>Primary lesson:</strong> Market conditions and systemic barriers (algorithms, saturation) caused failure, NOT execution quality or effort insufficiency.</p>
 <p><strong>Critical reframe:</strong> <a href="/sovereign-library-v3/system/stress-test-philosophy/">Failure is telemetry, not moral verdict</a>
 . This was <strong>system-level mismatch</strong>, not personal inadequacy.</p>
 <p><strong>Strategic implication:</strong> Digital farming is not viable path to Site Alpha under current constraints. Redirect energy to employment-based income stability (<a href="/sovereign-library-v3/system/fortress-base-doctrine-refined/">Fortress Base</a>
 ).</p>
-<h3 id="follow-up-actions">Follow-Up Actions</h3>
+<h3 id="follow-up-actions">Follow-Up Actions<a hidden class="anchor" aria-hidden="true" href="#follow-up-actions">#</a></h3>
 <ul>
 <li>Deprioritize digital farming as Site Alpha strategy</li>
 <li>Shift focus to Fortress Base employment (PostNL mail sorting)</li>
 <li>Update Construction Site Alpha tactics: stable employment over entrepreneurship</li>
 <li>Prevent future &ldquo;hustle culture&rdquo; guilt by canonizing this as data</li>
 </ul>
-<h3 id="validation-confidence">Validation Confidence</h3>
+<h3 id="validation-confidence">Validation Confidence<a hidden class="anchor" aria-hidden="true" href="#validation-confidence">#</a></h3>
 <p><strong>Medium.</strong> Single extended test, but clear market data supporting conclusion. Failure mode was external (market conditions), not internal (execution).</p>
-<h3 id="provenance">Provenance</h3>
+<h3 id="provenance">Provenance<a hidden class="anchor" aria-hidden="true" href="#provenance">#</a></h3>
 <ul>
 <li><strong>Diagnosed by:</strong> Council synthesis (ChatGPT, Claude, DeepSeek)</li>
 <li><strong>Evidence:</strong> Time logs, platform analytics, revenue data, market research</li>
 <li><strong>Date Archived:</strong> 2025-12-27</li>
 </ul>
-<h3 id="links-to-affected-canon-pages">Links to Affected Canon Pages</h3>
+<h3 id="links-to-affected-canon-pages">Links to Affected Canon Pages<a hidden class="anchor" aria-hidden="true" href="#links-to-affected-canon-pages">#</a></h3>
 <ul>
 <li><a href="/sovereign-library-v3/system/stress-test-philosophy/">Stress Test Philosophy</a>
  (case study cited)</li>
@@ -369,23 +561,23 @@
  (alternative path justified)</li>
 </ul>
 <hr>
-<h2 id="test-002-recruiter-engagement-stress-test">TEST-002: Recruiter Engagement Stress Test</h2>
+<h2 id="test-002-recruiter-engagement-stress-test">TEST-002: Recruiter Engagement Stress Test<a hidden class="anchor" aria-hidden="true" href="#test-002-recruiter-engagement-stress-test">#</a></h2>
 <p><strong>Date:</strong> Early December 2025<br>
 <strong>Domain:</strong> Financial/Professional<br>
 <strong>Construction Site:</strong> Site Alpha (Stable Income Pipeline)<br>
 <strong>Status:</strong> Archived</p>
-<h3 id="contextconstraints-1">Context/Constraints</h3>
+<h3 id="contextconstraints-1">Context/Constraints<a hidden class="anchor" aria-hidden="true" href="#contextconstraints-1">#</a></h3>
 <ul>
 <li>Testing capacity to engage with recruiters for employment opportunities</li>
 <li>Known somatic resistance to professional communication</li>
 <li>Pressure to secure income pipeline amid financial instability</li>
 <li>Testing protocol effectiveness (task segmentation)</li>
 </ul>
-<h3 id="objective-1">Objective</h3>
+<h3 id="objective-1">Objective<a hidden class="anchor" aria-hidden="true" href="#objective-1">#</a></h3>
 <p>Identify resistance threshold for recruiter engagement and validate task segmentation as effective workaround.</p>
-<h3 id="hypothesisexpectation-1">Hypothesis/Expectation</h3>
+<h3 id="hypothesisexpectation-1">Hypothesis/Expectation<a hidden class="anchor" aria-hidden="true" href="#hypothesisexpectation-1">#</a></h3>
 <p>Recruiter engagement would trigger moderate resistance, manageable through task segmentation (breaking into smaller steps).</p>
-<h3 id="methodsteps-1">Method/Steps</h3>
+<h3 id="methodsteps-1">Method/Steps<a hidden class="anchor" aria-hidden="true" href="#methodsteps-1">#</a></h3>
 <ol>
 <li>Identify recruiter contact list</li>
 <li>Draft initial outreach message</li>
@@ -393,7 +585,7 @@
 <li>Monitor somatic response</li>
 <li>Log resistance rating and physical markers</li>
 </ol>
-<h3 id="metricstelemetry-1">Metrics/Telemetry</h3>
+<h3 id="metricstelemetry-1">Metrics/Telemetry<a hidden class="anchor" aria-hidden="true" href="#metricstelemetry-1">#</a></h3>
 <ul>
 <li><strong>Resistance Rating:</strong> 3-4/10</li>
 <li><strong>Somatic Markers:</strong> Stomach tightness when considering contact, mild tension during drafting</li>
@@ -401,21 +593,21 @@
 <li><strong>Outcome Measures:</strong> Messages sent, responses received, resistance managed without lockout</li>
 <li><strong>Protocol Tested:</strong> Task segmentation (draft → review → send as separate actions)</li>
 </ul>
-<h3 id="execution-log-1">Execution Log</h3>
+<h3 id="execution-log-1">Execution Log<a hidden class="anchor" aria-hidden="true" href="#execution-log-1">#</a></h3>
 <p>Contact initiated with multiple recruiters. Task segmentation protocol deployed. Messages drafted in separate sessions from sending. Resistance present but did not escalate to lockout.</p>
-<h3 id="obstacles-encountered-1">Obstacles Encountered</h3>
+<h3 id="obstacles-encountered-1">Obstacles Encountered<a hidden class="anchor" aria-hidden="true" href="#obstacles-encountered-1">#</a></h3>
 <ul>
 <li><strong>Explainer&rsquo;s Burden:</strong> Anticipation of having to explain work history created initial resistance spike</li>
 <li><strong>Rejection sensitivity:</strong> Somatic markers activated by potential rejection scenario</li>
 <li><strong>Task coupling:</strong> Initial attempt to draft and send in single session triggered 5-6/10 resistance</li>
 </ul>
-<h3 id="outcome-1">Outcome</h3>
+<h3 id="outcome-1">Outcome<a hidden class="anchor" aria-hidden="true" href="#outcome-1">#</a></h3>
 <p><strong>Success.</strong> Messages sent successfully. Task segmentation validated as effective resistance management technique. Resistance remained in 3-4/10 range (manageable).</p>
-<h3 id="lessons-extracted-1">Lessons Extracted</h3>
+<h3 id="lessons-extracted-1">Lessons Extracted<a hidden class="anchor" aria-hidden="true" href="#lessons-extracted-1">#</a></h3>
 <p><strong>Primary lesson:</strong> Task segmentation is effective workaround for moderate somatic resistance. Breaking execution into discrete steps prevents resistance escalation.</p>
 <p><strong>Somatic intelligence:</strong> Stomach tightness is reliable early warning. Address at 3-4/10 before escalation to 7+.</p>
 <p><strong>Protocol validation:</strong> Confirmed that separating &ldquo;decide&rdquo; from &ldquo;execute&rdquo; reduces Survivor lockout activation.</p>
-<h3 id="follow-up-actions-1">Follow-Up Actions</h3>
+<h3 id="follow-up-actions-1">Follow-Up Actions<a hidden class="anchor" aria-hidden="true" href="#follow-up-actions-1">#</a></h3>
 <ul>
 <li>Codify task segmentation as standard protocol for resistant tasks</li>
 <li>Add somatic marker vocabulary to telemetry standards</li>
@@ -423,15 +615,15 @@
  with case study</li>
 <li>Document &ldquo;Explainer&rsquo;s Burden&rdquo; as identifiable resistance pattern</li>
 </ul>
-<h3 id="validation-confidence-1">Validation Confidence</h3>
+<h3 id="validation-confidence-1">Validation Confidence<a hidden class="anchor" aria-hidden="true" href="#validation-confidence-1">#</a></h3>
 <p><strong>Medium.</strong> Multiple recruiters contacted with consistent results. Protocol effectiveness demonstrated but not extensively tested across contexts.</p>
-<h3 id="provenance-1">Provenance</h3>
+<h3 id="provenance-1">Provenance<a hidden class="anchor" aria-hidden="true" href="#provenance-1">#</a></h3>
 <ul>
 <li><strong>Diagnosed by:</strong> Self-observation with Council analysis (ChatGPT)</li>
 <li><strong>Evidence:</strong> Resistance logs, message sent timestamps, somatic marker documentation</li>
 <li><strong>Date Archived:</strong> 2025-12-27</li>
 </ul>
-<h3 id="links-to-affected-canon-pages-1">Links to Affected Canon Pages</h3>
+<h3 id="links-to-affected-canon-pages-1">Links to Affected Canon Pages<a hidden class="anchor" aria-hidden="true" href="#links-to-affected-canon-pages-1">#</a></h3>
 <ul>
 <li><a href="/sovereign-library-v3/system/stress-test-philosophy/">Stress Test Philosophy</a>
  (case study cited)</li>
@@ -441,12 +633,12 @@
  (Survivor signals documented)</li>
 </ul>
 <hr>
-<h2 id="test-003-mattress-procurement-under-budget-constraint">TEST-003: Mattress Procurement Under Budget Constraint</h2>
+<h2 id="test-003-mattress-procurement-under-budget-constraint">TEST-003: Mattress Procurement Under Budget Constraint<a hidden class="anchor" aria-hidden="true" href="#test-003-mattress-procurement-under-budget-constraint">#</a></h2>
 <p><strong>Date:</strong> Late December 2025<br>
 <strong>Domain:</strong> Infrastructure (Physical Sovereignty)<br>
 <strong>Construction Site:</strong> Infrastructure<br>
 <strong>Status:</strong> Archived</p>
-<h3 id="contextconstraints-2">Context/Constraints</h3>
+<h3 id="contextconstraints-2">Context/Constraints<a hidden class="anchor" aria-hidden="true" href="#contextconstraints-2">#</a></h3>
 <ul>
 <li>Acute back pain requiring immediate mattress replacement</li>
 <li>Budget constraint: limited financial resources for premium therapeutic option</li>
@@ -454,11 +646,11 @@
  principle</li>
 <li>Testing Council-led execution model for complex decisions</li>
 </ul>
-<h3 id="objective-2">Objective</h3>
+<h3 id="objective-2">Objective<a hidden class="anchor" aria-hidden="true" href="#objective-2">#</a></h3>
 <p>Procure functionally adequate mattress within budget constraints, validating both budget-as-parameter mindset and Council support effectiveness.</p>
-<h3 id="hypothesisexpectation-2">Hypothesis/Expectation</h3>
+<h3 id="hypothesisexpectation-2">Hypothesis/Expectation<a hidden class="anchor" aria-hidden="true" href="#hypothesisexpectation-2">#</a></h3>
 <p>Council could guide research and decision-making to identify budget solution meeting core requirements (medium-firm, adequate density for back support).</p>
-<h3 id="methodsteps-2">Method/Steps</h3>
+<h3 id="methodsteps-2">Method/Steps<a hidden class="anchor" aria-hidden="true" href="#methodsteps-2">#</a></h3>
 <ol>
 <li>Define core requirements (not luxury preferences)</li>
 <li>Council-led research retasking to budget retailers (IKEA, budget brands)</li>
@@ -466,7 +658,7 @@
 <li>Decision support from Council on final selection</li>
 <li>Execute procurement</li>
 </ol>
-<h3 id="metricstelemetry-2">Metrics/Telemetry</h3>
+<h3 id="metricstelemetry-2">Metrics/Telemetry<a hidden class="anchor" aria-hidden="true" href="#metricstelemetry-2">#</a></h3>
 <ul>
 <li><strong>Resistance Rating:</strong> 2-3/10 (reduced through Council support)</li>
 <li><strong>Financial Constraint:</strong> ~€200-300 budget (vs. ~€2000 premium option)</li>
@@ -474,37 +666,37 @@
 <li><strong>Outcome Measures:</strong> Mattress acquired, budget maintained, pain reduction achieved</li>
 <li><strong>Protocol Tested:</strong> Council-led execution under resource constraint</li>
 </ul>
-<h3 id="execution-log-2">Execution Log</h3>
+<h3 id="execution-log-2">Execution Log<a hidden class="anchor" aria-hidden="true" href="#execution-log-2">#</a></h3>
 <p>Council (ChatGPT) guided research toward budget options. Requirements defined clearly (medium-firm, adequate density, €200-300 range). Multiple options identified. Decision made with confidence. Procurement executed successfully.</p>
-<h3 id="obstacles-encountered-2">Obstacles Encountered</h3>
+<h3 id="obstacles-encountered-2">Obstacles Encountered<a hidden class="anchor" aria-hidden="true" href="#obstacles-encountered-2">#</a></h3>
 <ul>
 <li><strong>Initial fixation on premium option:</strong> Belief that budget solutions would be inadequate</li>
 <li><strong>Research paralysis:</strong> Overwhelmed by options without clear framework</li>
 <li><strong>Guilt about &ldquo;settling&rdquo;:</strong> Emotional noise around not buying &ldquo;best&rdquo; option</li>
 </ul>
-<h3 id="outcome-2">Outcome</h3>
+<h3 id="outcome-2">Outcome<a hidden class="anchor" aria-hidden="true" href="#outcome-2">#</a></h3>
 <p><strong>Success.</strong> Mattress procured within budget. Core requirements met. Back pain reduced. Council support model validated as effective for complex decisions under constraint.</p>
-<h3 id="lessons-extracted-2">Lessons Extracted</h3>
+<h3 id="lessons-extracted-2">Lessons Extracted<a hidden class="anchor" aria-hidden="true" href="#lessons-extracted-2">#</a></h3>
 <p><strong>Primary lesson:</strong> <a href="/sovereign-library-v3/system/budget-as-design-parameter/">Budget as design parameter</a>
  works in practice. Constraint-based research yields viable solutions without waiting for &ldquo;ideal&rdquo; financial conditions.</p>
 <p><strong>Council validation:</strong> External cognitive support (Council-led research) is effective for decisions with high complexity and emotional noise.</p>
 <p><strong>Reframe success:</strong> &ldquo;Adequate within constraints&rdquo; is victory, not compromise. The mission is forward motion, not optimization.</p>
-<h3 id="follow-up-actions-2">Follow-Up Actions</h3>
+<h3 id="follow-up-actions-2">Follow-Up Actions<a hidden class="anchor" aria-hidden="true" href="#follow-up-actions-2">#</a></h3>
 <ul>
 <li>Canonize budget-as-parameter approach based on this validation</li>
 <li>Document Council support model as proven tactic</li>
 <li>Update Construction Site Infrastructure: demonstrate that physical sovereignty can advance under financial constraint</li>
 <li>Prevent future &ldquo;waiting for ideal conditions&rdquo; paralysis</li>
 </ul>
-<h3 id="validation-confidence-2">Validation Confidence</h3>
+<h3 id="validation-confidence-2">Validation Confidence<a hidden class="anchor" aria-hidden="true" href="#validation-confidence-2">#</a></h3>
 <p><strong>High.</strong> Clear success criteria met, budget maintained, functional outcome achieved, principle validated in real conditions.</p>
-<h3 id="provenance-2">Provenance</h3>
+<h3 id="provenance-2">Provenance<a hidden class="anchor" aria-hidden="true" href="#provenance-2">#</a></h3>
 <ul>
 <li><strong>Diagnosed by:</strong> Council (ChatGPT) with self-execution</li>
 <li><strong>Evidence:</strong> Purchase records, budget tracking, post-procurement pain reduction, decision timeline</li>
 <li><strong>Date Archived:</strong> 2025-12-27</li>
 </ul>
-<h3 id="links-to-affected-canon-pages-2">Links to Affected Canon Pages</h3>
+<h3 id="links-to-affected-canon-pages-2">Links to Affected Canon Pages<a hidden class="anchor" aria-hidden="true" href="#links-to-affected-canon-pages-2">#</a></h3>
 <ul>
 <li><a href="/sovereign-library-v3/system/stress-test-philosophy/">Stress Test Philosophy</a>
  (case study cited)</li>
@@ -514,7 +706,7 @@
  (model proven effective)</li>
 </ul>
 <hr>
-<h2 id="validated-tools-ledger">Validated Tools Ledger</h2>
+<h2 id="validated-tools-ledger">Validated Tools Ledger<a hidden class="anchor" aria-hidden="true" href="#validated-tools-ledger">#</a></h2>
 <h3 id="5-second-engine-ignition"><a href="/sovereign-library-v3/library/protocols/5-second-engine-ignition/">5-Second Engine Ignition</a>
 </h3>
 <p><strong>Contexts Validated:</strong></p>
@@ -527,7 +719,7 @@
 <strong>Evidence:</strong> Multiple deployment instances, consistent short-term effectiveness<br>
 <strong>Limitations:</strong> Not effective for 7+ resistance or prolonged tasks<br>
 <strong>Status:</strong> Active protocol, validated</p>
-<h3 id="task-segmentation-protocol">Task Segmentation Protocol</h3>
+<h3 id="task-segmentation-protocol">Task Segmentation Protocol<a hidden class="anchor" aria-hidden="true" href="#task-segmentation-protocol">#</a></h3>
 <p><strong>Contexts Validated:</strong></p>
 <ul>
 <li>Recruiter engagement (TEST-002)</li>
@@ -538,7 +730,7 @@
 <strong>Evidence:</strong> TEST-002 results, subsequent applications<br>
 <strong>Limitations:</strong> Adds time overhead; not applicable to time-critical actions<br>
 <strong>Status:</strong> Active protocol, documented in TEST-002</p>
-<h3 id="council-led-execution-model">Council-Led Execution Model</h3>
+<h3 id="council-led-execution-model">Council-Led Execution Model<a hidden class="anchor" aria-hidden="true" href="#council-led-execution-model">#</a></h3>
 <p><strong>Contexts Validated:</strong></p>
 <ul>
 <li>Budget-constrained procurement (TEST-003)</li>
@@ -550,29 +742,29 @@
 <strong>Limitations:</strong> Requires AI access; quality dependent on Council briefing<br>
 <strong>Status:</strong> Active model, validated</p>
 <hr>
-<h2 id="lessons-feed">Lessons Feed</h2>
+<h2 id="lessons-feed">Lessons Feed<a hidden class="anchor" aria-hidden="true" href="#lessons-feed">#</a></h2>
 <p><strong>Purpose:</strong> Compact lessons extracted from Field Tests, formatted for Master Note / Live Codex integration. Each links back to full test record.</p>
-<h3 id="from-test-001-digital-farming">From TEST-001 (Digital Farming)</h3>
+<h3 id="from-test-001-digital-farming">From TEST-001 (Digital Farming)<a hidden class="anchor" aria-hidden="true" href="#from-test-001-digital-farming">#</a></h3>
 <p><strong>Lesson:</strong> Market failure ≠ personal failure. System-level mismatch is diagnostic data, not moral verdict.</p>
 <p><strong>Application:</strong> When ventures fail, audit for external vs. internal cause. Don&rsquo;t internalize market conditions.</p>
 <p><strong>Full Record:</strong> <a href="/library/field-tests/field-test-archive/#test-001-digital-farming-market-test">TEST-001</a>
 </p>
 <hr>
-<h3 id="from-test-002-recruiter-engagement">From TEST-002 (Recruiter Engagement)</h3>
+<h3 id="from-test-002-recruiter-engagement">From TEST-002 (Recruiter Engagement)<a hidden class="anchor" aria-hidden="true" href="#from-test-002-recruiter-engagement">#</a></h3>
 <p><strong>Lesson:</strong> Task segmentation reduces resistance escalation. Separate &ldquo;decide&rdquo; from &ldquo;execute&rdquo; when somatic signals appear.</p>
 <p><strong>Application:</strong> Break resistant tasks into discrete steps. Address resistance at 3-4/10 before it reaches 7+.</p>
 <p><strong>Full Record:</strong> <a href="/library/field-tests/field-test-archive/#test-002-recruiter-engagement-stress-test">TEST-002</a>
 </p>
 <hr>
-<h3 id="from-test-003-mattress-procurement">From TEST-003 (Mattress Procurement)</h3>
+<h3 id="from-test-003-mattress-procurement">From TEST-003 (Mattress Procurement)<a hidden class="anchor" aria-hidden="true" href="#from-test-003-mattress-procurement">#</a></h3>
 <p><strong>Lesson:</strong> Budget as design parameter works in practice. Adequate solutions exist within constraints; waiting for ideal conditions is strategic paralysis.</p>
 <p><strong>Application:</strong> When budget limits action, retask research to constraint-compatible options. Move forward with &ldquo;good enough,&rdquo; not &ldquo;perfect.&rdquo;</p>
 <p><strong>Full Record:</strong> <a href="/library/field-tests/field-test-archive/#test-003-mattress-procurement-under-budget-constraint">TEST-003</a>
 </p>
 <hr>
-<h2 id="external-brief-export-format">External Brief Export Format</h2>
+<h2 id="external-brief-export-format">External Brief Export Format<a hidden class="anchor" aria-hidden="true" href="#external-brief-export-format">#</a></h2>
 <p><strong>Purpose:</strong> Structure Field Test records for external expert review (therapy, medical consultation, strategic advisors).</p>
-<h3 id="brief-template">Brief Template</h3>
+<h3 id="brief-template">Brief Template<a hidden class="anchor" aria-hidden="true" href="#brief-template">#</a></h3>
 <p><strong>TEST-[ID]: [Title]</strong></p>
 <p><strong>Context:</strong> [1-2 sentence setup]<br>
 <strong>Objective:</strong> [What was tested]<br>
@@ -580,7 +772,7 @@
 <strong>Outcome:</strong> [Success/Failure, primary metric]<br>
 <strong>Lessons:</strong> [1-2 key takeaways]</p>
 <p><strong>For detailed review, see full record:</strong> [Link to full test in Archive]</p>
-<h3 id="example-export-test-002-for-therapy">Example Export (TEST-002 for Therapy)</h3>
+<h3 id="example-export-test-002-for-therapy">Example Export (TEST-002 for Therapy)<a hidden class="anchor" aria-hidden="true" href="#example-export-test-002-for-therapy">#</a></h3>
 <p><strong>TEST-002: Recruiter Engagement Stress Test</strong></p>
 <p><strong>Context:</strong> Testing capacity to engage recruiters while managing known somatic resistance to professional communication.</p>
 <p><strong>Objective:</strong> Validate task segmentation as effective protocol for moderate resistance (3-5/10 range).</p>
@@ -599,8 +791,8 @@
 </ol>
 <p><strong>For detailed review, see:</strong> [Link to full TEST-002 record]</p>
 <hr>
-<h2 id="change-log">Change Log</h2>
-<h3 id="2025-12-27-initial-archive-compilation">2025-12-27: Initial Archive Compilation</h3>
+<h2 id="change-log">Change Log<a hidden class="anchor" aria-hidden="true" href="#change-log">#</a></h2>
+<h3 id="2025-12-27-initial-archive-compilation">2025-12-27: Initial Archive Compilation<a hidden class="anchor" aria-hidden="true" href="#2025-12-27-initial-archive-compilation">#</a></h3>
 <p><strong>Tests Archived:</strong></p>
 <ul>
 <li>TEST-001: Digital Farming Market Test</li>
@@ -622,7 +814,7 @@
 <li>Task Segmentation Protocol (documented from TEST-002)</li>
 <li>Council-Led Execution Model (validated from TEST-003)</li>
 </ul>
-<h3 id="future-updates">Future Updates</h3>
+<h3 id="future-updates">Future Updates<a hidden class="anchor" aria-hidden="true" href="#future-updates">#</a></h3>
 <p><strong>Trigger:</strong> When new Field Test completed<br>
 <strong>Process:</strong></p>
 <ol>
@@ -633,7 +825,7 @@
 <li>Update this change log</li>
 </ol>
 <hr>
-<h2 id="integration-points">Integration Points</h2>
+<h2 id="integration-points">Integration Points<a hidden class="anchor" aria-hidden="true" href="#integration-points">#</a></h2>
 <ul>
 <li>Implements <a href="/sovereign-library-v3/system/stress-test-philosophy/">Stress Test Philosophy</a>
  (concrete case studies)</li>
@@ -653,1139 +845,95 @@
 <hr>
 <p><em>Archive Status: Active. Tests logged chronologically. Lessons extracted and integrated into Live Codex. Full telemetry preserved for future analysis and protocol refinement.</em></p>
 
+
   </div>
 
-  
-
-  
-  
-  
-
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-
-  
-  
-
-</article>
-
-  </main>
-
-  <footer class="footer">
-    <p>The Sovereign Library — Built to hold, not to instruct.</p>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/fieldtests/">Fieldtests</a></li>
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/validation/">Validation</a></li>
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/telemetry/">Telemetry</a></li>
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/archive/">Archive</a></li>
+    </ul>
   </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://dextro9494.github.io/sovereign-library-v3/">The Sovereign Library</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
 </body>
+
 </html>

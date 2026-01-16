@@ -1,65 +1,249 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>v1 Structural Audit | The Sovereign Library</title>
-  <link rel="stylesheet" href="/sovereign-library-v3/css/style.css">
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>v1 Structural Audit | The Sovereign Library</title>
+<meta name="keywords" content="system, analysis, log">
+<meta name="description" content="Library v1.0 — Structural Audit (regenerated from this chat)
+Date: 2026-01-11
+Scope: This recreates the analysis we did in this chat about your current public v1 and the reasons for a parallel v2 rebuild.
+
+Note on evidence: earlier in the chat you uploaded a v1 repo snapshot zip, which I used to count sections/pages and inspect templates. That uploaded snapshot is not currently present in this environment now, so the concrete counts below are reproduced from the earlier in-chat audit (not re-measured again today).">
+<meta name="author" content="István">
+<link rel="canonical" href="https://dextro9494.github.io/sovereign-library-v3/system/analysis/v1_structural_audit/">
+<link crossorigin="anonymous" href="/sovereign-library-v3/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://dextro9494.github.io/sovereign-library-v3/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://dextro9494.github.io/sovereign-library-v3/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://dextro9494.github.io/sovereign-library-v3/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://dextro9494.github.io/sovereign-library-v3/apple-touch-icon.png">
+<link rel="mask-icon" href="https://dextro9494.github.io/sovereign-library-v3/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://dextro9494.github.io/sovereign-library-v3/system/analysis/v1_structural_audit/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://dextro9494.github.io/sovereign-library-v3/system/analysis/v1_structural_audit/">
+  <meta property="og:site_name" content="The Sovereign Library">
+  <meta property="og:title" content="v1 Structural Audit">
+  <meta property="og:description" content="Library v1.0 — Structural Audit (regenerated from this chat) Date: 2026-01-11
+Scope: This recreates the analysis we did in this chat about your current public v1 and the reasons for a parallel v2 rebuild.
+Note on evidence: earlier in the chat you uploaded a v1 repo snapshot zip, which I used to count sections/pages and inspect templates. That uploaded snapshot is not currently present in this environment now, so the concrete counts below are reproduced from the earlier in-chat audit (not re-measured again today).">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="system">
+    <meta property="article:published_time" content="2026-01-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-15T00:00:00+00:00">
+    <meta property="article:tag" content="System">
+    <meta property="article:tag" content="Analysis">
+    <meta property="article:tag" content="Log">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="v1 Structural Audit">
+<meta name="twitter:description" content="Library v1.0 — Structural Audit (regenerated from this chat)
+Date: 2026-01-11
+Scope: This recreates the analysis we did in this chat about your current public v1 and the reasons for a parallel v2 rebuild.
+
+Note on evidence: earlier in the chat you uploaded a v1 repo snapshot zip, which I used to count sections/pages and inspect templates. That uploaded snapshot is not currently present in this environment now, so the concrete counts below are reproduced from the earlier in-chat audit (not re-measured again today).">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "System",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/system/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Analysis",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/system/analysis/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "v1 Structural Audit",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/system/analysis/v1_structural_audit/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "v1 Structural Audit",
+  "name": "v1 Structural Audit",
+  "description": "Library v1.0 — Structural Audit (regenerated from this chat) Date: 2026-01-11\nScope: This recreates the analysis we did in this chat about your current public v1 and the reasons for a parallel v2 rebuild.\nNote on evidence: earlier in the chat you uploaded a v1 repo snapshot zip, which I used to count sections/pages and inspect templates. That uploaded snapshot is not currently present in this environment now, so the concrete counts below are reproduced from the earlier in-chat audit (not re-measured again today).\n",
+  "keywords": [
+    "system", "analysis", "log"
+  ],
+  "articleBody": "Library v1.0 — Structural Audit (regenerated from this chat) Date: 2026-01-11\nScope: This recreates the analysis we did in this chat about your current public v1 and the reasons for a parallel v2 rebuild.\nNote on evidence: earlier in the chat you uploaded a v1 repo snapshot zip, which I used to count sections/pages and inspect templates. That uploaded snapshot is not currently present in this environment now, so the concrete counts below are reproduced from the earlier in-chat audit (not re-measured again today).\nWhat v1 is (as audited) Hugo site with content under content/ Single-page template renders: title, optional tags, optional date, content Connected to list driven by frontmatter connected: [...] missing targets are displayed explicitly as Missing: (good drift detector) Navigation and section inventory (from the earlier v1 snapshot audit) Top-level sections in nav:\nPatterns Protocols History (includes Daily Capsules) Philosophy Field Tests Relationships Council Home Content totals (earlier snapshot):\nTotal pages: 84 Patterns: 13 Protocols: 15 History: 21 (Daily Capsules: 4 days + index) Philosophy: 11 Field Tests: 15 Relationships: 5 Council: 3 Home: 1 What v1 could not support cleanly (why v2 rebuild was smart) You want:\nLibrary: can be grand, hold everything, grow big Mirror: clean executable “session bootloader” Third Layer: lived formation, proof/receipts, not aspirational planning v1 could store content, but was missing structural beams needed for “grand Library without fog”:\nNo rendered backlinks (reverse connections) No first-class tags index you can navigate from No “governor” meta layer that locks vocabulary and prevents drift across rewrites Rebuild principle we locked Do not overwrite v1 while building v2. Build v2 as a parallel repo/site. Cutover only when v2 coheres. v2 beams we implemented Backlinks: Referenced by (computed from connected:) Tags taxonomy index (/tags/) + navbar link baseURL corrected for v2 subpath A manual starter Connections Index page (content/system/connections-index.md) ",
+  "wordCount" : "303",
+  "inLanguage": "en",
+  "datePublished": "2026-01-15T00:00:00Z",
+  "dateModified": "2026-01-15T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "István"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dextro9494.github.io/sovereign-library-v3/system/analysis/v1_structural_audit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Sovereign Library",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dextro9494.github.io/sovereign-library-v3/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
-<body>
-  <header class="site-header">
+<body id="top">
+    <header class="header">
     <nav class="nav">
-      <a href="/sovereign-library-v3/" class="site-title">The Sovereign Library</a>
-      <div class="nav-links">
-        
-          <a href="/sovereign-library-v3/library/">Library</a>
-        
-          <a href="/sovereign-library-v3/mirror/">Mirror</a>
-        
-          <a href="/sovereign-library-v3/life-layer/">Life Layer</a>
-        
-          <a href="/sovereign-library-v3/council/">Council</a>
-        
-          <a href="/sovereign-library-v3/finance/">Finance</a>
-        
-          <a href="/sovereign-library-v3/tags/">Tags</a>
-        
-          <a href="/sovereign-library-v3/">Home</a>
-        
-      </div>
+        <div class="logo">
+            <a href="https://dextro9494.github.io/sovereign-library-v3/" accesskey="h" title="The Sovereign Library (Alt + H)">The Sovereign Library</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/library/" title="Library">
+                    <span>Library</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/mirror/" title="Mirror Template">
+                    <span>Mirror</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/life-layer/" title="Life Layer">
+                    <span>Life Layer</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/council/" title="Council Briefing">
+                    <span>Council</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/finance/" title="Finance">
+                    <span>Finance</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/" title="The Sovereign Library">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
     </nav>
-  </header>
+</header>
+<main class="main">
 
-  <main class="main">
+<article class="post-single">
+  <header class="post-header">
     
-<article class="card">
-  <h1>v1 Structural Audit</h1>
+    <h1 class="post-title entry-hint-parent">
+      v1 Structural Audit
+    </h1>
+    <div class="post-meta"><span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>István</span>
 
-  
-  <div class="tags">
-    
-      <span class="tag">system</span>
-    
-      <span class="tag">analysis</span>
-    
-      <span class="tag">log</span>
-    
-  </div>
-  
-
-  
-  <p class="meta">2026-01-15</p>
-  
-
-  <div class="content">
-    <h1 id="library-v10--structural-audit-regenerated-from-this-chat">Library v1.0 — Structural Audit (regenerated from this chat)</h1>
+</div>
+  </header> 
+  <div class="post-content"><h1 id="library-v10--structural-audit-regenerated-from-this-chat">Library v1.0 — Structural Audit (regenerated from this chat)<a hidden class="anchor" aria-hidden="true" href="#library-v10--structural-audit-regenerated-from-this-chat">#</a></h1>
 <p><strong>Date:</strong> 2026-01-11<br>
 <strong>Scope:</strong> This recreates the analysis we did in this chat about your <strong>current public v1</strong> and the reasons for a <strong>parallel v2 rebuild</strong>.</p>
 <blockquote>
 <p>Note on evidence: earlier in the chat you uploaded a v1 repo snapshot zip, which I used to count sections/pages and inspect templates. That uploaded snapshot is not currently present in this environment now, so the concrete counts below are reproduced from the earlier in-chat audit (not re-measured again today).</p>
 </blockquote>
 <hr>
-<h2 id="what-v1-is-as-audited">What v1 is (as audited)</h2>
+<h2 id="what-v1-is-as-audited">What v1 is (as audited)<a hidden class="anchor" aria-hidden="true" href="#what-v1-is-as-audited">#</a></h2>
 <ul>
 <li>Hugo site with content under <code>content/</code></li>
 <li>Single-page template renders:
@@ -71,7 +255,7 @@
 </li>
 </ul>
 <hr>
-<h2 id="navigation-and-section-inventory-from-the-earlier-v1-snapshot-audit">Navigation and section inventory (from the earlier v1 snapshot audit)</h2>
+<h2 id="navigation-and-section-inventory-from-the-earlier-v1-snapshot-audit">Navigation and section inventory (from the earlier v1 snapshot audit)<a hidden class="anchor" aria-hidden="true" href="#navigation-and-section-inventory-from-the-earlier-v1-snapshot-audit">#</a></h2>
 <p>Top-level sections in nav:</p>
 <ul>
 <li>Patterns</li>
@@ -96,7 +280,7 @@
 <li>Home: 1</li>
 </ul>
 <hr>
-<h2 id="what-v1-could-not-support-cleanly-why-v2-rebuild-was-smart">What v1 could not support cleanly (why v2 rebuild was smart)</h2>
+<h2 id="what-v1-could-not-support-cleanly-why-v2-rebuild-was-smart">What v1 could not support cleanly (why v2 rebuild was smart)<a hidden class="anchor" aria-hidden="true" href="#what-v1-could-not-support-cleanly-why-v2-rebuild-was-smart">#</a></h2>
 <p>You want:</p>
 <ul>
 <li><strong>Library:</strong> can be grand, hold everything, grow big</li>
@@ -110,14 +294,14 @@
 <li>No “governor” meta layer that locks vocabulary and prevents drift across rewrites</li>
 </ul>
 <hr>
-<h2 id="rebuild-principle-we-locked">Rebuild principle we locked</h2>
+<h2 id="rebuild-principle-we-locked">Rebuild principle we locked<a hidden class="anchor" aria-hidden="true" href="#rebuild-principle-we-locked">#</a></h2>
 <ul>
 <li>Do <strong>not</strong> overwrite v1 while building v2.</li>
 <li>Build v2 as a parallel repo/site.</li>
 <li>Cutover only when v2 coheres.</li>
 </ul>
 <hr>
-<h2 id="v2-beams-we-implemented">v2 beams we implemented</h2>
+<h2 id="v2-beams-we-implemented">v2 beams we implemented<a hidden class="anchor" aria-hidden="true" href="#v2-beams-we-implemented">#</a></h2>
 <ul>
 <li>Backlinks: <strong>Referenced by</strong> (computed from <code>connected:</code>)</li>
 <li>Tags taxonomy index (<code>/tags/</code>) + navbar link</li>
@@ -126,1139 +310,94 @@
 </ul>
 <hr>
 
+
   </div>
 
-  
-
-  
-  
-  
-
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-    
-  
-    
-    
-      
-        
-        
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-
-  
-  
-
-</article>
-
-  </main>
-
-  <footer class="footer">
-    <p>The Sovereign Library — Built to hold, not to instruct.</p>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/system/">System</a></li>
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/analysis/">Analysis</a></li>
+      <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/log/">Log</a></li>
+    </ul>
   </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://dextro9494.github.io/sovereign-library-v3/">The Sovereign Library</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
 </body>
+
 </html>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Field Tests | The Sovereign Library</title>
+<meta name="keywords" content="">
+<meta name="description" content="Theory meets reality. Hypothesis → result → integration.">
+<meta name="author" content="István">
+<link rel="canonical" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/">
+<link crossorigin="anonymous" href="/sovereign-library-v3/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://dextro9494.github.io/sovereign-library-v3/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://dextro9494.github.io/sovereign-library-v3/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://dextro9494.github.io/sovereign-library-v3/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://dextro9494.github.io/sovereign-library-v3/apple-touch-icon.png">
+<link rel="mask-icon" href="https://dextro9494.github.io/sovereign-library-v3/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/">
+  <meta property="og:site_name" content="The Sovereign Library">
+  <meta property="og:title" content="Field Tests">
+  <meta property="og:description" content="Theory meets reality. Hypothesis → result → integration.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Field Tests">
+<meta name="twitter:description" content="A system for holding what I know, so I don&#39;t have to carry it.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Library",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Field Tests",
+      "item": "https://dextro9494.github.io/sovereign-library-v3/library/field-tests/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://dextro9494.github.io/sovereign-library-v3/" accesskey="h" title="The Sovereign Library (Alt + H)">The Sovereign Library</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/library/" title="Library">
+                    <span>Library</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/mirror/" title="Mirror Template">
+                    <span>Mirror</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/life-layer/" title="Life Layer">
+                    <span>Life Layer</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/council/" title="Council Briefing">
+                    <span>Council</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/finance/" title="Finance">
+                    <span>Finance</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dextro9494.github.io/sovereign-library-v3/" title="The Sovereign Library">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Field Tests
+  </h1>
+</header>
+<div class="post-content"><p>Theory meets reality. Hypothesis → result → integration.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Resume v2.0 Bridge Narrative Test
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary: Validated that fragmented history can be restructured into a coherent professional bridge narrative. Result produced pride and forward momentum.
+Source: Raw Transcripts: Batch 6
+Hypothesis Fragmented work history (SAP coordination, logistics agency roles) can be reframed as a coherent narrative.
+Result Successfully restructured as “Operations &amp; Systems Specialist” bridge narrative. The scattered pieces tell a coherent story.
+Emotional Data Pride and forward momentum.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-14 00:00:00 +0000 UTC'>December 14, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <a class="entry-link" aria-label="post link to Resume v2.0 Bridge Narrative Test" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/resume-v2-0-bridge-narrative-test/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Visual Identity: Professional Photo Deployment
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary: Executed professional headshot after environmental timing and calibration steps (shower/shave). Logged as asset deployment under resistance.
+Source: Raw Transcripts: Batches 1, 3
+Timeline Task assigned: ~Dec 7-9 Execution: Dec 14 (took almost a week) Execution Details Environmental timing (sunlight) Calibration steps (shower/shave) Deployed despite resistance Significance First irreversible, visual commitment to the new professional identity. The 5-Second Ignition Protocol was the designated workaround for Survivor lockout.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-14 00:00:00 +0000 UTC'>December 14, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <a class="entry-link" aria-label="post link to Visual Identity: Professional Photo Deployment" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/visual-identity-professional-photo-deployment/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Database-Builder Signal Test (Real World)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary: Offered database help casually; immediate specific pain point emerged. Validated that the ‘Database Builder’ signal matches real-world demand.
+Source: Raw Transcripts: Batch 3
+What Happened Offered database help to a colleague in a casual setting. Immediate specific pain point emerged — an Excel problem requiring a database solution.
+Validation The “Database Builder” market signal matches real-world demand. The identity is not just branding; it solves actual problems.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-08 00:00:00 +0000 UTC'>December 8, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <a class="entry-link" aria-label="post link to Database-Builder Signal Test (Real World)" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/database-builder-signal-test-real-world/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Grok Interface Boundary Test
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary: Attempted direct ‘Memory Audit’ prompt; blocked. Finding: hard privacy/security boundaries; best used as bounded tactical problem-solver.
+Source: Raw Transcripts: Batch 3
+What Happened Hit Grok free plan limits during Digital Farming work (Nov 29). Attempted direct memory/audit prompts — blocked.
+Finding Grok has hard privacy/security boundaries. Best used as bounded tactical problem-solver, not free-form archive or deep context holder.
+Role Assignment Tactical reserve / Provocation &amp; Pattern-Disruption (per Council structure).
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-11-29 00:00:00 +0000 UTC'>November 29, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <a class="entry-link" aria-label="post link to Grok Interface Boundary Test" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/grok-interface-boundary-test/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">TEST 001: Digital Farming Initiative (Market Failure)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Summary: Pre-Codex, large-scale asymmetric economic maneuver terminated by market failure. Validated need for stable pipeline (Site Alpha).
+Source: Raw Transcripts: Batches 1–2
+Context Started with Grok (Nov 28) after car was fixed. TikTok/Gmail account warming/farming.
+Outcome Market failure by Nov 29 — invalid links, spam filters, no reliable pipeline.
+Lesson Sheer operational grit is insufficient against broken external systems. This failure, as part of the Catalytic Crisis, directly precipitated the development of the Sovereign Master Codex.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-11-29 00:00:00 +0000 UTC'>November 29, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <a class="entry-link" aria-label="post link to TEST 001: Digital Farming Initiative (Market Failure)" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/test-001-digital-farming-initiative-market-failure/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/">
+      «&nbsp;Prev&nbsp;
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://dextro9494.github.io/sovereign-library-v3/">The Sovereign Library</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
