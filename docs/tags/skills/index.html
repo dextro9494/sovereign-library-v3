@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,46 +27,9 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -154,7 +117,7 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header">
+<header class="page-header"><div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/tags/">Tags</a></div>
   <h1>
     Skills
   </h1>
@@ -171,7 +134,7 @@ Source: Raw Transcripts: Batch 2
 Decision Formal education path shelved due to language barriers and time costs. Pivot to:
 Immediate job search Targeted certifications (LinkedIn Learning, etc.) </p>
   </div>
-  <footer class="entry-footer"><span title='2025-12-08 00:00:00 +0000 UTC'>December 8, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <footer class="entry-footer"><span title='2025-12-08 00:00:00 +0000 UTC'>December 8, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>István</span></footer>
   <a class="entry-link" aria-label="post link to Educational Assessment: Formal Education Shelved" href="https://dextro9494.github.io/sovereign-library-v3/history/educational-assessment-formal-education-shelved/"></a>
 </article>
     </main>

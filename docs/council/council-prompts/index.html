@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -110,46 +110,9 @@ Optional member. Use when you want an institutional/corporate outside lens.">
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -384,14 +347,56 @@ Optional member. Use when you want an institutional/corporate outside lens.">
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/council/">Council Briefing</a></div>
     <h1 class="post-title entry-hint-parent">
       Council Prompts
     </h1>
-    <div class="post-meta"><span title='2025-12-31 00:00:00 +0000 +0000'>December 31, 2025</span>&nbsp;·&nbsp;<span>István</span>
+    <div class="post-meta"><span title='2025-12-31 00:00:00 +0000 +0000'>December 31, 2025</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#quick-context-load-any-member" aria-label="Quick context load (any member)">Quick context load (any member)</a></li>
+                <li>
+                    <a href="#claude-narrative-forge--mirror" aria-label="Claude (Narrative Forge &amp; Mirror)">Claude (Narrative Forge &amp; Mirror)</a><ul>
+                        
+                <li>
+                    <a href="#new-session-conversation" aria-label="New session (conversation)">New session (conversation)</a></li>
+                <li>
+                    <a href="#new-session-technicalbuild" aria-label="New session (technical/build)">New session (technical/build)</a></li>
+                <li>
+                    <a href="#resume-after-crash" aria-label="Resume after crash">Resume after crash</a></li></ul>
+                </li>
+                <li>
+                    <a href="#deepseek-architect--systems-engineer" aria-label="DeepSeek (Architect &amp; Systems Engineer)">DeepSeek (Architect &amp; Systems Engineer)</a></li>
+                <li>
+                    <a href="#chatgpt-chief-archivist--generalist" aria-label="ChatGPT (Chief Archivist &amp; Generalist)">ChatGPT (Chief Archivist &amp; Generalist)</a></li>
+                <li>
+                    <a href="#grok-contrarian--pattern-disruption" aria-label="Grok (Contrarian &amp; Pattern-Disruption)">Grok (Contrarian &amp; Pattern-Disruption)</a></li>
+                <li>
+                    <a href="#gemini-corporate-view--outside-reference" aria-label="Gemini (Corporate View &amp; Outside Reference)">Gemini (Corporate View &amp; Outside Reference)</a></li>
+                <li>
+                    <a href="#emergency-prompts" aria-label="Emergency prompts">Emergency prompts</a><ul>
+                        
+                <li>
+                    <a href="#any-ai--quick-resume" aria-label="Any AI — Quick resume">Any AI — Quick resume</a></li>
+                <li>
+                    <a href="#any-ai--cross-examination-synthesis-request" aria-label="Any AI — Cross-examination synthesis request">Any AI — Cross-examination synthesis request</a></li></ul>
+                </li>
+                <li>
+                    <a href="#file-naming-conventions" aria-label="File naming conventions">File naming conventions</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><p>Ready-to-use templates for each Council member. Copy, paste, and fill in the brackets.</p>
 <h2 id="quick-context-load-any-member">Quick context load (any member)<a hidden class="anchor" aria-hidden="true" href="#quick-context-load-any-member">#</a></h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>I&#39;m István. I run an AI Council for building my personal operating system called the Sovereign Master Codex.
@@ -533,6 +538,7 @@ Optional member. Use when you want an institutional/corporate outside lens.">
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/prompts/">Prompts</a></li>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/continuity/">Continuity</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -611,6 +617,53 @@ Optional member. Use when you want an institutional/corporate outside lens.">
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

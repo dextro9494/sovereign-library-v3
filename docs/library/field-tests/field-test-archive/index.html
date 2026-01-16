@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,46 +36,9 @@ Extract lessons that become canonical knowledge
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -243,14 +206,202 @@ Extract lessons that become canonical knowledge
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/library/">Library</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/library/field-tests/">Field Tests</a></div>
     <h1 class="post-title entry-hint-parent">
       Field Test Archive
     </h1>
-    <div class="post-meta"><span title='2026-01-12 00:00:00 +0000 UTC'>January 12, 2026</span>&nbsp;·&nbsp;<span>István</span>
+    <div class="post-meta"><span title='2026-01-12 00:00:00 +0000 UTC'>January 12, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#purpose-and-definition" aria-label="Purpose and Definition">Purpose and Definition</a><ul>
+                        
+                <li>
+                    <a href="#what-is-a-field-test" aria-label="What Is a Field Test?">What Is a Field Test?</a></li>
+                <li>
+                    <a href="#why-field-tests-exist" aria-label="Why Field Tests Exist">Why Field Tests Exist</a></li></ul>
+                </li>
+                <li>
+                    <a href="#how-to-use-this-archive" aria-label="How to Use This Archive">How to Use This Archive</a><ul>
+                        
+                <li>
+                    <a href="#location-in-system-architecture" aria-label="Location in System Architecture">Location in System Architecture</a></li>
+                <li>
+                    <a href="#archive-vs-live-split-rules" aria-label="Archive vs. Live Split Rules">Archive vs. Live Split Rules</a></li>
+                <li>
+                    <a href="#navigation" aria-label="Navigation">Navigation</a></li></ul>
+                </li>
+                <li>
+                    <a href="#field-test-template" aria-label="Field Test Template">Field Test Template</a><ul>
+                        
+                <li>
+                    <a href="#test-id-title" aria-label="TEST-[ID]: [Title]">TEST-[ID]: [Title]</a></li></ul>
+                </li>
+                <li>
+                    <a href="#telemetry-vocabulary" aria-label="Telemetry Vocabulary">Telemetry Vocabulary</a><ul>
+                        
+                <li>
+                    <a href="#resistance-rating-scale-0-10" aria-label="Resistance Rating Scale (0-10)">Resistance Rating Scale (0-10)</a></li>
+                <li>
+                    <a href="#somatic-markers-observable-signals" aria-label="Somatic Markers (Observable Signals)">Somatic Markers (Observable Signals)</a></li>
+                <li>
+                    <a href="#success-criteria-types" aria-label="Success Criteria Types">Success Criteria Types</a></li>
+                <li>
+                    <a href="#failure-modes" aria-label="Failure Modes">Failure Modes</a></li>
+                <li>
+                    <a href="#validation-confidence-levels" aria-label="Validation Confidence Levels">Validation Confidence Levels</a></li></ul>
+                </li>
+                <li>
+                    <a href="#index" aria-label="Index">Index</a><ul>
+                        
+                <li>
+                    <a href="#by-id" aria-label="By ID">By ID</a></li>
+                <li>
+                    <a href="#by-domain" aria-label="By Domain">By Domain</a></li>
+                <li>
+                    <a href="#by-construction-site" aria-label="By Construction Site">By Construction Site</a></li></ul>
+                </li>
+                <li>
+                    <a href="#test-001-digital-farming-market-test" aria-label="TEST-001: Digital Farming Market Test">TEST-001: Digital Farming Market Test</a><ul>
+                        
+                <li>
+                    <a href="#contextconstraints" aria-label="Context/Constraints">Context/Constraints</a></li>
+                <li>
+                    <a href="#objective" aria-label="Objective">Objective</a></li>
+                <li>
+                    <a href="#hypothesisexpectation" aria-label="Hypothesis/Expectation">Hypothesis/Expectation</a></li>
+                <li>
+                    <a href="#methodsteps" aria-label="Method/Steps">Method/Steps</a></li>
+                <li>
+                    <a href="#metricstelemetry" aria-label="Metrics/Telemetry">Metrics/Telemetry</a></li>
+                <li>
+                    <a href="#execution-log" aria-label="Execution Log">Execution Log</a></li>
+                <li>
+                    <a href="#obstacles-encountered" aria-label="Obstacles Encountered">Obstacles Encountered</a></li>
+                <li>
+                    <a href="#outcome" aria-label="Outcome">Outcome</a></li>
+                <li>
+                    <a href="#lessons-extracted" aria-label="Lessons Extracted">Lessons Extracted</a></li>
+                <li>
+                    <a href="#follow-up-actions" aria-label="Follow-Up Actions">Follow-Up Actions</a></li>
+                <li>
+                    <a href="#validation-confidence" aria-label="Validation Confidence">Validation Confidence</a></li>
+                <li>
+                    <a href="#provenance" aria-label="Provenance">Provenance</a></li>
+                <li>
+                    <a href="#links-to-affected-canon-pages" aria-label="Links to Affected Canon Pages">Links to Affected Canon Pages</a></li></ul>
+                </li>
+                <li>
+                    <a href="#test-002-recruiter-engagement-stress-test" aria-label="TEST-002: Recruiter Engagement Stress Test">TEST-002: Recruiter Engagement Stress Test</a><ul>
+                        
+                <li>
+                    <a href="#contextconstraints-1" aria-label="Context/Constraints">Context/Constraints</a></li>
+                <li>
+                    <a href="#objective-1" aria-label="Objective">Objective</a></li>
+                <li>
+                    <a href="#hypothesisexpectation-1" aria-label="Hypothesis/Expectation">Hypothesis/Expectation</a></li>
+                <li>
+                    <a href="#methodsteps-1" aria-label="Method/Steps">Method/Steps</a></li>
+                <li>
+                    <a href="#metricstelemetry-1" aria-label="Metrics/Telemetry">Metrics/Telemetry</a></li>
+                <li>
+                    <a href="#execution-log-1" aria-label="Execution Log">Execution Log</a></li>
+                <li>
+                    <a href="#obstacles-encountered-1" aria-label="Obstacles Encountered">Obstacles Encountered</a></li>
+                <li>
+                    <a href="#outcome-1" aria-label="Outcome">Outcome</a></li>
+                <li>
+                    <a href="#lessons-extracted-1" aria-label="Lessons Extracted">Lessons Extracted</a></li>
+                <li>
+                    <a href="#follow-up-actions-1" aria-label="Follow-Up Actions">Follow-Up Actions</a></li>
+                <li>
+                    <a href="#validation-confidence-1" aria-label="Validation Confidence">Validation Confidence</a></li>
+                <li>
+                    <a href="#provenance-1" aria-label="Provenance">Provenance</a></li>
+                <li>
+                    <a href="#links-to-affected-canon-pages-1" aria-label="Links to Affected Canon Pages">Links to Affected Canon Pages</a></li></ul>
+                </li>
+                <li>
+                    <a href="#test-003-mattress-procurement-under-budget-constraint" aria-label="TEST-003: Mattress Procurement Under Budget Constraint">TEST-003: Mattress Procurement Under Budget Constraint</a><ul>
+                        
+                <li>
+                    <a href="#contextconstraints-2" aria-label="Context/Constraints">Context/Constraints</a></li>
+                <li>
+                    <a href="#objective-2" aria-label="Objective">Objective</a></li>
+                <li>
+                    <a href="#hypothesisexpectation-2" aria-label="Hypothesis/Expectation">Hypothesis/Expectation</a></li>
+                <li>
+                    <a href="#methodsteps-2" aria-label="Method/Steps">Method/Steps</a></li>
+                <li>
+                    <a href="#metricstelemetry-2" aria-label="Metrics/Telemetry">Metrics/Telemetry</a></li>
+                <li>
+                    <a href="#execution-log-2" aria-label="Execution Log">Execution Log</a></li>
+                <li>
+                    <a href="#obstacles-encountered-2" aria-label="Obstacles Encountered">Obstacles Encountered</a></li>
+                <li>
+                    <a href="#outcome-2" aria-label="Outcome">Outcome</a></li>
+                <li>
+                    <a href="#lessons-extracted-2" aria-label="Lessons Extracted">Lessons Extracted</a></li>
+                <li>
+                    <a href="#follow-up-actions-2" aria-label="Follow-Up Actions">Follow-Up Actions</a></li>
+                <li>
+                    <a href="#validation-confidence-2" aria-label="Validation Confidence">Validation Confidence</a></li>
+                <li>
+                    <a href="#provenance-2" aria-label="Provenance">Provenance</a></li>
+                <li>
+                    <a href="#links-to-affected-canon-pages-2" aria-label="Links to Affected Canon Pages">Links to Affected Canon Pages</a></li></ul>
+                </li>
+                <li>
+                    <a href="#validated-tools-ledger" aria-label="Validated Tools Ledger">Validated Tools Ledger</a><ul>
+                        
+                <li>
+                    <a href="#5-second-engine-ignition" aria-label="5-Second Engine Ignition">5-Second Engine Ignition</a></li>
+                <li>
+                    <a href="#task-segmentation-protocol" aria-label="Task Segmentation Protocol">Task Segmentation Protocol</a></li>
+                <li>
+                    <a href="#council-led-execution-model" aria-label="Council-Led Execution Model">Council-Led Execution Model</a></li></ul>
+                </li>
+                <li>
+                    <a href="#lessons-feed" aria-label="Lessons Feed">Lessons Feed</a><ul>
+                        
+                <li>
+                    <a href="#from-test-001-digital-farming" aria-label="From TEST-001 (Digital Farming)">From TEST-001 (Digital Farming)</a></li>
+                <li>
+                    <a href="#from-test-002-recruiter-engagement" aria-label="From TEST-002 (Recruiter Engagement)">From TEST-002 (Recruiter Engagement)</a></li>
+                <li>
+                    <a href="#from-test-003-mattress-procurement" aria-label="From TEST-003 (Mattress Procurement)">From TEST-003 (Mattress Procurement)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#external-brief-export-format" aria-label="External Brief Export Format">External Brief Export Format</a><ul>
+                        
+                <li>
+                    <a href="#brief-template" aria-label="Brief Template">Brief Template</a></li>
+                <li>
+                    <a href="#example-export-test-002-for-therapy" aria-label="Example Export (TEST-002 for Therapy)">Example Export (TEST-002 for Therapy)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#change-log" aria-label="Change Log">Change Log</a><ul>
+                        
+                <li>
+                    <a href="#2025-12-27-initial-archive-compilation" aria-label="2025-12-27: Initial Archive Compilation">2025-12-27: Initial Archive Compilation</a></li>
+                <li>
+                    <a href="#future-updates" aria-label="Future Updates">Future Updates</a></li></ul>
+                </li>
+                <li>
+                    <a href="#integration-points" aria-label="Integration Points">Integration Points</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><h2 id="purpose-and-definition">Purpose and Definition<a hidden class="anchor" aria-hidden="true" href="#purpose-and-definition">#</a></h2>
 <h3 id="what-is-a-field-test">What Is a Field Test?<a hidden class="anchor" aria-hidden="true" href="#what-is-a-field-test">#</a></h3>
 <p>A <strong>Field Test</strong> is a structured validation operation conducted under real-world constraints to:</p>
@@ -826,6 +977,7 @@ Extract lessons that become canonical knowledge
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/telemetry/">Telemetry</a></li>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/archive/">Archive</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -904,6 +1056,53 @@ Extract lessons that become canonical knowledge
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

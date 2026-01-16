@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,46 +34,9 @@ While most teens hid their stash, you scheduled a meeting with your parents.">
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -235,14 +198,32 @@ While most teens hid their stash, you scheduled a meeting with your parents.">
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/history/">History</a></div>
     <h1 class="post-title entry-hint-parent">
       Parental Briefing: System-Level Transparency
     </h1>
-    <div class="post-meta"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span>&nbsp;·&nbsp;<span>István</span>
+    <div class="post-meta"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#context" aria-label="Context">Context</a></li>
+                <li>
+                    <a href="#lesson" aria-label="Lesson">Lesson</a></li>
+                <li>
+                    <a href="#significance" aria-label="Significance">Significance</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><p><strong>Summary:</strong> In teens (~age 17), scheduled formal meeting with parents about neurochemical tools, framed as logistics briefing rather than covert operation.</p>
 <p><strong>Source:</strong> Raw Transcripts: Batch 1</p>
 <h2 id="context">Context<a hidden class="anchor" aria-hidden="true" href="#context">#</a></h2>
@@ -261,6 +242,19 @@ While most teens hid their stash, you scheduled a meeting with your parents.">
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/communication/">Communication</a></li>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/tools/">Tools</a></li>
     </ul>
+<nav class="paginav">
+  <a class="prev" href="https://dextro9494.github.io/sovereign-library-v3/history/origin-codex-born-from-c-ptsd-baseline/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Origin: Codex Born from C-PTSD Baseline</span>
+  </a>
+  <a class="next" href="https://dextro9494.github.io/sovereign-library-v3/history/substance-progression-timeline-tool-history/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Substance Progression Timeline (Tool History)</span>
+  </a>
+</nav>
+
   </footer>
 </article>
     </main>
@@ -339,6 +333,53 @@ While most teens hid their stash, you scheduled a meeting with your parents.">
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

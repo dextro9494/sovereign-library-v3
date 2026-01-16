@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,46 +31,9 @@ It was born from a simple, unchosen fact: the default paths were closed by traum
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -234,14 +197,30 @@ It was born from a simple, unchosen fact: the default paths were closed by traum
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/library/">Library</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/library/philosophy/">Philosophy</a></div>
     <h1 class="post-title entry-hint-parent">
       Preamble Line: The life that was supposed to be there, wasn&#39;t
     </h1>
-    <div class="post-meta"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span>&nbsp;·&nbsp;<span>István</span>
+    <div class="post-meta"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#the-full-preamble" aria-label="The Full Preamble">The Full Preamble</a></li>
+                <li>
+                    <a href="#december-2025-insight" aria-label="December 2025 Insight">December 2025 Insight</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><p><strong>Summary:</strong> Doctrine-level line that sets emotional and strategic frame: the Codex is a field manual for asymmetric survival.</p>
 <p><strong>Source:</strong> Raw Transcripts: Batches 1, 4</p>
 <h2 id="the-full-preamble">The Full Preamble<a hidden class="anchor" aria-hidden="true" href="#the-full-preamble">#</a></h2>
@@ -260,6 +239,7 @@ It was born from a simple, unchosen fact: the default paths were closed by traum
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/origin-story/">Origin-Story</a></li>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/doctrine/">Doctrine</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -338,6 +318,53 @@ It was born from a simple, unchosen fact: the default paths were closed by traum
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

@@ -13,6 +13,51 @@ disableKinds = ["RSS"]
   description = "A system for holding what I know, so I don't have to carry it."
   author = "István"
 
+  # Visual polish (safe PaperMod toggles)
+  defaultTheme = "dark"
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  disableSpecial1stPost = true
+  ShowRssButtonInSectionTermList = false
+
+  # Home page: Profile mode (vault entrance)
+  [params.profileMode]
+    enabled = true
+    title = "The Sovereign Library"
+    subtitle = "Holds what I know, so I don't have to carry it."
+    imageUrl = ""
+    imageTitle = "Sovereign Library"
+    imageWidth = 120
+    imageHeight = 120
+
+    [[params.profileMode.buttons]]
+      name = "Start Here"
+      url = "start-here/"
+
+    [[params.profileMode.buttons]]
+      name = "Library"
+      url = "library/"
+
+    [[params.profileMode.buttons]]
+      name = "System"
+      url = "system/"
+
+    [[params.profileMode.buttons]]
+      name = "Search"
+      url = "search/"
+
+    [[params.profileMode.buttons]]
+      name = "Tags"
+      url = "tags/"
+
 [menu]
   [[menu.main]]
     name = "Home"

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,46 +34,9 @@ István came to Opus specifically to test the capability difference. Finding: th
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -235,14 +198,53 @@ István came to Opus specifically to test the capability difference. Finding: th
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/history/">History</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/history/session-saves/">Session Saves</a></div>
     <h1 class="post-title entry-hint-parent">
       Session Save (Jan 11, 2026 — Claude Opus 4.5)
     </h1>
-    <div class="post-meta"><span>István</span>
+    <div class="post-meta"><span>3 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#session-save---claude-opus-45" aria-label="Session Save - Claude (Opus 4.5)">Session Save - Claude (Opus 4.5)</a><ul>
+                        
+                <li>
+                    <a href="#what-happened-this-session" aria-label="What Happened This Session">What Happened This Session</a><ul>
+                        
+                <li>
+                    <a href="#1-opus-vs-sonnet-experiment---confirmed" aria-label="1. Opus vs Sonnet Experiment - Confirmed">1. Opus vs Sonnet Experiment - Confirmed</a></li>
+                <li>
+                    <a href="#2-i-made-a-wrong-read---corrected" aria-label="2. I Made a Wrong Read - Corrected">2. I Made a Wrong Read - Corrected</a></li>
+                <li>
+                    <a href="#3-gpts-plan-reviewed---sound-with-one-open-question" aria-label="3. GPT&rsquo;s Plan Reviewed - Sound with One Open Question">3. GPT&rsquo;s Plan Reviewed - Sound with One Open Question</a></li>
+                <li>
+                    <a href="#4-the-open-question-i-surfaced" aria-label="4. The Open Question I Surfaced">4. The Open Question I Surfaced</a></li></ul>
+                </li>
+                <li>
+                    <a href="#current-library-state" aria-label="Current Library State">Current Library State</a></li>
+                <li>
+                    <a href="#gpts-three-questions-unanswered" aria-label="GPT&rsquo;s Three Questions (Unanswered)">GPT&rsquo;s Three Questions (Unanswered)</a></li>
+                <li>
+                    <a href="#files-available" aria-label="Files Available">Files Available</a></li>
+                <li>
+                    <a href="#for-next-session" aria-label="For Next Session">For Next Session</a></li>
+                <li>
+                    <a href="#meta-observation" aria-label="Meta-Observation">Meta-Observation</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><h1 id="session-save---claude-opus-45">Session Save - Claude (Opus 4.5)<a hidden class="anchor" aria-hidden="true" href="#session-save---claude-opus-45">#</a></h1>
 <p><strong>Date:</strong> January 11, 2026, ~16:00 CET<br>
 <strong>Owner:</strong> István Drotár<br>
@@ -343,6 +345,19 @@ István came to Opus specifically to test the capability difference. Finding: th
   <footer class="post-footer">
     <ul class="post-tags">
     </ul>
+<nav class="paginav">
+  <a class="prev" href="https://dextro9494.github.io/sovereign-library-v3/history/session-saves/2026-01-11_session-save_chatgpt/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Session Save (Jan 11, 2026 — ChatGPT)</span>
+  </a>
+  <a class="next" href="https://dextro9494.github.io/sovereign-library-v3/history/session-saves/2026-01-11_session-save_claude-sonnet/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Session Save (Jan 11, 2026 — Claude Sonnet 4.5)</span>
+  </a>
+</nav>
+
   </footer>
 </article>
     </main>
@@ -421,6 +436,53 @@ István came to Opus specifically to test the capability difference. Finding: th
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

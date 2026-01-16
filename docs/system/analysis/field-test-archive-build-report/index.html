@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,46 +52,9 @@ Full records for TEST 001, 002, 003 ✓">
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -277,14 +240,89 @@ Full records for TEST 001, 002, 003 ✓">
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/system/">System</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/system/analysis/">Analysis</a></div>
     <h1 class="post-title entry-hint-parent">
       Field Test Archive Build Report
     </h1>
-    <div class="post-meta"><span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>István</span>
+    <div class="post-meta"><span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#field-test-archive-build-report" aria-label="Field Test Archive Build Report">Field Test Archive Build Report</a><ul>
+                        
+                <li>
+                    <a href="#spec-requirements-met" aria-label="Spec Requirements Met">Spec Requirements Met</a><ul>
+                        
+                <li>
+                    <a href="#section-b-required-content-points-1010-" aria-label="Section B: Required Content Points (10/10) ✓">Section B: Required Content Points (10/10) ✓</a></li>
+                <li>
+                    <a href="#section-c-structural-outline-1111-" aria-label="Section C: Structural Outline (11/11) ✓">Section C: Structural Outline (11/11) ✓</a></li>
+                <li>
+                    <a href="#section-d-toneregister-" aria-label="Section D: Tone/Register ✓">Section D: Tone/Register ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#link-integration-14-links-added" aria-label="Link Integration (14 Links Added)">Link Integration (14 Links Added)</a></li>
+                <li>
+                    <a href="#test-records-content-analysis" aria-label="Test Records: Content Analysis">Test Records: Content Analysis</a><ul>
+                        
+                <li>
+                    <a href="#test-001-digital-farming-market-test-" aria-label="TEST-001: Digital Farming Market Test ✓">TEST-001: Digital Farming Market Test ✓</a></li>
+                <li>
+                    <a href="#test-002-recruiter-engagement-stress-test-" aria-label="TEST-002: Recruiter Engagement Stress Test ✓">TEST-002: Recruiter Engagement Stress Test ✓</a></li>
+                <li>
+                    <a href="#test-003-mattress-procurement-under-budget-constraint-" aria-label="TEST-003: Mattress Procurement Under Budget Constraint ✓">TEST-003: Mattress Procurement Under Budget Constraint ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#validated-tools-ledger-analysis" aria-label="Validated Tools Ledger Analysis">Validated Tools Ledger Analysis</a><ul>
+                        
+                <li>
+                    <a href="#tools-documented-33-" aria-label="Tools Documented (3/3) ✓">Tools Documented (3/3) ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#lessons-feed-quality" aria-label="Lessons Feed Quality">Lessons Feed Quality</a></li>
+                <li>
+                    <a href="#external-brief-export" aria-label="External Brief Export">External Brief Export</a></li>
+                <li>
+                    <a href="#change-log-functionality" aria-label="Change Log Functionality">Change Log Functionality</a></li>
+                <li>
+                    <a href="#integration-points" aria-label="Integration Points">Integration Points</a></li>
+                <li>
+                    <a href="#telemetry-vocabulary-completeness" aria-label="Telemetry Vocabulary Completeness">Telemetry Vocabulary Completeness</a><ul>
+                        
+                <li>
+                    <a href="#resistance-scale-" aria-label="Resistance Scale ✓">Resistance Scale ✓</a></li>
+                <li>
+                    <a href="#somatic-markers-" aria-label="Somatic Markers ✓">Somatic Markers ✓</a></li>
+                <li>
+                    <a href="#success-criteria-types-" aria-label="Success Criteria Types ✓">Success Criteria Types ✓</a></li>
+                <li>
+                    <a href="#failure-modes-" aria-label="Failure Modes ✓">Failure Modes ✓</a></li>
+                <li>
+                    <a href="#validation-confidence-" aria-label="Validation Confidence ✓">Validation Confidence ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#archive-vs-live-split-clarity" aria-label="Archive vs. Live Split Clarity">Archive vs. Live Split Clarity</a></li>
+                <li>
+                    <a href="#technical-specifications" aria-label="Technical Specifications">Technical Specifications</a></li>
+                <li>
+                    <a href="#quality-validation" aria-label="Quality Validation">Quality Validation</a></li>
+                <li>
+                    <a href="#deployment-readiness" aria-label="Deployment Readiness">Deployment Readiness</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><h1 id="field-test-archive-build-report">Field Test Archive Build Report<a hidden class="anchor" aria-hidden="true" href="#field-test-archive-build-report">#</a></h1>
 <p><strong>Page:</strong> <code>field-test-archive.md</code><br>
 <strong>Status:</strong> ✅ COMPLETE<br>
@@ -632,6 +670,7 @@ Full records for TEST 001, 002, 003 ✓">
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/system/">System</a></li>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/analysis/">Analysis</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -710,6 +749,53 @@ Full records for TEST 001, 002, 003 ✓">
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

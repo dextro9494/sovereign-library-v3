@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,46 +27,9 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -154,7 +117,7 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header">
+<header class="page-header"><div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/tags/">Tags</a></div>
   <h1>
     Architecture
   </h1>
@@ -171,7 +134,7 @@ Current state v1 is live (published snapshot). v2 is live (staging lane), curren
 The system is only useful if it doesn’t try to become the system.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-01-01 00:00:00 +0000 UTC'>January 1, 2026</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <footer class="entry-footer"><span title='2026-01-01 00:00:00 +0000 UTC'>January 1, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>István</span></footer>
   <a class="entry-link" aria-label="post link to v2 Rework Control Panel" href="https://dextro9494.github.io/sovereign-library-v3/system/rework-control-panel/"></a>
 </article>
 
@@ -186,7 +149,7 @@ The Library (this site) Holds everything you know: principles, patterns, protoco
 The Mirror The operational layer: what’s active now, what matters now, what is true now. Lean, current, portable. This is what gets pasted into sessions. It’s intentionally small.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-12-28 00:00:00 +0000 UTC'>December 28, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <footer class="entry-footer"><span title='2025-12-28 00:00:00 +0000 UTC'>December 28, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>István</span></footer>
   <a class="entry-link" aria-label="post link to v8: Three-Layer Architecture" href="https://dextro9494.github.io/sovereign-library-v3/library/philosophy/v8-three-layer-architecture/"></a>
 </article>
 
@@ -202,7 +165,7 @@ v7.0 Architecture Core: The blade. For acting. Lean, operational. Archive: The l
 Library: Holds everything. Lives outside AI sessions. Mirror: Shows where you are NOW. Lean, portable. Third Layer: What becomes possible when the other two work. Lived, not stored. Key Insight “The thing is only good if it’s not trying to be the thing; simple is what it should be.”
 </p>
   </div>
-  <footer class="entry-footer"><span title='2025-12-26 00:00:00 +0000 UTC'>December 26, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <footer class="entry-footer"><span title='2025-12-26 00:00:00 +0000 UTC'>December 26, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>István</span></footer>
   <a class="entry-link" aria-label="post link to Core &#43; Archive Dual-Layer Architecture" href="https://dextro9494.github.io/sovereign-library-v3/library/philosophy/core-archive-dual-layer-architecture/"></a>
 </article>
 
@@ -218,7 +181,7 @@ Why It Happened 15-page soft cap identified as unsustainable System was too heav
 What Led to v8.0 v7.0 fragmented because it tried to force two different functions into one system. The v8.0 breakthrough: Library (storage) &#43; Mirror (operational) &#43; Third Layer (living).
 </p>
   </div>
-  <footer class="entry-footer"><span title='2025-12-26 00:00:00 +0000 UTC'>December 26, 2025</span>&nbsp;·&nbsp;<span>István</span></footer>
+  <footer class="entry-footer"><span title='2025-12-26 00:00:00 +0000 UTC'>December 26, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>István</span></footer>
   <a class="entry-link" aria-label="post link to v7.0 Overhaul Decision" href="https://dextro9494.github.io/sovereign-library-v3/history/v7-0-overhaul-decision/"></a>
 </article>
     </main>

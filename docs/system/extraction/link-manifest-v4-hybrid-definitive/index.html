@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,46 +41,9 @@ Section B: VERIFIED STRUCTURAL DEPENDENCIES
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -248,14 +211,117 @@ Section B: VERIFIED STRUCTURAL DEPENDENCIES
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/system/">System</a></div>
     <h1 class="post-title entry-hint-parent">
       Link Manifest v4 (Hybrid Definitive)
     </h1>
-    <div class="post-meta"><span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>István</span>
+    <div class="post-meta"><span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#link-manifest-v4--hybrid-structural--literal" aria-label="Link Manifest v4 – Hybrid (Structural &#43; Literal)">Link Manifest v4 – Hybrid (Structural + Literal)</a><ul>
+                        
+                <li>
+                    <a href="#section-a-verified-literal-references" aria-label="Section A: VERIFIED LITERAL REFERENCES">Section A: VERIFIED LITERAL REFERENCES</a></li></ul>
+                </li>
+                <li>
+                    <a href="#link-manifest-v3--literal-phrase-index-verified" aria-label="Link Manifest v3 – Literal Phrase Index (Verified)">Link Manifest v3 – Literal Phrase Index (Verified)</a><ul>
+                        
+                <li>
+                    <a href="#section-b-verified-structural-dependencies" aria-label="Section B: VERIFIED STRUCTURAL DEPENDENCIES">Section B: VERIFIED STRUCTURAL DEPENDENCIES</a></li></ul>
+                </li>
+                <li>
+                    <a href="#link-manifest-v2--operation-weave-verified-sequential" aria-label="Link Manifest v2 – Operation Weave (Verified, Sequential)">Link Manifest v2 – Operation Weave (Verified, Sequential)</a><ul>
+                        
+                <li>
+                    <a href="#batch-1" aria-label="[Batch 1]">[Batch 1]</a><ul>
+                        
+                <li>
+                    <a href="#core-machinery-builder-survivormd" aria-label="core-machinery-builder-survivor.md">core-machinery-builder-survivor.md</a></li>
+                <li>
+                    <a href="#5-second-engine-ignitionmd" aria-label="5-second-engine-ignition.md">5-second-engine-ignition.md</a></li>
+                <li>
+                    <a href="#edge-case-protocolmd" aria-label="edge-case-protocol.md">edge-case-protocol.md</a></li>
+                <li>
+                    <a href="#real-world-connection-filtermd" aria-label="real-world-connection-filter.md">real-world-connection-filter.md</a></li>
+                <li>
+                    <a href="#stress-test-philosophymd" aria-label="stress-test-philosophy.md">stress-test-philosophy.md</a></li></ul>
+                </li>
+                <li>
+                    <a href="#batch-2" aria-label="[Batch 2]">[Batch 2]</a><ul>
+                        
+                <li>
+                    <a href="#budget-as-design-parametermd" aria-label="budget-as-design-parameter.md">budget-as-design-parameter.md</a></li>
+                <li>
+                    <a href="#obstacles-as-datamd" aria-label="obstacles-as-data.md">obstacles-as-data.md</a></li>
+                <li>
+                    <a href="#system-admin-framingmd" aria-label="system-admin-framing.md">system-admin-framing.md</a></li>
+                <li>
+                    <a href="#neurochemical-tool-audit-philosophymd" aria-label="neurochemical-tool-audit-philosophy.md">neurochemical-tool-audit-philosophy.md</a></li>
+                <li>
+                    <a href="#continuity-breach-diagnosismd" aria-label="continuity-breach-diagnosis.md">continuity-breach-diagnosis.md</a></li></ul>
+                </li>
+                <li>
+                    <a href="#batch-3" aria-label="[Batch 3]">[Batch 3]</a><ul>
+                        
+                <li>
+                    <a href="#field-manual-asymmetric-survivalmd" aria-label="field-manual-asymmetric-survival.md">field-manual-asymmetric-survival.md</a></li>
+                <li>
+                    <a href="#system-admin-doctrinemd" aria-label="system-admin-doctrine.md">system-admin-doctrine.md</a></li>
+                <li>
+                    <a href="#debug-before-adding-layersmd" aria-label="debug-before-adding-layers.md">debug-before-adding-layers.md</a></li></ul>
+                </li>
+                <li>
+                    <a href="#batch-4" aria-label="[Batch 4]">[Batch 4]</a><ul>
+                        
+                <li>
+                    <a href="#first-responder-axiommd" aria-label="first-responder-axiom.md">first-responder-axiom.md</a></li>
+                <li>
+                    <a href="#continuity-protocolmd" aria-label="continuity-protocol.md">continuity-protocol.md</a></li>
+                <li>
+                    <a href="#live-codex-vs-archive-splitmd" aria-label="live-codex-vs-archive-split.md">live-codex-vs-archive-split.md</a></li></ul>
+                </li>
+                <li>
+                    <a href="#batch-5" aria-label="[Batch 5]">[Batch 5]</a><ul>
+                        
+                <li>
+                    <a href="#life-reconstruction-asymmetric-warfaremd" aria-label="life-reconstruction-asymmetric-warfare.md">life-reconstruction-asymmetric-warfare.md</a></li>
+                <li>
+                    <a href="#ai-council-deployment-doctrinemd" aria-label="ai-council-deployment-doctrine.md">ai-council-deployment-doctrine.md</a></li></ul>
+                </li>
+                <li>
+                    <a href="#batch-6" aria-label="[Batch 6]">[Batch 6]</a><ul>
+                        
+                <li>
+                    <a href="#hardware-vs-os-diagnosismd" aria-label="hardware-vs-os-diagnosis.md">hardware-vs-os-diagnosis.md</a></li>
+                <li>
+                    <a href="#bridge-building-strategymd" aria-label="bridge-building-strategy.md">bridge-building-strategy.md</a></li></ul>
+                </li>
+                <li>
+                    <a href="#batch-7" aria-label="[Batch 7]">[Batch 7]</a><ul>
+                        
+                <li>
+                    <a href="#dual-layer-architecturemd" aria-label="dual-layer-architecture.md">dual-layer-architecture.md</a></li>
+                <li>
+                    <a href="#structural-scaling-lawmd" aria-label="structural-scaling-law.md">structural-scaling-law.md</a></li></ul>
+                </li>
+                <li>
+                    <a href="#execution-rules" aria-label="Execution Rules">Execution Rules</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><h1 id="link-manifest-v4--hybrid-structural--literal">Link Manifest v4 – Hybrid (Structural + Literal)<a hidden class="anchor" aria-hidden="true" href="#link-manifest-v4--hybrid-structural--literal">#</a></h1>
 <p>Purpose: Definitive execution checklist for Sovereign Library v2<br>
 Audience: Claude-Builder (mechanical execution) + Council (audit)</p>
@@ -423,6 +489,7 @@ Operation Weave – Complete</p>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/manifest/">Manifest</a></li>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/operation-weave/">Operation-Weave</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -501,6 +568,53 @@ Operation Weave – Complete</p>
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

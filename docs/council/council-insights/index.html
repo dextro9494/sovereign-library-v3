@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,46 +38,9 @@ Not:">
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -242,14 +205,137 @@ Not:">
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/council/">Council Briefing</a></div>
     <h1 class="post-title entry-hint-parent">
       Council Insights
     </h1>
-    <div class="post-meta"><span title='2026-01-12 00:00:00 +0000 UTC'>January 12, 2026</span>&nbsp;·&nbsp;<span>István</span>
+    <div class="post-meta"><span title='2026-01-12 00:00:00 +0000 UTC'>January 12, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#purpose-and-definition" aria-label="Purpose and Definition">Purpose and Definition</a><ul>
+                        
+                <li>
+                    <a href="#what-are-council-insights" aria-label="What Are Council Insights?">What Are Council Insights?</a></li>
+                <li>
+                    <a href="#why-council-insights-exist" aria-label="Why Council Insights Exist">Why Council Insights Exist</a></li></ul>
+                </li>
+                <li>
+                    <a href="#governance-and-boundaries" aria-label="Governance and Boundaries">Governance and Boundaries</a><ul>
+                        
+                <li>
+                    <a href="#the-constitutional-rule" aria-label="The Constitutional Rule">The Constitutional Rule</a></li>
+                <li>
+                    <a href="#decision-authority" aria-label="Decision Authority">Decision Authority</a></li>
+                <li>
+                    <a href="#boundaries-and-failure-modes" aria-label="Boundaries and Failure Modes">Boundaries and Failure Modes</a></li>
+                <li>
+                    <a href="#anti-dependency-safeguards" aria-label="Anti-Dependency Safeguards">Anti-Dependency Safeguards</a></li></ul>
+                </li>
+                <li>
+                    <a href="#workflow-how-council-produces-intelligence" aria-label="Workflow: How Council Produces Intelligence">Workflow: How Council Produces Intelligence</a><ul>
+                        
+                <li>
+                    <a href="#single-model-consultation" aria-label="Single-Model Consultation">Single-Model Consultation</a></li>
+                <li>
+                    <a href="#multi-model-synthesis" aria-label="Multi-Model Synthesis">Multi-Model Synthesis</a></li>
+                <li>
+                    <a href="#contrarian-pass" aria-label="Contrarian Pass">Contrarian Pass</a></li>
+                <li>
+                    <a href="#validation-pass" aria-label="Validation Pass">Validation Pass</a></li></ul>
+                </li>
+                <li>
+                    <a href="#status-taxonomy-and-validation-criteria" aria-label="Status Taxonomy and Validation Criteria">Status Taxonomy and Validation Criteria</a><ul>
+                        
+                <li>
+                    <a href="#status-labels" aria-label="Status Labels">Status Labels</a></li>
+                <li>
+                    <a href="#validation-criteria" aria-label="Validation Criteria">Validation Criteria</a></li></ul>
+                </li>
+                <li>
+                    <a href="#logging-standard" aria-label="Logging Standard">Logging Standard</a><ul>
+                        
+                <li>
+                    <a href="#required-metadata-for-every-insight" aria-label="Required Metadata for Every Insight">Required Metadata for Every Insight</a></li>
+                <li>
+                    <a href="#example-log-entry" aria-label="Example Log Entry">Example Log Entry</a></li></ul>
+                </li>
+                <li>
+                    <a href="#index" aria-label="Index">Index</a><ul>
+                        
+                <li>
+                    <a href="#by-council-member" aria-label="By Council Member">By Council Member</a></li>
+                <li>
+                    <a href="#by-domaintopic" aria-label="By Domain/Topic">By Domain/Topic</a></li>
+                <li>
+                    <a href="#by-date" aria-label="By Date">By Date</a></li></ul>
+                </li>
+                <li>
+                    <a href="#core-insight-records" aria-label="Core Insight Records">Core Insight Records</a><ul>
+                        
+                <li>
+                    <a href="#council-2025-12-xx-coremachinery-multi" aria-label="COUNCIL-2025-12-XX-CoreMachinery-Multi">COUNCIL-2025-12-XX-CoreMachinery-Multi</a></li>
+                <li>
+                    <a href="#council-2025-12-xx-rcp-claude" aria-label="COUNCIL-2025-12-XX-RCP-Claude">COUNCIL-2025-12-XX-RCP-Claude</a></li>
+                <li>
+                    <a href="#council-2025-12-xx-stresstest-chatgpt" aria-label="COUNCIL-2025-12-XX-StressTest-ChatGPT">COUNCIL-2025-12-XX-StressTest-ChatGPT</a></li>
+                <li>
+                    <a href="#council-2025-12-xx-test003-council-led-chatgpt" aria-label="COUNCIL-2025-12-XX-TEST003-Council-Led-ChatGPT">COUNCIL-2025-12-XX-TEST003-Council-Led-ChatGPT</a></li>
+                <li>
+                    <a href="#council-2025-12-xx-5secondignition-grok" aria-label="COUNCIL-2025-12-XX-5SecondIgnition-Grok">COUNCIL-2025-12-XX-5SecondIgnition-Grok</a></li>
+                <li>
+                    <a href="#council-2025-12-xx-systemadmin-deepseek" aria-label="COUNCIL-2025-12-XX-SystemAdmin-DeepSeek">COUNCIL-2025-12-XX-SystemAdmin-DeepSeek</a></li>
+                <li>
+                    <a href="#council-2025-12-xx-hardwareos-deepseek" aria-label="COUNCIL-2025-12-XX-HardwareOS-DeepSeek">COUNCIL-2025-12-XX-HardwareOS-DeepSeek</a></li>
+                <li>
+                    <a href="#council-2025-12-26-structuralevolution-deepseek" aria-label="COUNCIL-2025-12-26-StructuralEvolution-DeepSeek">COUNCIL-2025-12-26-StructuralEvolution-DeepSeek</a></li></ul>
+                </li>
+                <li>
+                    <a href="#operational-use-cases" aria-label="Operational Use Cases">Operational Use Cases</a><ul>
+                        
+                <li>
+                    <a href="#professional-positioning-and-bridge-building" aria-label="Professional Positioning and Bridge-Building">Professional Positioning and Bridge-Building</a></li>
+                <li>
+                    <a href="#therapy-as-command-level-reconnaissance" aria-label="Therapy as Command-Level Reconnaissance">Therapy as Command-Level Reconnaissance</a></li>
+                <li>
+                    <a href="#strategic-intelligence-for-life-reconstruction" aria-label="Strategic Intelligence for Life Reconstruction">Strategic Intelligence for Life Reconstruction</a></li>
+                <li>
+                    <a href="#continuity-and-context-management" aria-label="Continuity and Context Management">Continuity and Context Management</a></li></ul>
+                </li>
+                <li>
+                    <a href="#change-log" aria-label="Change Log">Change Log</a><ul>
+                        
+                <li>
+                    <a href="#2025-12-27-initial-council-insights-archive" aria-label="2025-12-27: Initial Council Insights Archive">2025-12-27: Initial Council Insights Archive</a></li>
+                <li>
+                    <a href="#future-updates" aria-label="Future Updates">Future Updates</a></li></ul>
+                </li>
+                <li>
+                    <a href="#integration-points" aria-label="Integration Points">Integration Points</a></li>
+                <li>
+                    <a href="#transparency-and-ethics" aria-label="Transparency and Ethics">Transparency and Ethics</a><ul>
+                        
+                <li>
+                    <a href="#credit-standards" aria-label="Credit Standards">Credit Standards</a></li>
+                <li>
+                    <a href="#limits-and-caveats" aria-label="Limits and Caveats">Limits and Caveats</a></li>
+                <li>
+                    <a href="#the-sovereignty-principle" aria-label="The Sovereignty Principle">The Sovereignty Principle</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><h2 id="purpose-and-definition">Purpose and Definition<a hidden class="anchor" aria-hidden="true" href="#purpose-and-definition">#</a></h2>
 <h3 id="what-are-council-insights">What Are Council Insights?<a hidden class="anchor" aria-hidden="true" href="#what-are-council-insights">#</a></h3>
 <p><strong>Council Insights are archived AI contributions</strong> that have shaped the Sovereign Library: diagnostics, syntheses, decision-support outputs, and strategic intelligence produced by AI Council members.</p>
@@ -886,6 +972,7 @@ Caveats: Model is descriptive framework, not neurological diagnosis; System Admi
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/provenance/">Provenance</a></li>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/synthesis/">Synthesis</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -964,6 +1051,53 @@ Caveats: Model is descriptive framework, not neurological diagnosis; System Admi
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

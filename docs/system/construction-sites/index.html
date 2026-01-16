@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,46 +37,9 @@ This is infrastructure, not motivation. Sites are architectural units, not aspir
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -241,14 +204,138 @@ This is infrastructure, not motivation. Sites are architectural units, not aspir
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/system/">System</a></div>
     <h1 class="post-title entry-hint-parent">
       Construction Sites
     </h1>
-    <div class="post-meta"><span title='2026-01-12 00:00:00 +0000 UTC'>January 12, 2026</span>&nbsp;·&nbsp;<span>István</span>
+    <div class="post-meta"><span title='2026-01-12 00:00:00 +0000 UTC'>January 12, 2026</span>&nbsp;·&nbsp;<span>13 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#purpose-why-construction-sites-exist" aria-label="Purpose: Why Construction Sites Exist">Purpose: Why Construction Sites Exist</a></li>
+                <li>
+                    <a href="#definitions-and-rules" aria-label="Definitions and Rules">Definitions and Rules</a><ul>
+                        
+                <li>
+                    <a href="#what-is-a-construction-site" aria-label="What Is a Construction Site?">What Is a Construction Site?</a></li>
+                <li>
+                    <a href="#what-is-an-active-site" aria-label="What Is an Active Site?">What Is an Active Site?</a></li>
+                <li>
+                    <a href="#how-sites-relate-to-rcp" aria-label="How Sites Relate to RCP">How Sites Relate to RCP</a></li></ul>
+                </li>
+                <li>
+                    <a href="#site-directory-canonical" aria-label="Site Directory (Canonical)">Site Directory (Canonical)</a><ul>
+                        
+                <li>
+                    <a href="#site-alpha-stable-income-pipeline" aria-label="Site Alpha: Stable Income Pipeline">Site Alpha: Stable Income Pipeline</a><ul>
+                        
+                <li>
+                    <a href="#success-criteria" aria-label="Success Criteria">Success Criteria</a></li>
+                <li>
+                    <a href="#threat-states" aria-label="Threat States">Threat States</a></li>
+                <li>
+                    <a href="#advancement-metrics" aria-label="Advancement Metrics">Advancement Metrics</a></li></ul>
+                </li>
+                <li>
+                    <a href="#site-beta-asset-base" aria-label="Site Beta: Asset Base">Site Beta: Asset Base</a><ul>
+                        
+                <li>
+                    <a href="#success-criteria-1" aria-label="Success Criteria">Success Criteria</a></li>
+                <li>
+                    <a href="#threat-states-1" aria-label="Threat States">Threat States</a></li>
+                <li>
+                    <a href="#advancement-metrics-1" aria-label="Advancement Metrics">Advancement Metrics</a></li></ul>
+                </li>
+                <li>
+                    <a href="#site-gamma-relational-depth-and-sovereign-connection-capacity" aria-label="Site Gamma: Relational Depth and Sovereign Connection Capacity">Site Gamma: Relational Depth and Sovereign Connection Capacity</a><ul>
+                        
+                <li>
+                    <a href="#success-criteria-primary-the-fianc%c3%a9e" aria-label="Success Criteria (Primary: The Fiancée)">Success Criteria (Primary: The Fiancée)</a></li>
+                <li>
+                    <a href="#success-criteria-secondary-sovereign-connection-capacity" aria-label="Success Criteria (Secondary: Sovereign Connection Capacity)">Success Criteria (Secondary: Sovereign Connection Capacity)</a></li>
+                <li>
+                    <a href="#threat-states-2" aria-label="Threat States">Threat States</a></li>
+                <li>
+                    <a href="#advancement-metrics-primary" aria-label="Advancement Metrics (Primary)">Advancement Metrics (Primary)</a></li>
+                <li>
+                    <a href="#advancement-metrics-secondary" aria-label="Advancement Metrics (Secondary)">Advancement Metrics (Secondary)</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#unmet-needs-and-symptom-mapping" aria-label="Unmet Needs and Symptom Mapping">Unmet Needs and Symptom Mapping</a><ul>
+                        
+                <li>
+                    <a href="#site-alpha-deficit-symptoms" aria-label="Site Alpha Deficit Symptoms">Site Alpha Deficit Symptoms</a></li>
+                <li>
+                    <a href="#site-beta-deficit-symptoms" aria-label="Site Beta Deficit Symptoms">Site Beta Deficit Symptoms</a></li>
+                <li>
+                    <a href="#site-gamma-deficit-symptoms" aria-label="Site Gamma Deficit Symptoms">Site Gamma Deficit Symptoms</a></li></ul>
+                </li>
+                <li>
+                    <a href="#intervention-playbook" aria-label="Intervention Playbook">Intervention Playbook</a><ul>
+                        
+                <li>
+                    <a href="#site-alpha-direct-interventions" aria-label="Site Alpha: Direct Interventions">Site Alpha: Direct Interventions</a></li>
+                <li>
+                    <a href="#site-beta-direct-interventions" aria-label="Site Beta: Direct Interventions">Site Beta: Direct Interventions</a></li>
+                <li>
+                    <a href="#site-gamma-direct-interventions" aria-label="Site Gamma: Direct Interventions">Site Gamma: Direct Interventions</a></li></ul>
+                </li>
+                <li>
+                    <a href="#resource-allocation-matrix" aria-label="Resource Allocation Matrix">Resource Allocation Matrix</a><ul>
+                        
+                <li>
+                    <a href="#time-allocation-decision-tree" aria-label="Time Allocation Decision Tree">Time Allocation Decision Tree</a></li>
+                <li>
+                    <a href="#money-allocation-decision-tree" aria-label="Money Allocation Decision Tree">Money Allocation Decision Tree</a></li>
+                <li>
+                    <a href="#attention-allocation-decision-tree" aria-label="Attention Allocation Decision Tree">Attention Allocation Decision Tree</a></li></ul>
+                </li>
+                <li>
+                    <a href="#field-test-integration" aria-label="Field Test Integration">Field Test Integration</a><ul>
+                        
+                <li>
+                    <a href="#test--lesson--site-mapping" aria-label="Test → Lesson → Site Mapping">Test → Lesson → Site Mapping</a></li>
+                <li>
+                    <a href="#examples-from-archive" aria-label="Examples from Archive">Examples from Archive</a></li>
+                <li>
+                    <a href="#integration-protocol" aria-label="Integration Protocol">Integration Protocol</a></li></ul>
+                </li>
+                <li>
+                    <a href="#progress-tracking-schema" aria-label="Progress Tracking Schema">Progress Tracking Schema</a><ul>
+                        
+                <li>
+                    <a href="#required-fields-per-site" aria-label="Required Fields Per Site">Required Fields Per Site</a></li>
+                <li>
+                    <a href="#update-cadence" aria-label="Update Cadence">Update Cadence</a></li>
+                <li>
+                    <a href="#example-progress-entry-site-alpha" aria-label="Example Progress Entry (Site Alpha)">Example Progress Entry (Site Alpha)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#live-vs-archive-placement" aria-label="Live vs Archive Placement">Live vs Archive Placement</a><ul>
+                        
+                <li>
+                    <a href="#in-live-codex--master-note" aria-label="In Live Codex / Master Note">In Live Codex / Master Note</a></li>
+                <li>
+                    <a href="#in-archive" aria-label="In Archive">In Archive</a></li>
+                <li>
+                    <a href="#migration-rules" aria-label="Migration Rules">Migration Rules</a></li></ul>
+                </li>
+                <li>
+                    <a href="#integration-points" aria-label="Integration Points">Integration Points</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><h2 id="purpose-why-construction-sites-exist">Purpose: Why Construction Sites Exist<a hidden class="anchor" aria-hidden="true" href="#purpose-why-construction-sites-exist">#</a></h2>
 <p><strong>Construction Sites are the portfolio control structure for sovereignty-building operations.</strong></p>
 <p>Under <a href="/sovereign-library-v3/system/field-manual-asymmetric-survival/">asymmetric conditions</a>, resource scarcity (time, money, attention) demands strategic allocation. Without named build domains, effort disperses into reactive firefighting or compensatory activities.</p>
@@ -948,6 +1035,7 @@ Lessons Applied:
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/resourceallocation/">Resourceallocation</a></li>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/strategy/">Strategy</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -1026,6 +1114,53 @@ Lessons Applied:
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

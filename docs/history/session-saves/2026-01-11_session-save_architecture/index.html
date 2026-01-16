@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -159,46 +159,9 @@ Earlier in this work we produced drop-in zips:">
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -489,14 +452,89 @@ Earlier in this work we produced drop-in zips:">
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/history/">History</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/history/session-saves/">Session Saves</a></div>
     <h1 class="post-title entry-hint-parent">
       Session Save (Jan 11, 2026)
     </h1>
-    <div class="post-meta"><span>István</span>
+    <div class="post-meta"><span>4 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#sovereign-library-v2--session-save-istv%c3%a1n--chatgpt-chief-archivist" aria-label="Sovereign Library v2 — Session Save (István &#43; ChatGPT Chief Archivist)">Sovereign Library v2 — Session Save (István + ChatGPT Chief Archivist)</a><ul>
+                        
+                <li>
+                    <a href="#0-north-star" aria-label="0) North Star">0) North Star</a></li>
+                <li>
+                    <a href="#1-what-we-decided-non-negotiables" aria-label="1) What we decided (non-negotiables)">1) What we decided (non-negotiables)</a></li>
+                <li>
+                    <a href="#2-current-live-sites" aria-label="2) Current live sites">2) Current live sites</a></li>
+                <li>
+                    <a href="#3-repos-and-local-paths" aria-label="3) Repos and local paths">3) Repos and local paths</a></li>
+                <li>
+                    <a href="#4-what-we-implemented-completed" aria-label="4) What we implemented (completed)">4) What we implemented (completed)</a><ul>
+                        
+                <li>
+                    <a href="#41-v2-deployment-plumbing" aria-label="4.1 v2 deployment plumbing">4.1 v2 deployment plumbing</a></li>
+                <li>
+                    <a href="#42-backlinks-referenced-by" aria-label="4.2 Backlinks (“Referenced by”)">4.2 Backlinks (“Referenced by”)</a></li>
+                <li>
+                    <a href="#43-baseurl-corrected-for-v2" aria-label="4.3 baseURL corrected for v2">4.3 baseURL corrected for v2</a></li>
+                <li>
+                    <a href="#44-tags-taxonomy--visible-navigation" aria-label="4.4 Tags taxonomy &#43; visible navigation">4.4 Tags taxonomy + visible navigation</a></li>
+                <li>
+                    <a href="#45-system-connections-index-starter-manual" aria-label="4.5 System “Connections Index” starter (manual)">4.5 System “Connections Index” starter (manual)</a></li>
+                <li>
+                    <a href="#46-git-milestone-tag" aria-label="4.6 Git milestone tag">4.6 Git milestone tag</a></li></ul>
+                </li>
+                <li>
+                    <a href="#5-commands-we-used-for-continuity" aria-label="5) Commands we used (for continuity)">5) Commands we used (for continuity)</a><ul>
+                        
+                <li>
+                    <a href="#build--publish" aria-label="Build &#43; publish">Build + publish</a></li>
+                <li>
+                    <a href="#fix-push-rejection-non-fast-forward" aria-label="Fix push rejection (non-fast-forward)">Fix push rejection (non-fast-forward)</a></li>
+                <li>
+                    <a href="#add-milestone-tag" aria-label="Add milestone tag">Add milestone tag</a></li>
+                <li>
+                    <a href="#local-preview" aria-label="Local preview">Local preview</a></li></ul>
+                </li>
+                <li>
+                    <a href="#6-known-gotchas-we-hit-and-fixed" aria-label="6) Known gotchas we hit (and fixed)">6) Known gotchas we hit (and fixed)</a></li>
+                <li>
+                    <a href="#7-inputs-already-shared--processed-in-this-work" aria-label="7) Inputs already shared / processed in this work">7) Inputs already shared / processed in this work</a></li>
+                <li>
+                    <a href="#8-artifacts-previously-generated-if-needed-again" aria-label="8) Artifacts previously generated (if needed again)">8) Artifacts previously generated (if needed again)</a></li>
+                <li>
+                    <a href="#9-what-remains-next-steps-in-the-right-order" aria-label="9) What remains (next steps, in the right order)">9) What remains (next steps, in the right order)</a><ul>
+                        
+                <li>
+                    <a href="#phase-a--lock-v2-governance-prevents-drift" aria-label="Phase A — Lock v2 governance (prevents drift)">Phase A — Lock v2 governance (prevents drift)</a></li>
+                <li>
+                    <a href="#phase-b--mirror--third-layer-clean-executables" aria-label="Phase B — Mirror &#43; Third Layer (clean executables)">Phase B — Mirror + Third Layer (clean executables)</a></li>
+                <li>
+                    <a href="#phase-c--ingest-heavy-sources-7-batches-into-v2-without-sludge" aria-label="Phase C — Ingest heavy sources (7 batches) into v2 without sludge">Phase C — Ingest heavy sources (7 batches) into v2 without sludge</a></li>
+                <li>
+                    <a href="#phase-d--final-cutover-only-at-the-end" aria-label="Phase D — Final cutover (only at the end)">Phase D — Final cutover (only at the end)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#10-definition-of-done-for-v2-readiness" aria-label="10) Definition of Done for v2 readiness">10) Definition of Done for v2 readiness</a></li>
+                <li>
+                    <a href="#11-copypaste-for-the-next-chat-with-claude" aria-label="11) Copy/paste for the next chat with Claude">11) Copy/paste for the next chat with Claude</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><h1 id="sovereign-library-v2--session-save-istván--chatgpt-chief-archivist">Sovereign Library v2 — Session Save (István + ChatGPT Chief Archivist)<a hidden class="anchor" aria-hidden="true" href="#sovereign-library-v2--session-save-istván--chatgpt-chief-archivist">#</a></h1>
 <p><strong>Date:</strong> 2026-01-11<br>
 <strong>Purpose:</strong> Portable save file for continuing work in a new chat (with ChatGPT + Claude).</p>
@@ -717,6 +755,19 @@ Fix: hard refresh (Ctrl+F5).</li>
   <footer class="post-footer">
     <ul class="post-tags">
     </ul>
+<nav class="paginav">
+  <a class="prev" href="https://dextro9494.github.io/sovereign-library-v3/history/session-saves/2026-01-11_session-save/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Session Save (Jan 11, 2026)</span>
+  </a>
+  <a class="next" href="https://dextro9494.github.io/sovereign-library-v3/history/session-saves/2026-01-04_session-save_continuation/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Session Save (Jan 4, 2026 — Continuation)</span>
+  </a>
+</nav>
+
   </footer>
 </article>
     </main>
@@ -795,6 +846,53 @@ Fix: hard refresh (Ctrl+F5).</li>
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

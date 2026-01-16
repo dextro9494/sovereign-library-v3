@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,46 +62,9 @@ Governance constitution ✓">
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -298,14 +261,125 @@ Governance constitution ✓">
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://dextro9494.github.io/sovereign-library-v3/">Home</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/system/">System</a>&nbsp;»&nbsp;<a href="https://dextro9494.github.io/sovereign-library-v3/system/analysis/">Analysis</a></div>
     <h1 class="post-title entry-hint-parent">
       Council Insights Build Report
     </h1>
-    <div class="post-meta"><span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>István</span>
+    <div class="post-meta"><span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>István</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#council-insights-build-report" aria-label="Council Insights Build Report">Council Insights Build Report</a><ul>
+                        
+                <li>
+                    <a href="#spec-requirements-met" aria-label="Spec Requirements Met">Spec Requirements Met</a><ul>
+                        
+                <li>
+                    <a href="#section-b-required-content-points-1111-" aria-label="Section B: Required Content Points (11/11) ✓">Section B: Required Content Points (11/11) ✓</a></li>
+                <li>
+                    <a href="#section-c-structural-outline-99-" aria-label="Section C: Structural Outline (9/9) ✓">Section C: Structural Outline (9/9) ✓</a></li>
+                <li>
+                    <a href="#section-d-toneregister-" aria-label="Section D: Tone/Register ✓">Section D: Tone/Register ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#core-insight-records-analysis" aria-label="Core Insight Records Analysis">Core Insight Records Analysis</a><ul>
+                        
+                <li>
+                    <a href="#all-required-examples-included-88-" aria-label="All Required Examples Included (8/8) ✓">All Required Examples Included (8/8) ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#governance-section-quality" aria-label="Governance Section Quality">Governance Section Quality</a></li>
+                <li>
+                    <a href="#workflow-documentation-completeness" aria-label="Workflow Documentation Completeness">Workflow Documentation Completeness</a><ul>
+                        
+                <li>
+                    <a href="#four-workflows-documented-44-" aria-label="Four Workflows Documented (4/4) ✓">Four Workflows Documented (4/4) ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#status-taxonomy-detail" aria-label="Status Taxonomy Detail">Status Taxonomy Detail</a><ul>
+                        
+                <li>
+                    <a href="#all-status-labels-defined-55-" aria-label="All Status Labels Defined (5/5) ✓">All Status Labels Defined (5/5) ✓</a></li>
+                <li>
+                    <a href="#validation-criteria-specified-" aria-label="Validation Criteria Specified ✓">Validation Criteria Specified ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#logging-standard-compliance" aria-label="Logging Standard Compliance">Logging Standard Compliance</a><ul>
+                        
+                <li>
+                    <a href="#required-metadata-1010-fields-" aria-label="Required Metadata (10/10 Fields) ✓">Required Metadata (10/10 Fields) ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#index-completeness" aria-label="Index Completeness">Index Completeness</a><ul>
+                        
+                <li>
+                    <a href="#by-council-member-44-" aria-label="By Council Member (4/4) ✓">By Council Member (4/4) ✓</a></li>
+                <li>
+                    <a href="#by-domain-5-categories-" aria-label="By Domain (5 categories) ✓">By Domain (5 categories) ✓</a></li>
+                <li>
+                    <a href="#by-date-2-periods-" aria-label="By Date (2 periods) ✓">By Date (2 periods) ✓</a></li>
+                <li>
+                    <a href="#by-affected-pages-" aria-label="By Affected Pages ✓">By Affected Pages ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#operational-use-cases-detail" aria-label="Operational Use Cases Detail">Operational Use Cases Detail</a><ul>
+                        
+                <li>
+                    <a href="#all-use-cases-documented-44-" aria-label="All Use Cases Documented (4/4) ✓">All Use Cases Documented (4/4) ✓</a></li></ul>
+                </li>
+                <li>
+                    <a href="#change-log-functionality" aria-label="Change Log Functionality">Change Log Functionality</a></li>
+                <li>
+                    <a href="#link-integration-15-links-added" aria-label="Link Integration (15 Links Added)">Link Integration (15 Links Added)</a></li>
+                <li>
+                    <a href="#intellectual-gaps-filled-from-spec-table" aria-label="Intellectual Gaps Filled (From Spec Table)">Intellectual Gaps Filled (From Spec Table)</a><ul>
+                        
+                <li>
+                    <a href="#gap-1-core-machinery-needs-provenance" aria-label="Gap 1: Core Machinery needs provenance">Gap 1: Core Machinery needs provenance</a></li>
+                <li>
+                    <a href="#gap-2-rcp-needs-methodology-transparency" aria-label="Gap 2: RCP needs methodology transparency">Gap 2: RCP needs methodology transparency</a></li>
+                <li>
+                    <a href="#gap-3-stress-test-needs-audit-trail" aria-label="Gap 3: Stress Test needs audit trail">Gap 3: Stress Test needs audit trail</a></li>
+                <li>
+                    <a href="#gap-4-council-led-execution-needs-playbook" aria-label="Gap 4: Council-led execution needs playbook">Gap 4: Council-led execution needs playbook</a></li>
+                <li>
+                    <a href="#gap-5-5-second-ignition-needs-attribution-and-contexts" aria-label="Gap 5: 5-Second Ignition needs attribution and contexts">Gap 5: 5-Second Ignition needs attribution and contexts</a></li>
+                <li>
+                    <a href="#gap-6-protocols-need-readiness-semantics" aria-label="Gap 6: Protocols need readiness semantics">Gap 6: Protocols need readiness semantics</a></li>
+                <li>
+                    <a href="#gap-7-council-model-needs-governance-transparency" aria-label="Gap 7: Council model needs governance transparency">Gap 7: Council model needs governance transparency</a></li>
+                <li>
+                    <a href="#gap-8-evolution-needs-version-tracking" aria-label="Gap 8: Evolution needs version tracking">Gap 8: Evolution needs version tracking</a></li>
+                <li>
+                    <a href="#gap-9-master-note-needs-council-integration-spec" aria-label="Gap 9: Master Note needs Council integration spec">Gap 9: Master Note needs Council integration spec</a></li>
+                <li>
+                    <a href="#gap-10-therapy-recon-needs-council-model-baseline" aria-label="Gap 10: Therapy recon needs Council model baseline">Gap 10: Therapy recon needs Council model baseline</a></li></ul>
+                </li>
+                <li>
+                    <a href="#transparency-and-ethics-section-quality" aria-label="Transparency and Ethics Section Quality">Transparency and Ethics Section Quality</a></li>
+                <li>
+                    <a href="#spec-citations-addressed" aria-label="Spec Citations Addressed">Spec Citations Addressed</a></li>
+                <li>
+                    <a href="#technical-specifications" aria-label="Technical Specifications">Technical Specifications</a></li>
+                <li>
+                    <a href="#quality-validation" aria-label="Quality Validation">Quality Validation</a></li>
+                <li>
+                    <a href="#deployment-readiness" aria-label="Deployment Readiness">Deployment Readiness</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><h1 id="council-insights-build-report">Council Insights Build Report<a hidden class="anchor" aria-hidden="true" href="#council-insights-build-report">#</a></h1>
 <p><strong>Page:</strong> <code>council-insights.md</code><br>
 <strong>Status:</strong> ✅ COMPLETE<br>
@@ -795,6 +869,7 @@ Governance constitution ✓">
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/system/">System</a></li>
       <li><a href="https://dextro9494.github.io/sovereign-library-v3/tags/analysis/">Analysis</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -873,6 +948,53 @@ Governance constitution ✓">
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 
