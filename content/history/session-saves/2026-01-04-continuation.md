@@ -12,7 +12,7 @@ status: raw
 
 ## QUICK CONTEXT
 
-**Library is LIVE:** https://dextro9494.github.io/sovereign-library/
+**Library is LIVE:** https://dextro9494.github.io/sovereign-library-v3/
 Read this for full background on who I am, the Codex, protocols, everything.
 
 ---
