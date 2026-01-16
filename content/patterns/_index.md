@@ -4,7 +4,7 @@ title: "Patterns (Moved)"
 
 aliases:
 
-&nbsp; - /patterns/
+  - /patterns/
 
 redirect: "/library/patterns/"
 
