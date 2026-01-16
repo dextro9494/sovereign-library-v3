@@ -22,9 +22,9 @@ A **Field Test** is a structured validation operation conducted under real-world
 
 ### Why Field Tests Exist
 
-Under [asymmetric conditions](/system/field-manual-asymmetric-survival/), theoretical planning without validation creates risk. Field Tests convert "should work" into "does work" or "failed because X."
+Under [asymmetric conditions]({{< relref "/system/field-manual-asymmetric-survival/" >}}), theoretical planning without validation creates risk. Field Tests convert "should work" into "does work" or "failed because X."
 
-**Core principle:** [Stress as telemetry](/system/stress-test-library/library/philosophy/). Resistance, failure, and success are diagnostic data, not moral outcomes.
+**Core principle:** [Stress as telemetry]({{< relref "/system/stress-test-philosophy/" >}}). Resistance, failure, and success are diagnostic data, not moral outcomes.
 
 ---
 
@@ -32,7 +32,7 @@ Under [asymmetric conditions](/system/field-manual-asymmetric-survival/), theore
 
 ### Location in System Architecture
 
-The Field Test Archive exists in the **Archive layer** of the [Dual-Layer Architecture](/system/dual-layer-architecture/).
+The Field Test Archive exists in the **Archive layer** of the [Dual-Layer Architecture]({{< relref "/system/dual-layer-architecture/" >}}).
 
 **Archive layer contains:**
 - Full test records (context, method, raw data, analysis)
@@ -54,8 +54,8 @@ The Field Test Archive exists in the **Archive layer** of the [Dual-Layer Archit
 - Historical test records
 
 **What promotes to Live:**
-- Validated principles ([Stress Test Philosophy](/system/stress-test-library/library/philosophy/))
-- Confirmed protocols ([5-Second Ignition](/library/protocols/5-second-engine-ignition/))
+- Validated principles ([Stress Test Philosophy]({{< relref "/system/stress-test-philosophy/" >}}))
+- Confirmed protocols ([5-Second Ignition]({{< relref "/library/protocols/5-second-engine-ignition/" >}}))
 - Extracted lessons (compact, actionable)
 - Updated Construction Site priorities
 
@@ -142,7 +142,7 @@ All tests follow this standard schema:
 - **Date Archived:** [YYYY-MM-DD]
 
 **Links to Affected Canon Pages:**
-- [Principle/Protocol Name](/system/principle-or-protocol/)
+- [Principle/Protocol Name]({{< relref "/system/principle-or-protocol/" >}})
 
 ---
 
@@ -275,9 +275,9 @@ Content created consistently. Platforms managed according to plan. Effort sustai
 
 **Primary lesson:** Market conditions and systemic barriers (algorithms, saturation) caused failure, NOT execution quality or effort insufficiency.
 
-**Critical reframe:** [Failure is telemetry, not moral verdict](/system/stress-test-library/library/philosophy/). This was **system-level mismatch**, not personal inadequacy.
+**Critical reframe:** [Failure is telemetry, not moral verdict]({{< relref "/system/stress-test-philosophy/" >}}). This was **system-level mismatch**, not personal inadequacy.
 
-**Strategic implication:** Digital farming is not viable path to Site Alpha under current constraints. Redirect energy to employment-based income stability ([Fortress Base](/system/fortress-base-doctrine-refined/)).
+**Strategic implication:** Digital farming is not viable path to Site Alpha under current constraints. Redirect energy to employment-based income stability ([Fortress Base]({{< relref "/system/fortress-base-doctrine-refined/" >}})).
 
 ### Follow-Up Actions
 
@@ -298,9 +298,9 @@ Content created consistently. Platforms managed according to plan. Effort sustai
 
 ### Links to Affected Canon Pages
 
-- [Stress Test Philosophy](/system/stress-test-library/library/philosophy/) (case study cited)
-- [Obstacles as Data](/system/obstacles-as-data/) (market conditions as diagnostic signal)
-- [Fortress Base Doctrine](/system/fortress-base-doctrine-refined/) (alternative path justified)
+- [Stress Test Philosophy]({{< relref "/system/stress-test-philosophy/" >}}) (case study cited)
+- [Obstacles as Data]({{< relref "/system/obstacles-as-data/" >}}) (market conditions as diagnostic signal)
+- [Fortress Base Doctrine]({{< relref "/system/fortress-base-doctrine-refined/" >}}) (alternative path justified)
 
 ---
 
@@ -368,7 +368,7 @@ Contact initiated with multiple recruiters. Task segmentation protocol deployed.
 
 - Codify task segmentation as standard protocol for resistant tasks
 - Add somatic marker vocabulary to telemetry standards
-- Update [Stress Test Philosophy](/system/stress-test-library/library/philosophy/) with case study
+- Update [Stress Test Philosophy]({{< relref "/system/stress-test-philosophy/" >}}) with case study
 - Document "Explainer's Burden" as identifiable resistance pattern
 
 ### Validation Confidence
@@ -383,9 +383,9 @@ Contact initiated with multiple recruiters. Task segmentation protocol deployed.
 
 ### Links to Affected Canon Pages
 
-- [Stress Test Philosophy](/system/stress-test-library/library/philosophy/) (case study cited)
-- [Obstacles as Data](/system/obstacles-as-data/) (Explainer's Burden identified)
-- [Core Machinery](/system/core-machinery-builder-survivor/) (Survivor signals documented)
+- [Stress Test Philosophy]({{< relref "/system/stress-test-philosophy/" >}}) (case study cited)
+- [Obstacles as Data]({{< relref "/system/obstacles-as-data/" >}}) (Explainer's Burden identified)
+- [Core Machinery]({{< relref "/system/core-machinery-builder-survivor/" >}}) (Survivor signals documented)
 
 ---
 
@@ -400,7 +400,7 @@ Contact initiated with multiple recruiters. Task segmentation protocol deployed.
 
 - Acute back pain requiring immediate mattress replacement
 - Budget constraint: limited financial resources for premium therapeutic option
-- Testing [Budget as Design Parameter](/system/budget-as-design-parameter/) principle
+- Testing [Budget as Design Parameter]({{< relref "/system/budget-as-design-parameter/" >}}) principle
 - Testing Council-led execution model for complex decisions
 
 ### Objective
@@ -443,7 +443,7 @@ Council (ChatGPT) guided research toward budget options. Requirements defined cl
 
 ### Lessons Extracted
 
-**Primary lesson:** [Budget as design parameter](/system/budget-as-design-parameter/) works in practice. Constraint-based research yields viable solutions without waiting for "ideal" financial conditions.
+**Primary lesson:** [Budget as design parameter]({{< relref "/system/budget-as-design-parameter/" >}}) works in practice. Constraint-based research yields viable solutions without waiting for "ideal" financial conditions.
 
 **Council validation:** External cognitive support (Council-led research) is effective for decisions with high complexity and emotional noise.
 
@@ -468,15 +468,15 @@ Council (ChatGPT) guided research toward budget options. Requirements defined cl
 
 ### Links to Affected Canon Pages
 
-- [Stress Test Philosophy](/system/stress-test-library/library/philosophy/) (case study cited)
-- [Budget as Design Parameter](/system/budget-as-design-parameter/) (principle validated)
-- [AI Council Deployment Doctrine](/system/ai-council-deployment-doctrine/) (model proven effective)
+- [Stress Test Philosophy]({{< relref "/system/stress-test-philosophy/" >}}) (case study cited)
+- [Budget as Design Parameter]({{< relref "/system/budget-as-design-parameter/" >}}) (principle validated)
+- [AI Council Deployment Doctrine]({{< relref "/system/ai-council-deployment-doctrine/" >}}) (model proven effective)
 
 ---
 
 ## Validated Tools Ledger
 
-### [5-Second Engine Ignition](/library/protocols/5-second-engine-ignition/)
+### [5-Second Engine Ignition]({{< relref "/library/protocols/5-second-engine-ignition/" >}})
 
 **Contexts Validated:**
 - Professional email sending (TEST-002 context)
@@ -598,9 +598,9 @@ Council (ChatGPT) guided research toward budget options. Requirements defined cl
 - TEST-003: Mattress Procurement Under Budget Constraint
 
 **Canon Pages Updated:**
-- [Stress Test Philosophy](/system/stress-test-library/library/philosophy/) - Added all three case studies
-- [Budget as Design Parameter](/system/budget-as-design-parameter/) - Added TEST-003 validation
-- [Obstacles as Data](/system/obstacles-as-data/) - Cited TEST-001 market condition analysis
+- [Stress Test Philosophy]({{< relref "/system/stress-test-philosophy/" >}}) - Added all three case studies
+- [Budget as Design Parameter]({{< relref "/system/budget-as-design-parameter/" >}}) - Added TEST-003 validation
+- [Obstacles as Data]({{< relref "/system/obstacles-as-data/" >}}) - Cited TEST-001 market condition analysis
 
 **Validated Tools:**
 - 5-Second Engine Ignition (existing protocol, multi-context validation noted)
@@ -621,13 +621,13 @@ Council (ChatGPT) guided research toward budget options. Requirements defined cl
 
 ## Integration Points
 
-- Implements [Stress Test Philosophy](/system/stress-test-library/library/philosophy/) (concrete case studies)
-- Supports [Obstacles as Data](/system/obstacles-as-data/) (obstacle logs per test)
-- Resides in [Dual-Layer Architecture](/system/dual-layer-architecture/) Archive layer
-- Feeds lessons to [Master Note](/system/externalized-memory-mandate/) for Live use
-- Validates [Budget as Design Parameter](/system/budget-as-design-parameter/) (TEST-003)
-- Documents [AI Council](/system/ai-council-deployment-doctrine/) effectiveness (TEST-003)
-- Supplies evidence for [5-Second Engine Ignition](/library/protocols/5-second-engine-ignition/) validation
+- Implements [Stress Test Philosophy]({{< relref "/system/stress-test-philosophy/" >}}) (concrete case studies)
+- Supports [Obstacles as Data]({{< relref "/system/obstacles-as-data/" >}}) (obstacle logs per test)
+- Resides in [Dual-Layer Architecture]({{< relref "/system/dual-layer-architecture/" >}}) Archive layer
+- Feeds lessons to [Master Note]({{< relref "/system/externalized-memory-mandate/" >}}) for Live use
+- Validates [Budget as Design Parameter]({{< relref "/system/budget-as-design-parameter/" >}}) (TEST-003)
+- Documents [AI Council]({{< relref "/system/ai-council-deployment-doctrine/" >}}) effectiveness (TEST-003)
+- Supplies evidence for [5-Second Engine Ignition]({{< relref "/library/protocols/5-second-engine-ignition/" >}}) validation
 
 ---
 

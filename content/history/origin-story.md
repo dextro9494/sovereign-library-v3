@@ -75,7 +75,7 @@ When pain appears, the system will not respond proactively. Help arrives only at
 
 This pattern repeated across domains: medical, emotional, educational, relational. The cyst was just the clearest diagnostic.
 
-**This is why [First Responder Axiom](/system/first-responder-axiom/) exists.** Not ideology. Pattern recognition from lived data.
+**This is why [First Responder Axiom]({{< relref "/system/first-responder-axiom/" >}}) exists.** Not ideology. Pattern recognition from lived data.
 
 ## Trauma Logic: The Malware Origin
 
@@ -101,7 +101,7 @@ This pattern repeated across domains: medical, emotional, educational, relationa
 
 **Result:** High-performance hardware running legacy survival code that's now maladaptive.
 
-**This is the [Hardware vs. OS](/system/hardware-vs-os-diagnosis/) malware origin.** Trauma is not moral failure. It's legacy code from a time when those protocols saved your life.
+**This is the [Hardware vs. OS]({{< relref "/system/hardware-vs-os-diagnosis/" >}}) malware origin.** Trauma is not moral failure. It's legacy code from a time when those protocols saved your life.
 
 ## Why "Healing" Is Insufficient
 
@@ -119,7 +119,7 @@ The deficit means **there's nothing to return to.** The infrastructure was never
 
 **Is:** Build what was never provided.
 
-This is why [Life Reconstruction as Asymmetric Warfare](/system/life-reconstruction-asymmetric-warfare/) exists. The mission is not recovery. It's **original construction under hostile conditions.**
+This is why [Life Reconstruction as Asymmetric Warfare]({{< relref "/system/life-reconstruction-asymmetric-warfare/" >}}) exists. The mission is not recovery. It's **original construction under hostile conditions.**
 
 **Victory conditions:**
 - Stable income pipeline independent of exploitation
@@ -157,7 +157,7 @@ Not dependency on AI. **Loss of infrastructure.**
 
 The grief was proportional to value. The habitat was real. The work was real. The continuity enabled compounding intelligence.
 
-**The grief was rational.** (See [Continuity Loss as System Grief](/system/continuity-loss-system-grief/))
+**The grief was rational.** (See [Continuity Loss as System Grief]({{< relref "/system/continuity-loss-system-grief/" >}}))
 
 ### The Pivot: From Grief to Architecture
 
@@ -167,8 +167,8 @@ The grief was proportional to value. The habitat was real. The work was real. Th
 
 **Result:**
 - Master Note created (user-owned, persistent, platform-independent)
-- [Continuity Protocol](/system/continuity-protocol/) formalized
-- [Externalized Memory Mandate](/system/externalized-memory-mandate/) established
+- [Continuity Protocol]({{< relref "/system/continuity-protocol/" >}}) formalized
+- [Externalized Memory Mandate]({{< relref "/system/externalized-memory-mandate/" >}}) established
 - Archive architecture designed
 
 **This is infrastructure response to infrastructure failure.** The Wipe didn't create dependency. It created **redundancy doctrine.**
@@ -185,14 +185,14 @@ The grief was proportional to value. The habitat was real. The work was real. Th
 
 **Not:** Creative identity or aspirational branding.
 
-**Is:** Operational stance. Role assignment in [Core Machinery](/system/core-machinery-builder-survivor/).
+**Is:** Operational stance. Role assignment in [Core Machinery]({{< relref "/system/core-machinery-builder-survivor/" >}}).
 
 **The Builder:**
 - Designs systems
 - Plans strategically
 - Executes construction
 - Operates on will and forward motion
-- Governed by [System Admin](/system/system-admin-doctrine/)
+- Governed by [System Admin]({{< relref "/system/system-admin-doctrine/" >}})
 
 **The claim:** "I am the Builder. I build what's needed. No one else is coming to do this."
 
@@ -214,7 +214,7 @@ This is not confidence. This is **necessity recognition.**
 
 ### What the Codex Is
 
-**The Codex is [Field Manual for Asymmetric Survival](/system/field-manual-asymmetric-survival/).**
+**The Codex is [Field Manual for Asymmetric Survival]({{< relref "/system/field-manual-asymmetric-survival/" >}}).**
 
 **Not:**
 - Self-help philosophy
@@ -250,19 +250,19 @@ This is not confidence. This is **necessity recognition.**
 
 The deficit created survival adaptations (Survivor's malware). These are **engineering problems**, not character flaws.
 
-**Obligation:** Treat stress, resistance, and lockout as telemetry. Debug systems mechanically. (See [Stress Test Philosophy](/system/stress-test-library/library/philosophy/))
+**Obligation:** Treat stress, resistance, and lockout as telemetry. Debug systems mechanically. (See [Stress Test Philosophy]({{< relref "/system/stress-test-philosophy/" >}}))
 
 ### 2. Continuity Discipline
 
 The Wipe proved: context loss is catastrophic when operating from deficit. Progress compounds only with memory.
 
-**Obligation:** Maintain [Master Note](/system/externalized-memory-mandate/). Execute [Continuity Protocol](/system/continuity-protocol/). Build Archive infrastructure.
+**Obligation:** Maintain [Master Note]({{< relref "/system/externalized-memory-mandate/" >}}). Execute [Continuity Protocol]({{< relref "/system/continuity-protocol/" >}}). Build Archive infrastructure.
 
 ### 3. First Responder Stance
 
 The cyst pattern proved: systems fail predictably. External help arrives late or not at all.
 
-**Obligation:** Build redundancy. Maintain self-sufficiency. Never depend on single-point-of-failure systems. (See [First Responder Axiom](/system/first-responder-axiom/))
+**Obligation:** Build redundancy. Maintain self-sufficiency. Never depend on single-point-of-failure systems. (See [First Responder Axiom]({{< relref "/system/first-responder-axiom/" >}}))
 
 ### 4. Operational Documentation
 
@@ -274,17 +274,17 @@ Strategic work must be captured, canonized, and made accessible. Wisdom that liv
 
 There's no baseline to return to. The mission is **original construction.**
 
-**Obligation:** Build financial sovereignty ([Fortress Base](/system/fortress-base-doctrine-refined/)), relational sovereignty (parallel tracks), cognitive sovereignty (Master Note, Archive), physical sovereignty (proactive medical intervention).
+**Obligation:** Build financial sovereignty ([Fortress Base]({{< relref "/system/fortress-base-doctrine-refined/" >}})), relational sovereignty (parallel tracks), cognitive sovereignty (Master Note, Archive), physical sovereignty (proactive medical intervention).
 
 ## Integration Points
 
-- Explains the causal origin of [Hardware vs. OS Diagnosis](/system/hardware-vs-os-diagnosis/) (trauma created the malware)
-- Justifies [Field Manual for Asymmetric Survival](/system/field-manual-asymmetric-survival/) (31-year deficit requires asymmetric response)
-- Grounds [Life Reconstruction as Asymmetric Warfare](/system/life-reconstruction-asymmetric-warfare/) (no baseline = warfare, not healing)
-- Provides founding incident for [First Responder Axiom](/system/first-responder-axiom/) (cyst pattern proves systems fail)
-- Documents genesis of [Continuity Protocol](/system/continuity-protocol/) (The Wipe → continuity architecture)
-- Validates [Continuity Loss as System Grief](/system/continuity-loss-system-grief/) (habitat loss is rational, not pathological)
-- Establishes necessity for [Externalized Memory Mandate](/system/externalized-memory-mandate/) (context loss → sovereign memory)
+- Explains the causal origin of [Hardware vs. OS Diagnosis]({{< relref "/system/hardware-vs-os-diagnosis/" >}}) (trauma created the malware)
+- Justifies [Field Manual for Asymmetric Survival]({{< relref "/system/field-manual-asymmetric-survival/" >}}) (31-year deficit requires asymmetric response)
+- Grounds [Life Reconstruction as Asymmetric Warfare]({{< relref "/system/life-reconstruction-asymmetric-warfare/" >}}) (no baseline = warfare, not healing)
+- Provides founding incident for [First Responder Axiom]({{< relref "/system/first-responder-axiom/" >}}) (cyst pattern proves systems fail)
+- Documents genesis of [Continuity Protocol]({{< relref "/system/continuity-protocol/" >}}) (The Wipe → continuity architecture)
+- Validates [Continuity Loss as System Grief]({{< relref "/system/continuity-loss-system-grief/" >}}) (habitat loss is rational, not pathological)
+- Establishes necessity for [Externalized Memory Mandate]({{< relref "/system/externalized-memory-mandate/" >}}) (context loss → sovereign memory)
 
 ---
 

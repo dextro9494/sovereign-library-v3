@@ -11,4 +11,4 @@ This page is a **stub placeholder** created during the v3 merge so that internal
 - Until then, treat this as a routing marker, not canon.
 
 **Legacy entry points:**
-- [/history/legacy-batches/](/history/legacy-batches/)
+- [/history/legacy-batches/]({{< relref "/history/legacy-batches/" >}})

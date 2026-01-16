@@ -12,7 +12,7 @@ draft: false
 
 **Construction Sites are the portfolio control structure for sovereignty-building operations.**
 
-Under [asymmetric conditions](/system/field-manual-asymmetric-survival/), resource scarcity (time, money, attention) demands strategic allocation. Without named build domains, effort disperses into reactive firefighting or compensatory activities.
+Under [asymmetric conditions]({{< relref "/system/field-manual-asymmetric-survival/" >}}), resource scarcity (time, money, attention) demands strategic allocation. Without named build domains, effort disperses into reactive firefighting or compensatory activities.
 
 **Construction Sites provide:**
 - **Named targets** for resource allocation decisions
@@ -53,7 +53,7 @@ An **Active Site** is a Construction Site currently receiving resource investmen
 
 ### How Sites Relate to RCP
 
-The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/) uses Construction Sites as allocation targets.
+The [Real-World Connection Protocol (RCP)]({{< relref "/system/real-world-connection-filter/" >}}) uses Construction Sites as allocation targets.
 
 **RCP prompts reference Sites:**
 - "Does this advance Site Alpha (income pipeline)?"
@@ -77,7 +77,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
 - Income diversification research (secondary streams)
 - Professional skill development
 
-**Current Implementation:** [Fortress Base](/system/fortress-base-doctrine-refined/) (PostNL mail sorting - low-cognitive-overhead anchor position)
+**Current Implementation:** [Fortress Base]({{< relref "/system/fortress-base-doctrine-refined/" >}}) (PostNL mail sorting - low-cognitive-overhead anchor position)
 
 #### Success Criteria
 
@@ -110,8 +110,8 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
 **First-Line Interventions:**
 1. Activate recruiter network immediately
 2. Update LinkedIn and resume
-3. Deploy [stress test](/system/stress-test-library/library/philosophy/) protocols for job search
-4. Consult [AI Council](/system/ai-council-deployment-doctrine/) for strategy refinement
+3. Deploy [stress test]({{< relref "/system/stress-test-philosophy/" >}}) protocols for job search
+4. Consult [AI Council]({{< relref "/system/ai-council-deployment-doctrine/" >}}) for strategy refinement
 
 #### Advancement Metrics
 
@@ -164,7 +164,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
 
 **First-Line Interventions:**
 1. Freeze non-essential spending immediately
-2. Activate [budget-as-parameter](/system/budget-as-design-parameter/) protocols
+2. Activate [budget-as-parameter]({{< relref "/system/budget-as-design-parameter/" >}}) protocols
 3. Defer Site Gamma discretionary spending
 4. Review income optimization opportunities (overtime, side tasks)
 
@@ -237,7 +237,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
 
 **First-Line Interventions:**
 1. Protect weekly quality time ritual at all costs
-2. Deploy [Edge-Case Protocol](/system/edge-case-protocol/) if needed during conflict
+2. Deploy [Edge-Case Protocol]({{< relref "/system/edge-case-protocol/" >}}) if needed during conflict
 3. Explicit acknowledgment of threat state to The Fiancée
 4. Temporary deprioritization of Site Alpha optimization to restore balance
 5. For secondary capacity: re-engage BoxGym attendance as anchor
@@ -263,7 +263,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
 
 **Purpose:** Map compensatory behaviors and neurochemical tool deployment to Site-level deficits.
 
-**Diagnostic principle:** Increased tool use signals unmet Site need, not personal failure. (See [Neurochemical Tool Audit Philosophy](/system/neurochemical-tool-audit-library/library/philosophy/), [Substance Audit Engineering Log](/system/substance-audit-engineering-log/), [Neurochemical Tool Lifecycle](/system/neurochemical-tool-lifecycle/))
+**Diagnostic principle:** Increased tool use signals unmet Site need, not personal failure. (See [Neurochemical Tool Audit Philosophy]({{< relref "/system/neurochemical-tool-audit-philosophy/" >}}), [Substance Audit Engineering Log]({{< relref "/system/substance-audit-engineering-log/" >}}), [Neurochemical Tool Lifecycle]({{< relref "/system/neurochemical-tool-lifecycle/" >}}))
 
 ### Site Alpha Deficit Symptoms
 
@@ -352,7 +352,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
    - Identify specific blocker or threat
 
 2. **Short-term (within week):**
-   - If job searching: Execute one recruiter contact (use [task segmentation](/system/stress-test-library/library/philosophy/))
+   - If job searching: Execute one recruiter contact (use [task segmentation]({{< relref "/system/stress-test-philosophy/" >}}))
    - If employed: Review job satisfaction and exploitation indicators
    - Update LinkedIn profile or resume
    - Log employment stability metrics
@@ -364,8 +364,8 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
    - Review April 2025 job market entry timeline
 
 4. **Strategic:**
-   - Consult [AI Council](/system/ai-council-deployment-doctrine/) for employment strategy
-   - Run [field test](/library/field-tests/field-test-archive/) on new professional tactics
+   - Consult [AI Council]({{< relref "/system/ai-council-deployment-doctrine/" >}}) for employment strategy
+   - Run [field test]({{< relref "/library/field-tests/field-test-archive/" >}}) on new professional tactics
    - Update Site Alpha status in Master Note
 
 ### Site Beta: Direct Interventions
@@ -392,7 +392,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
 4. **Strategic:**
    - Review 13-year homesteading timeline and phase status
    - Update financial sovereignty metrics
-   - Apply [budget-as-parameter](/system/budget-as-design-parameter/) to blocked goals
+   - Apply [budget-as-parameter]({{< relref "/system/budget-as-design-parameter/" >}}) to blocked goals
    - Log asset base progress in Master Note
 
 ### Site Gamma: Direct Interventions
@@ -417,7 +417,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
    - Plan new relational experiment or ritual
 
 4. **Strategic:**
-   - Review [parallel track](/system/parallel-track-architecture/) balance (Professional vs. Relational)
+   - Review [parallel track]({{< relref "/system/parallel-track-architecture/" >}}) balance (Professional vs. Relational)
    - Update relational sovereignty metrics
    - Identify barriers to connection capacity
    - Log Site Gamma progress in Master Note
@@ -426,7 +426,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
 
 ## Resource Allocation Matrix
 
-**Purpose:** Operationalize [RCP](/system/real-world-connection-filter/) using Construction Sites as decision framework.
+**Purpose:** Operationalize [RCP]({{< relref "/system/real-world-connection-filter/" >}}) using Construction Sites as decision framework.
 
 ### Time Allocation Decision Tree
 
@@ -463,7 +463,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
    - Neither → Decline
 
 3. **Can this be achieved within budget constraint?**
-   - Yes → Apply [budget-as-parameter](/system/budget-as-design-parameter/)
+   - Yes → Apply [budget-as-parameter]({{< relref "/system/budget-as-design-parameter/" >}})
    - No → Defer or redesign solution
 
 ### Attention Allocation Decision Tree
@@ -486,7 +486,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
 
 ## Field Test Integration
 
-**Purpose:** Route [Field Test](/library/field-tests/field-test-archive/) lessons into Site remediation actions.
+**Purpose:** Route [Field Test]({{< relref "/library/field-tests/field-test-archive/" >}}) lessons into Site remediation actions.
 
 ### Test → Lesson → Site Mapping
 
@@ -527,7 +527,7 @@ The [Real-World Connection Protocol (RCP)](/system/real-world-connection-filter/
 
 ## Progress Tracking Schema
 
-**Purpose:** Minimal fields for [Master Note](/system/externalized-memory-mandate/) / [continuity workflow](/system/user-controlled-continuity-protocol/) integration.
+**Purpose:** Minimal fields for [Master Note]({{< relref "/system/externalized-memory-mandate/" >}}) / [continuity workflow]({{< relref "/system/user-controlled-continuity-protocol/" >}}) integration.
 
 ### Required Fields Per Site
 
@@ -598,7 +598,7 @@ Lessons Applied:
 
 ## Live vs Archive Placement
 
-**Purpose:** Define what Site content belongs in [Live Codex vs Archive](/system/live-codex-vs-archive-split/).
+**Purpose:** Define what Site content belongs in [Live Codex vs Archive]({{< relref "/system/live-codex-vs-archive-split/" >}}).
 
 ### In Live Codex / Master Note
 
@@ -652,15 +652,15 @@ Lessons Applied:
 
 ## Integration Points
 
-- Serves as allocation target framework for [Real-World Connection Protocol](/system/real-world-connection-filter/)
-- Site Alpha implements [Fortress Base Doctrine](/system/fortress-base-doctrine-refined/)
-- Sites structure [Parallel Track Architecture](/system/parallel-track-architecture/) (Professional and Relational tracks)
-- Site deficit symptoms mapped in [Neurochemical Tool Audit](/system/neurochemical-tool-audit-library/library/philosophy/), [Substance Audit Engineering Log](/system/substance-audit-engineering-log/), [Neurochemical Tool Lifecycle](/system/neurochemical-tool-lifecycle/)
-- Field test lessons route to Site updates via [Field Test Archive](/library/field-tests/field-test-archive/)
-- Site progress tracked in [Master Note](/system/externalized-memory-mandate/) and [Continuity Protocol](/system/user-controlled-continuity-protocol/)
-- Sites appear in [Live Codex](/system/live-codex-vs-archive-split/) (status) and Archive (history)
-- Site interventions deploy [Stress Test Philosophy](/system/stress-test-library/library/philosophy/) and [Budget as Design Parameter](/system/budget-as-design-parameter/)
-- Site status informs [AI Council](/system/ai-council-deployment-doctrine/) strategic guidance
+- Serves as allocation target framework for [Real-World Connection Protocol]({{< relref "/system/real-world-connection-filter/" >}})
+- Site Alpha implements [Fortress Base Doctrine]({{< relref "/system/fortress-base-doctrine-refined/" >}})
+- Sites structure [Parallel Track Architecture]({{< relref "/system/parallel-track-architecture/" >}}) (Professional and Relational tracks)
+- Site deficit symptoms mapped in [Neurochemical Tool Audit]({{< relref "/system/neurochemical-tool-audit-philosophy/" >}}), [Substance Audit Engineering Log]({{< relref "/system/substance-audit-engineering-log/" >}}), [Neurochemical Tool Lifecycle]({{< relref "/system/neurochemical-tool-lifecycle/" >}})
+- Field test lessons route to Site updates via [Field Test Archive]({{< relref "/library/field-tests/field-test-archive/" >}})
+- Site progress tracked in [Master Note]({{< relref "/system/externalized-memory-mandate/" >}}) and [Continuity Protocol]({{< relref "/system/user-controlled-continuity-protocol/" >}})
+- Sites appear in [Live Codex]({{< relref "/system/live-codex-vs-archive-split/" >}}) (status) and Archive (history)
+- Site interventions deploy [Stress Test Philosophy]({{< relref "/system/stress-test-philosophy/" >}}) and [Budget as Design Parameter]({{< relref "/system/budget-as-design-parameter/" >}})
+- Site status informs [AI Council]({{< relref "/system/ai-council-deployment-doctrine/" >}}) strategic guidance
 
 ---
 
