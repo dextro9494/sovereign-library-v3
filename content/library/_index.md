@@ -8,10 +8,10 @@ The Library holds the operational knowledge of the sovereign system.
 
 ## Core Sections
 
-- [Patterns](/library/patterns/) — Behavioral and structural patterns observed in the field
-- [Protocols](/library/protocols/) — Operational procedures and systematic approaches
-- [Philosophy](/library/philosophy/) — Foundational principles and conceptual frameworks
-- [Field Tests](/library/field-tests/) — Real-world applications and validation logs
+- [Patterns](/sovereign-library-v3/library/patterns/) — Behavioral and structural patterns observed in the field
+- [Protocols](/sovereign-library-v3/library/protocols/) — Operational procedures and systematic approaches
+- [Philosophy](/sovereign-library-v3/library/philosophy/) — Foundational principles and conceptual frameworks
+- [Field Tests](/sovereign-library-v3/library/field-tests/) — Real-world applications and validation logs
 
 ## System Infrastructure
 
